@@ -15,8 +15,9 @@
         <TextView
             android:id="@+id/Big_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:background="#FFFFFF"
+            android:gravity="center"
             android:text="Slay The Spire Guide"
             android:textAlignment="center"
             android:textSize="24sp"
@@ -31,6 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:alignmentMode="alignMargins"
+            android:layout_gravity="center"
             android:columnCount="2"
             android:columnOrderPreserved="false"
             android:foregroundGravity="center"
@@ -124,9 +126,9 @@
 
                     <ImageView
                         android:id="@+id/Relics_pic"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ironclad_button1" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/anchor" />
 
                     <TextView
                         android:id="@+id/Relics_text"
@@ -229,9 +231,9 @@
 
                     <ImageView
                         android:id="@+id/Card_pic"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ironclad_button1" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/cards" />
 
                     <TextView
                         android:id="@+id/Card_text"
