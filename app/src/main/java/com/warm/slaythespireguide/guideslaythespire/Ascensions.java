@@ -18,7 +18,7 @@ public class Ascensions extends AppCompatActivity {
 
     String[] version = {"No modifiers","Elites spawn more often", "Normal enemies are deadlier", "Elites are deadlier", "Bosses are deadlier", "Heal less after Boss battles", "Start each run damaged", "Normal enemies are tougher",
             "Elites are tougher", "Bosses are tougher","Ascender/'s Bane", "Less Potion slots", "Upgraded cards appears less often","Poor Bosses","Lower Max HP",
-            "Unfavorable Events", "Shops are more costly", "Normal enemies have more challenging movesets and abillities","Elite enemies have more challenging movesets and abillities", "Boss enemies have more challenging movesets and abillities", "Fight 2 bosses at the end of Act 3"
+            "Unfavorable Events", "Shops are more costly", "Normal enemies have more challenging movesets and abilities","Elite enemies have more challenging movesets and abilities", "Boss enemies have more challenging movesets and abilities", "Fight 2 bosses at the end of Act 3"
 
 
 
@@ -26,7 +26,7 @@ public class Ascensions extends AppCompatActivity {
 
     String[] versionNumber = {"No modifiers","Spawns more elites on maps", "Normal enemies deal more damage", "Elite enemies deal more damage", "Boss enemies deal more damage", "Heal 75% of missing Health", "HP -10%", "Normal enemies have more HP",
             "Elite enemies have more HP", "Boss enemies have more HP", "Start run with Ascender/'s Bane in your deck", "2 Potions slot", "50% less upgraded cards", "Boss drop less gold (25% less)", "-5 HP (Ironclad) and -4 HP (Defect and Silent)",
-            "More disadvantages Events spawn", "Shop will charge more gold", "Normal enemies have more abilites", "Elite enemies have more abilite", "Boss enemies have more abilite", "2 Bosses on the end of the run (Act 3)"
+            "More disadvantages Events spawn", "Shop will charge more gold", "Normal enemies have more abilities", "Elite enemies have more abilities", "Boss enemies have more abilities", "2 Bosses on the end of the run (Act 3)"
 
     };
 
