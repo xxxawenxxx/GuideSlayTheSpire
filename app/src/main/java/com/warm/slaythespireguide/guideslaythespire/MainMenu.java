@@ -41,7 +41,7 @@ public class MainMenu extends AppCompatActivity {
         startActivity(intent);
     }
     public void openAscensions(){
-        Intent intent1 = new Intent(this, Characters.class);
+        Intent intent1 = new Intent(this, Ascensions.class);
         startActivity(intent1);
     }
 
