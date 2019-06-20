@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:alignmentMode="alignMargins"
             android:layout_gravity="center"
-            android:columnCount="1"
+            android:columnCount="2"
             android:columnOrderPreserved="false"
             android:foregroundGravity="center"
             android:rowCount="2">
