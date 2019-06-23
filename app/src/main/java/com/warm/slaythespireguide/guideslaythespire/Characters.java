@@ -9,6 +9,7 @@ import android.widget.ImageView;
 public class Characters extends AppCompatActivity {
 
     ImageView ironclad_button;
+    ImageView silent_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,11 +17,18 @@ public class Characters extends AppCompatActivity {
         setContentView(R.layout.activity_characters);
 
         ironclad_button = (ImageView) findViewById(R.id.ironclad_button);
+        silent_button = (ImageView) findViewById(R.id.silent_button);
 
         ironclad_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openIronclad();
+            }
+        });
+        silent_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSilent();
             }
         });
 
@@ -30,5 +38,9 @@ public class Characters extends AppCompatActivity {
     public void openIronclad(){
         Intent intent = new Intent(this, Ironclad.class);
         startActivity(intent);
+    }
+    public void openSilent(){
+        Intent intent1 = new Intent(this, Silent.class);
+        startActivity(intent1);
     }
 }
