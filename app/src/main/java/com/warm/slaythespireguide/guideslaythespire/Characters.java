@@ -10,6 +10,7 @@ public class Characters extends AppCompatActivity {
 
     ImageView ironclad_button;
     ImageView silent_button;
+    ImageView defect_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,7 @@ public class Characters extends AppCompatActivity {
 
         ironclad_button = (ImageView) findViewById(R.id.ironclad_button);
         silent_button = (ImageView) findViewById(R.id.silent_button);
+        defect_button = (ImageView) findViewById(R.id.defect_button);
 
         ironclad_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,7 +33,12 @@ public class Characters extends AppCompatActivity {
                 openSilent();
             }
         });
-
+        defect_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDefect();
+            }
+        });
     }
 
 
@@ -42,5 +49,9 @@ public class Characters extends AppCompatActivity {
     public void openSilent(){
         Intent intent1 = new Intent(this, Silent.class);
         startActivity(intent1);
+    }
+    public void openDefect(){
+        Intent intent2 = new Intent(this, Defect.class);
+        startActivity(intent2);
     }
 }
