@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GuideSlayTheSpire</string>
+    <string name="strength_build_explain">    In the Strength build the main things you need to do is gather cards which will increase the strength of the Ironclad, in meantime increasing your strength will increase the damage output of each attack cards you have. The cards you needed such as : </string>
+    <string name="strength_build_explain2">While using the Flex cards, you can negate the debuff effect which lose your 2 strength after using it. To negate that you can easily use the Panacea card, it can be negated by some relics to such as Clockwork Souvenir or Orange Pellets Relic. </string>
+    <string name="strength_build_explain3">You can use any Attack cards to deal a big damage since you already buff your strength, Try using some good cards, such as Reaper, since it can give you amount of heals base on the unblockable damage you dealt to the enemies. </string>
+    <string name="defend_build_explain">    In the Defend build the main things you need to do is build the deck around the Barricade cards or get the Calipers Relic, since it will stack up your block number without losing it when turns end. If you get the card/relic you will just need to collect the increase block cards, such as Entrench since it will double your block numbers.</string>
+    <string name="defend_build_explain2">   Since you already build your deck with the cards needed on the top, you can easily kill the enemies by using Body Slam card. Body Slam will deal damage based on the block numbers you have.</string>
 </resources>
