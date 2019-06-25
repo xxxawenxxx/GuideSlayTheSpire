@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0f0f0"
-    tools:context=".Ironclad_strat">
+    android:background="#F0F0F0"
+    tools:context=".Ironclad_defend_build">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="Strategies"
+            android:text="Defend Build"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="40sp"
@@ -37,7 +37,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Strength Build"
+                android:text="Defend Build"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -46,7 +46,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/strength_build_explain"
+                android:text="@string/defend_build_explain"
                 android:textAlignment="textStart"
                 android:textColor="#000000" />
 
@@ -70,7 +70,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/demon_form"
+                        android:src="@drawable/barricade"
                         android:tag="image_tag" />
 
                     <TextView
@@ -78,7 +78,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Demon Form"
+                        android:text="Barricade"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
@@ -98,7 +98,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/flex"
+                        android:src="@drawable/entrench"
                         android:tag="image_tag" />
 
                     <TextView
@@ -106,7 +106,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Flex"
+                        android:text="Entrench"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
@@ -126,7 +126,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/inflame"
+                        android:src="@drawable/calipers"
                         android:tag="image_tag" />
 
                     <TextView
@@ -134,74 +134,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Inflame"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:layout_marginTop="-20dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/Limit_image"
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/limit_break"
-                        android:tag="image_tag" />
-
-                    <TextView
-                        android:id="@+id/Limit_text"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Limit Break"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/Spot_pic"
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/spot_weakness"
-                        android:tag="image_tag" />
-
-                    <TextView
-                        android:id="@+id/spot_text"
-                        android:layout_width="168dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="Spot Weakness"
+                        android:text="Calipers"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
@@ -223,14 +156,14 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/strength_build_explain2"
+                android:text="@string/defend_build_explain2"
                 android:textAlignment="textStart"
                 android:textColor="#000000" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="-20dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -241,20 +174,20 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView19"
+                        android:id="@+id/Limit_image"
                         android:layout_width="100dp"
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/panacea"
+                        android:src="@drawable/bodyslam"
                         android:tag="image_tag" />
 
                     <TextView
-                        android:id="@+id/textView16"
+                        android:id="@+id/Limit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Panacea"
+                        android:text="Body Slam"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
@@ -269,48 +202,22 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView192"
-                        android:layout_width="100dp"
-                        android:layout_height="113dp"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/clockwork"
-                        android:tag="image_tag" />
-
-                    <TextView
-                        android:id="@+id/textView126"
-                        android:layout_width="match_parent"
-                        android:layout_height="43dp"
-                        android:layout_weight="1"
-                        android:text="Clockwork Souvenir"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/imageView21"
+                        android:id="@+id/Spot_pic"
                         android:layout_width="100dp"
                         android:layout_height="110dp"
+                        android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/orangepellet"
+                        android:src="@drawable/juggernaut"
                         android:tag="image_tag" />
 
                     <TextView
-                        android:id="@+id/textView423"
-                        android:layout_width="match_parent"
-                        android:layout_height="43dp"
+                        android:id="@+id/spot_text"
+                        android:layout_width="168dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Orange Pellets"
+                        android:gravity="center"
+                        android:text="Juggernaut"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
@@ -319,14 +226,6 @@
                 </LinearLayout>
 
             </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/strength_build_explain3"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
 
         </LinearLayout>
 

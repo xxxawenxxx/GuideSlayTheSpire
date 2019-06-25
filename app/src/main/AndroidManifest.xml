@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ironclad_strat"></activity>
+        <activity android:name=".Ironclad_zeromana_build"></activity>
+        <activity android:name=".Ironclad_searing_build" />
+        <activity android:name=".Ironclad_rupture_build" />
+        <activity android:name=".Ironclad_defend_build" />
+        <activity android:name=".Strategy_ironclad" />
+        <activity android:name=".Ironclad_strat" />
         <activity android:name=".Ascensions" />
         <activity android:name=".Ironclad" />
         <activity android:name=".Characters" />
