@@ -2,6 +2,7 @@ package com.warm.slaythespireguide.guideslaythespire;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -54,9 +55,12 @@ public class Monster_RecyclerViewAdapter extends RecyclerView.Adapter<Monster_Re
         viewHolder.monster_list_single_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(TAG, "onClick: clicked on: " + monsterNameList.get(i));
-
-
+                Log.d(TAG, "onClick: clicked on: " + monsterImageList.get(i));
+                Intent intent = new Intent(mContext, MonsterDetail.class);
+                Bundle bundle = new Bundle();
+                bundle.putInt("monster_image", monsterImageList.get(i));
+                intent.putExtras(bundle);
+                mContext.startActivity(intent);
 
                 Toast.makeText(mContext, monsterImageList.get(i), Toast.LENGTH_SHORT).show();
             }
