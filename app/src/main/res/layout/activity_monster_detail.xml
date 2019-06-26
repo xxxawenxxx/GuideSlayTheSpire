@@ -23,13 +23,19 @@
             />
 
         <TextView
+            android:id="@+id/monster_detail_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:padding="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp"
             android:textSize="25sp"
+            android:textStyle="bold"
             android:textColor="@color/browser_actions_text_color"
             android:text="Monster Name Here"
+
             android:gravity="center"/>
 
     </LinearLayout>

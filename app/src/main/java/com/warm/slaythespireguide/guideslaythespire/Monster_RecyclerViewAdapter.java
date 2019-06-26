@@ -59,6 +59,7 @@ public class Monster_RecyclerViewAdapter extends RecyclerView.Adapter<Monster_Re
                 Intent intent = new Intent(mContext, MonsterDetail.class);
                 Bundle bundle = new Bundle();
                 bundle.putInt("monster_image", monsterImageList.get(i));
+                bundle.putString("monster_name", monsterNameList.get(i));
                 intent.putExtras(bundle);
                 mContext.startActivity(intent);
 

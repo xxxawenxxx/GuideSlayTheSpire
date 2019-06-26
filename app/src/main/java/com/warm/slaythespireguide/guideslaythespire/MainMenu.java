@@ -10,6 +10,7 @@ public class MainMenu extends AppCompatActivity {
 
     CardView Character_button;
     CardView Ascension_button;
+    CardView Monster_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +19,8 @@ public class MainMenu extends AppCompatActivity {
 
         Character_button = (CardView) findViewById(R.id.Character_button);
         Ascension_button = (CardView) findViewById(R.id.Ascension_button);
+        Monster_button = (CardView) findViewById(R.id.Monster_button);
 
-        // TEST COMMIT
 
         Character_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,13 +28,24 @@ public class MainMenu extends AppCompatActivity {
                 openCharacter();
             }
         });
-
         Ascension_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openAscensions();
             }
         });
+        Monster_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMonster();
+            }
+        });
+
+    }
+
+    private void openMonster() {
+        Intent intent = new Intent(this, monster_main_menu.class);
+        startActivity(intent);
     }
 
     public void openCharacter(){
