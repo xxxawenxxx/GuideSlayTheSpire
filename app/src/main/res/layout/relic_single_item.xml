@@ -17,6 +17,7 @@
         android:layout_height="50dp"
         android:id="@+id/relic_single_img"
         android:src="@mipmap/ic_launcher"
+
     />
 
     <LinearLayout
