@@ -26,6 +26,8 @@
         <activity android:name=".Ironclad_strat" />
         <activity android:name=".Ascensions" />
         <activity android:name=".Ironclad" />
+        <activity android:name=".Defect"/>
+        <activity android:name=".Silent"/>
         <activity android:name=".Characters" />
         <activity android:name=".MainMenu">
             <intent-filter>
