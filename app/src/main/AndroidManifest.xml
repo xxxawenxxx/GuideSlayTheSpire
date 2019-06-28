@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Defect"></activity>
+        <activity android:name=".MonsterDetail"></activity>
+        <activity android:name=".monster_list_container" />
+        <activity android:name=".monster_main_menu" />
+        <activity android:name=".Defect" />
         <activity android:name=".Silent" />
         <activity android:name=".Ascensions" />
         <activity android:name=".Ironclad" />
