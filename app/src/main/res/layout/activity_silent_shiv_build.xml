@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#F0F0F0"
     android:layout_height="match_parent"
-    android:background="#F0f0f0"
-    tools:context=".Ironclad_searing_build">
+    tools:context=".Silent_shiv_build">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="Searing Blow Build"
+            android:text="Shiv Build"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="40sp"
@@ -37,7 +37,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Searing Blow Build"
+                android:text="Shiv Build"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -46,7 +46,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/searing_build_explain"
+                android:text="@string/shiv_build_explain"
                 android:textAlignment="textStart"
                 android:textColor="#000000" />
 
@@ -68,9 +68,10 @@
                         android:id="@+id/imageView9"
                         android:layout_width="100dp"
                         android:layout_height="110dp"
+                        android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/searing_blow"
+                        android:src="@drawable/infiniteblades"
                         android:tag="image_tag" />
 
                     <TextView
@@ -78,7 +79,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Searing Blow"
+                        android:text="Infinite Blades"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
@@ -95,24 +96,56 @@
                     <ImageView
                         android:id="@+id/imageView92"
                         android:layout_width="100dp"
+                        android:layout_gravity="center"
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/searing_blow_plus"
+                        android:src="@drawable/bladedance"
                         android:tag="image_tag" />
 
                     <TextView
                         android:id="@+id/textView26"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Searing Blow+"
+                        android:text="Blade Dance"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="100dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/clockandagger"
+                        android:tag="image_tag" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Clock and Dagger"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
 
 
             </LinearLayout>
@@ -129,7 +162,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/searing_build_explain3"
+                android:text="@string/shiv_build_explain2"
                 android:textAlignment="textStart"
                 android:textColor="#000000" />
 
@@ -152,7 +185,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/apotheosis"
+                        android:src="@drawable/accuracy"
                         android:tag="image_tag" />
 
                     <TextView
@@ -160,7 +193,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Apotheosis"
+                        android:text="Accuracy"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
@@ -181,7 +214,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/armament"
+                        android:src="@drawable/finisher"
                         android:tag="image_tag" />
 
                     <TextView
@@ -190,7 +223,35 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Armaments"
+                        android:text="Finisher"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="100dp"
+                        android:layout_height="110dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/wristblade"
+                        android:tag="image_tag" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Wrist Blade"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
@@ -200,139 +261,89 @@
 
             </LinearLayout>
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView32"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/searing_build_explain3"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
-
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:layout_marginTop="-20dp"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/block_build_relic"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="-20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
 
-                    <ImageView
-                        android:id="@+id/an_image"
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/double_tap"
-                        android:tag="image_tag" />
-
-                    <TextView
-                        android:id="@+id/a_text"
-                        android:layout_width="match_parent"
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Double Tap"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/Spot1_pic"
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
                         android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/dual_wield"
-                        android:tag="image_tag" />
+                        android:layout_marginTop="-15dp"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/spot2_text"
-                        android:layout_width="match_parent"
+                        <ImageView
+                            android:id="@+id/Limit_image1"
+                            android:layout_width="100dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ninjascroll"
+                            android:tag="image_tag" />
+
+                        <TextView
+                            android:id="@+id/Limit_text1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Ninja Scroll"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="Dual Wield"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-15dp"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/orichalcum_pic1"
+                            android:layout_width="100dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ornamentalfan"
+                            android:tag="image_tag" />
+
+                        <TextView
+                            android:id="@+id/orichalcum_text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Ornamental Fan"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/block_build_relic"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:layout_marginTop="-20dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="-15dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/Limit_image1"
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/whetstone"
-                        android:tag="image_tag" />
-
-                    <TextView
-                        android:id="@+id/Limit_text1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Whetstone"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
 
             </LinearLayout>
 
