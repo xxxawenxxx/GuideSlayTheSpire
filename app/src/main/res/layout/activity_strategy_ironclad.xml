@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ironclad_bg"
+    tools:context=".Strategy_ironclad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Big_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="Strategies"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/defend_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Defend Build" />
+
+            <Button
+                android:id="@+id/rupture_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rupture Build" />
+
+            <Button
+                android:id="@+id/strength_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strength Build" />
+
+            <Button
+                android:id="@+id/searing_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Searing Blow Build" />
+
+            <Button
+                android:id="@+id/zero_mana_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zero Mana Build" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
