@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="anchor_desc">Start each combat with 10 Block</string>
+    <string name="teaset_desc">Whenever you enter a Rest Site, start the next combat with 2 Energy</string>
+    <string name="artofwar_desc">If you do not play any Attacks during your turn, gain an extra Energy next turn</string>
+    <string name="bagofmarble_desc">At the start of each combat, apply 1 Vulnerable to ALL enemies</string>
+    <string name="bagofpreparation_desc">At the start of each combat, draw 2 additional cards</string>
+    <string name="bloodvial_desc">At the start of each combat, heal 2 HP</string>
+    <string name="bronzescales_desc">Whenever you take damage, deal 3 damage back</string>
+    <string name="centennialpuzzle_desc">The first time you lose HP each combat, draw 3 cards</string>
+    <string name="datadisk_desc">Start each combat with 1 Focus</string>
+    <string name="dreamcatcher_desc">Whenever you rest, you may add a card to your deck</string>
+    <string name="happyflower_desc">Every 3 turns, gain 1 Energy</string>
+    <string name="suzubracelet_desc">Regular enemy combats are no longer encountered in ? rooms</string>
+    <string name="lantern_desc">Gain 1 Energy on the first turn of each combat</string>
+    <string name="mawbank_desc">Whenever you climb a floor, gain 12 Gold. No longer works when you spend any Gold at the shop</string>
+    <string name="oddlysmoothstone_desc">At the start of each combat, gain 1 Dexterity</string>
+    <string name="omamori_desc">Negate the next 2 Curses you obtain</string>
+    <string name="orichalcum_desc">If you end your turn without Block, gain 6 Block</string>
+    <string name="pennib_desc">Every 10th Attack you play deals double damage</string>
+    <string name="potionbelt_desc">Upon pickup, gain 2 Potion slots</string>
+    <string name="preservedinsect_desc">Enemies in Elite rooms have 25% less HP</string>
+    <string name="redskull_desc">While your HP is at or below 50%, you have 3 additional Strength</string>
+    <string name="regalpillow_desc">Heal an additional 15 HP when you Rest</string>
+    <string name="smilingmask_desc">The merchant\'s card removal service now always costs 50 Gold</string>
+    <string name="sneckoskull_desc">Whenever you apply Poison, apply an additional 1 Poison</string>
+    <string name="strawberry_desc">Raise your Max HP by 7</string>
+    <string name="theboot_desc">Whenever you would deal 4 or less unblocked Attack damage, increase it to 5</string>
+    <string name="tinychest_desc">Gain 30 Gold. You are 10% more likely to find treasure in ? rooms</string>
+    <string name="vajra_desc">At the start of each combat, gain 1 Strength</string>
+    <string name="warpaint_desc">Upon pickup, Upgrade 2 random Skills</string>
+    <string name="whetstone_desc">Upon pickup, Upgrade 2 random Attacks</string>
+
+
+    <string name="bluecandle_desc">Curse cards can now be played. Playing a Curse will make you lose 1 HP and Exhausts the card</string>
+    <string name="bottledflame_desc">Upon pickup, choose an Attack card. At the start of each combat, this card will be in your hand</string>
+    <string name="bottledlightning_desc">Upon pickup, choose an Skill card. At the start of each combat, this card will be in your hand</string>
+    <string name="bottledtornado_desc">Upon pickup, choose an Power card. At the start of each combat, this card will be in your hand</string>
+    <string name="darkstoneperiapt_desc">Whenever you obtain a Curse, increase your Max HP by 6</string>
+    <string name="frozenegg_desc">Whenever you add a Power card to your deck, it is Upgraded</string>
+    <string name="moltenegg_desc">Whenever you add an Attack card to your deck, it is Upgraded</string>
+    <string name="toxicegg_desc">Whenever you add a Skill card to your deck, it is Upgraded</string>
+    <string name="goldplatedcable_desc">Your rightmost Orb triggers its passive an additional time</string>
+    <string name="gremlinhorn_desc">Whenever an enemy dies, gain 1 Energy and draw 1 card</string>
+    <string name="kunai_desc">Every time you play 3 Attacks in a single turn, gain 1 Dexterity</string>
+    <string name="letteropener_desc">Every time you play 3 Skills in a single turn, deal 5 damage to ALL enemies</string>
+    <string name="matryoshka_desc">The next 2 chests you open contain 2 Relics. (Excludes boss chests)</string>
+    <string name="meatonthebone_desc">If your HP is at or below 50% at the end of combat, heal 12 HP</string>
+    <string name="mercuryhourglass_desc">At the start of your turn, deal 3 damage to ALL enemies</string>
+    <string name="mummifiedhand_desc">Whenever you play a Power, a random card in your hand costs 0 for the turn</string>
+    <string name="ninjascroll_desc">Start each combat with 3 Shivs in hand (Silent only)</string>
+    <string name="ornamentalfan_desc">Every time you play 3 Attacks in a single turn, gain 4 Block</string>
+    <string name="pantograph_desc">At the start of boss combats, heal 25 HP</string>
+    <string name="paperkrane_desc">Enemies with Weak deal 40% less damage rather than 25% (Silent only)</string>
+    <string name="paperphrog_desc">Enemies with Vulnerable take 75% more damage rather than 50% (Ironclad only)</string>
+    <string name="pear_desc">Raise your Max HP by 10</string>
+    <string name="questioncard_desc">On Card Reward screens, choose from 4 cards instead of 3</string>
+    <string name="runicdodecahedron_desc">If your HP is full, gain 1 Energy at the start of each turn</string>
+    <string name="selfformingclay_desc">Whenever you lose HP in combat, gain 3 Block next turn (Ironclad only)</string>
+    <string name="shuriken_desc">Every time you play 3 Attacks in a single turn, gain 1 Strength</string>
+    <string name="singingbowl_desc">When adding cards to your deck, you may gain +2 Max HP instead</string>
+    <string name="sundial_desc">Every 3 times you shuffle your deck, gain 2 Energy</string>
+    <string name="symbioticvirus_desc">At the Start of each combat, Channel 1 Dark</string>
+    <string name="thecourier_desc">The merchant no longer runs out of cards, relics, or potions and his prices are reduced by 20%</string>
+
+
+    <string name="birdfacedurn_desc">Whenever you play a Power, heal 2 HP</string>
+    <string name="calipers_desc">At the start of your turn, lose 15 Block rather than all of your Block</string>
+    <string name="championbelt_desc">Whenever you apply Vulnerable, also apply 1 Weak (Ironclad only)</string>
+    <string name="charonsashes_desc">Whenever you Exhaust a card, deal 3 damage to ALL enemies (Ironclad only)</string>
+    <string name="deadbranch_desc">Whenever you Exhaust a card, add a random card to your hand</string>
+    <string name="duvudoll_desc">For each Curse in your deck, start each combat with 1 additional Strength</string>
+    <string name="emotionchip_desc">At the start of each turn, if you took any damage last turn, trigger the passive ability of all your Orbs</string>
+    <string name="fossilizedhelix_desc">Prevent the first time you would lose HP in combat</string>
+    <string name="gamblingchip_desc">At the start of each combat, discard any number of cards then draw that many</string>
+    <string name="ginger_desc">You no longer become Weakened</string>
+    <string name="girya_desc">You can now gain Strength at Rest Sites (3 times max)</string>
+    <string name="icecream_desc">Energy is now conserved between turns</string>
+    <string name="incenseburner_desc">Every 6 turns, gain 1 Intangible</string>
+    <string name="magicflower_desc">Healing is 50% more effective during combat (Ironclad only)</string>
+    <string name="mango_desc">Raise your Max HP by 14</string>
+    <string name="nunchaku_desc">Every time you play 10 Attacks, gain 1 Energy</string>
+    <string name="oldcoin_desc">Gain 300 Gold</string>
+    <string name="peacepipe_desc">You can now remove cards from your deck at Rest Sites</string>
+    <string name="pocketwatch_desc">Whenever you play 3 or less cards in a turn, draw 3 additional cards at the start of your next turn</string>
+    <string name="prayerwheel_desc">Normal enemies drop an additional card reward</string>
+    <string name="shovel_desc">You can now Dig for loot at Rest Sites</string>
+    <string name="stonecalendar_desc">At the end of turn 7, deal 52 damage to ALL enemies</string>
+    <string name="rarespecimen_desc">Whenever an enemy dies, transfer any Poison it has to a random enemy (Silent only)</string>
+    <string name="threadandneedle_desc">At the start of each combat, gain 4 Plated Armor</string>
+    <string name="tingsha_desc">Whenever you discard a card during your turn, deal 3 damage to a random enemy for each card discarded (Silent only)</string>
+    <string name="torii_desc">Whenever you would receive 5 or less unblocked Attack damage, reduce it to 1</string>
+    <string name="toughbandages_desc">Whenever you discard a card during your turn, gain 3 Block (Silent only)</string>
+    <string name="turnip_desc">You can no longer become Frail</string>
+    <string name="unceasingtop_desc">Whenever you have no cards in hand during your turn, draw a card</string>
+    <string name="wingboots_desc">You may ignore paths when choosing the next room to travel to 3 times</string>
+
+
+    <string name="astrolabe_desc">Upon pickup, choose and Transform 3 cards, then Upgrade them</string>
+    <string name="blackblood_desc">Replaces Burning Blood. At the end of combat, heal 10 HP (Ironclad only)</string>
+    <string name="blackstar_desc">Elites now drop 2 Relics when defeated</string>
+    <string name="bustedcrown_desc"> reward screens, you have 2 fewer cards to choose from</string>
+    <string name="callingbell_desc">Obtain 3 Curses and 3 Relics</string>
+    <string name="coffeedripper_desc">Gain 1 Energy at the start of each turn. You can no longer Rest at Rest Sites</string>
+    <string name="cursedkey_desc">Gain 1 Energy at the start of each turn. Whenever you open a non-boss chest, obtain a Curse</string>
+    <string name="ectoplasm_desc">Gain 1 Energy at the start of each turn. You can no longer gain Gold</string>
+    <string name="emptycage_desc">Upon pickup, remove 2 cards from your deck</string>
+    <string name="eternalfeather_desc">For every 5 cards in your deck, heal 2 HP whenever you enter a Rest Site</string>
+    <string name="frozencore_desc">Replaces Cracked Core. If you end your turn with empty Orb slots, channel 1 Frost</string>
+    <string name="fusionhammer_desc">Gain 1 Energy at the start of each turn. You can no longer Smith at Rest Sites</string>
+    <string name="hoveringkite_desc">Gain 1 Energy and discard 2 cards at the start of each turn (Silent only)</string>
+    <string name="inserter_desc">Every 2 turns, gain 1 Orb slot (Defect only)</string>
+    <string name="lizardtail_desc">When you would die, heal to 50% of your Max HP instead (works once)</string>
+    <string name="markofpain_desc">Gain 1 Energy at the start of each turn. Start combats with 2 Wounds in your draw pile (Ironclad only)</string>
+    <string name="nuclearbattery_desc">At the start of each combat, Channel 1 Plasma (Defect only)</string>
+    <string name="orrery_desc">Choose and add 5 cards to your deck</string>
+    <string name="pandorasbox_desc">Transform all Strikes and Defends</string>
+    <string name="philosopherstone_desc">Gain 1 Energy at the start of each turn. ALL enemies start with 1 Strength</string>
+    <string name="ringoftheserpent_desc">Replaces Ring of the Snake. At the start of your turn, draw 1 additional card (Silent only)</string>
+    <string name="runiccube_desc">Whenever you lose HP, draw 1 card</string>
+    <string name="runicdome_desc">Gain 1 Energy at the start of each turn. You can no longer see enemy Intents</string>
+    <string name="runicpyramid_desc">At the end of your turn, you no longer discard your hand</string>
+    <string name="sneckoeye_desc">Draw 2 additional cards each turn. Start each combat Confused</string>
+    <string name="sozu_desc">Gain 1 Energy at the start of each turn. You can no longer obtain potions</string>
+    <string name="tinyhouse_desc">Obtain 1 potion. Gain 30 Gold. Raise you Max HP by 5. Obtain 1 card</string>
+    <string name="velvetchoker_desc">Gain 1 Energy at the start of each turn. You cannot play more than 6 cards per turn</string>
+    <string name="whitebeaststatue_desc">Potions always drop after combat</string>
+    <string name="wristblade_desc">Attacks that cost 0 deal 3 additional damage (Silent only)</string>
+
+
+    <string name="_desc"></string>
+
+</resources>
