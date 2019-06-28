@@ -10,6 +10,7 @@ public class MainMenu extends AppCompatActivity {
 
     CardView Character_button;
     CardView Ascension_button;
+    CardView Gameplay_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,7 @@ public class MainMenu extends AppCompatActivity {
 
         Character_button = (CardView) findViewById(R.id.Character_button);
         Ascension_button = (CardView) findViewById(R.id.Ascension_button);
+        Gameplay_button = (CardView) findViewById(R.id.Gameplay_button);
 
         // TEST COMMIT
 
@@ -34,6 +36,13 @@ public class MainMenu extends AppCompatActivity {
                 openAscensions();
             }
         });
+
+        Gameplay_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openGameplay();
+            }
+        });
     }
 
     public void openCharacter(){
@@ -43,6 +52,10 @@ public class MainMenu extends AppCompatActivity {
     public void openAscensions(){
         Intent intent1 = new Intent(this, Ascensions.class);
         startActivity(intent1);
+    }
+    public void openGameplay(){
+        Intent intent2 = new Intent(this, Gameplay.class);
+        startActivity(intent2);
     }
 
 }
