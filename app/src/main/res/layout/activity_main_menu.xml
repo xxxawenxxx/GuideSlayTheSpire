@@ -161,9 +161,9 @@
 
                     <ImageView
                         android:id="@+id/Ascension_pic"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ironclad_button1" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/ascension_button" />
 
                     <TextView
                         android:id="@+id/Ascension_text"
@@ -196,9 +196,9 @@
 
                     <ImageView
                         android:id="@+id/Monster_pic"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ironclad_button1" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/monster_elite_reptomancer" />
 
                     <TextView
                         android:id="@+id/Monster_text"
