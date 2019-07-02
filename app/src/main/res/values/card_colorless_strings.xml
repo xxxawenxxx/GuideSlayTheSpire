@@ -1,6 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Blank Template -->
-    <!-- <string name="card_CARDNAME"> </string> -->
+    <!-- 5 to 44 ==> 40 item -->
+    <string-array name="card_colorless_name">
+        <item>Apparition</item>
+        <item>Bite</item>
+        <item>J.A.X</item>
+        <item>Ritual Dagger</item>
+        <item>Shiv</item>
+        <item>Bandage Up</item>
+        <item>Blind</item>
+        <item>Dark Shackles</item>
+        <item>Deep Breath</item>
+        <item>Discovery</item>
+        <item>Dramatic Entrance</item>
+        <item>Enlightenment</item>
+        <item>Finesse</item>
+        <item>Flash of Steel</item>
+        <item>Forethought</item>
+        <item>Good Instincts</item>
+        <item>Impatience</item>
+        <item>Jack Of All Trades</item>
+        <item>Madness</item>
+        <item>Mind Blast</item>
+        <item>Panacea</item>
+        <item>Panic Button</item>
+        <item>Purity</item>
+        <item>Swift Strike</item>
+        <item>Trip</item>
+        <item>Apotheosis</item>
+        <item>Chrysalis</item>
+        <item>Hand Of Greed</item>
+        <item>Magnetism</item>
+        <item>Master of Strategy</item>
+        <item>Mayhem</item>
+        <item>Metamorphosis</item>
+        <item>Panache</item>
+        <item>Sadistic Nature</item>
+        <item>Secret Technique</item>
+        <item>Secret Weapon</item>
+        <item>The Bomb</item>
+        <item>Thinking Ahead</item>
+        <item>Transmutation</item>
+        <item>Violence</item>
+    </string-array>
 
+
+    <string-array name="card_colorless_energyCost">
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1(0)</item>
+        <item>2(1)</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2(1)</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2(1)</item>
+        <item>0</item>
+        <item>2(1)</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+        <item>0</item>
+        <item>X</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="card_colorless_desc">
+        <item>Gain 1 Intangible. Exhaust. Ethereal. (No longer ethereal)</item>
+        <item>Deal 7(8) damage. Heal 2(3) HP.</item>
+        <item>Lose 3 HP. Gain 2(3) Strength.</item>
+        <item>Deal 15 damage. If this kills and enemy then permanently increase this card\'s damage by 3(5).</item>
+        <item>Deal 4(6) damage. Exhaust.</item>
+        <item>Heal 4(6) HP. Exhaust.</item>
+        <item>Apply 2 Weak (to ALL enemies)</item>
+        <item>Enemy loses 9(15) Strength for the rest of this turn. Exhaust.</item>
+        <item>Shuffle your discard pile into your draw pile. Draw 1(2) card(s)</item>
+        <item>Choose 1 of 3 random cards to add to your hand. It costs 0 this turn. Exhaust. (Don\'t Exhaust)</item>
+        <item>Innate. Deal 6(8) damage to ALL enemies. Exhaust.</item>
+        <item>Reduce the cost of cards in your hand to 1 this turn(combat).</item>
+        <item>Gain 2(4) Block. Draw 1 card.</item>
+        <item>Deal 3(6) damage. Draw 1 card.</item>
+        <item>Place a card(any number of cards) from your hand on the bottom of your draw pile. It(They) costs 0 until played.</item>
+        <item>Gain 5(8) Block.</item>
+        <item>If you have no Attack cards in your hand, draw 2(3) cards.</item>
+        <item>Add 1(2) random Colorless card(s) to your hand. Exhaust.</item>
+        <item>A random card in your hand costs 0 for the rest of combat. Exhaust.</item>
+        <item>Innate. Deal damage equal to the number of cards in your draw pile.</item>
+        <item>Gain 1(2) Artifact. Exhaust.</item>
+        <item>Gain 30(40) Block. You cannot gain Block from cards for the next 2 turns. Exhaust.</item>
+        <item>Choose and exhaust 3(5) cards in your hand. Exhaust.</item>
+        <item>Deal 6(9) damage.</item>
+        <item>Apply 2 Vulnerable (to ALL enemies).</item>
+        <item>Upgrade ALL of your cards for the rest of combat. Exhaust.</item>
+        <item>Add 3(5) random Skills into your Draw Pile. They cost 0 this combat. Exhaust.</item>
+        <item>Deal 20(25) damage. If this kills a non-minion enemy, gain 20(25) Gold.</item>
+        <item>At the start of each turn, add a random colorless card to your hand.</item>
+        <item>Draw 3(4) cards. Exhaust.</item>
+        <item>At the start of your turn, play the top card of your draw pile.</item>
+        <item>Add 3(5) random Attacks into your Draw Pile. They cost 0 this combat. Exhaust.</item>
+        <item>Every time you play 5 cards in a single turn, deal 10(14) damage to ALL enemies.</item>
+        <item>Whenever you apply a Debuff to an enemy, they take 3(4) damage.</item>
+        <item>Choose a Skill from your draw pile and place it into your hand. Exhaust. (Don\'t Exhaust)</item>
+        <item>Choose an Attack from your draw pile and place it into your hand. Exhaust. (Don\'t Exhaust)</item>
+        <item>At the end of 3 turns, deal 30(40) damage to ALL enemies.</item>
+        <item>Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust. (Don\'t Exhaust)</item>
+        <item>Add X random (Upgraded) colorless cards into your hand. They cost 0 this turn. Exhaust.</item>
+        <item>Place 3(4) random Attack card from your draw pile into your hand. Exhaust.</item>
+    </string-array>
 </resources>
