@@ -45,8 +45,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                app:srcCompat="@drawable/gameplay_explain_pic"
                 />
-                <!--app:srcCompat="@drawable/gameplay_explain_pic" -->
 
 
             <TextView
@@ -61,8 +61,8 @@
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                app:srcCompat="@drawable/pick_heroes_pic"
                 />
-                <!--app:srcCompat="@drawable/pick_heroes_pic" -->
 
 
             <TextView
@@ -78,15 +78,17 @@
                 android:layout_width="match_parent"
                 android:layout_marginBottom="10dp"
                 android:layout_height="200dp"
+                app:srcCompat="@drawable/rest_pic"
                 />
-                <!--app:srcCompat="@drawable/rest_pic" -->
+
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                app:srcCompat="@drawable/rest1_pic"
                 />
-                <!--app:srcCompat="@drawable/rest1_pic" -->
+
 
             <TextView
                 android:id="@+id/textView4"
@@ -101,15 +103,16 @@
                 android:layout_width="match_parent"
                 android:layout_marginBottom="10dp"
                 android:layout_height="200dp"
+                app:srcCompat="@drawable/shop_pic"
                 />
-                <!--app:srcCompat="@drawable/shop_pic" -->
 
             <ImageView
                 android:id="@+id/imageView12"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                app:srcCompat="@drawable/shop1_pic"
                 />
-                <!--app:srcCompat="@drawable/shop1_pic" -->
+
 
             <TextView
                 android:id="@+id/textView5"
@@ -123,8 +126,9 @@
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                app:srcCompat="@drawable/event_pic"
                 />
-                <!--app:srcCompat="@drawable/event_pic" -->
+
 
             <TextView
                 android:id="@+id/textView6"
@@ -138,8 +142,8 @@
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                app:srcCompat="@drawable/enemies_drop_pic"
                 />
-                <!--app:srcCompat="@drawable/enemies_drop_pic" -->
 
             <TextView
                 android:id="@+id/textView7"
