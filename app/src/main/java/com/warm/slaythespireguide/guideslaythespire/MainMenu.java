@@ -13,6 +13,7 @@ public class MainMenu extends AppCompatActivity {
     CardView Gameplay_button;
     CardView Monster_button;
     CardView Relic_button;
+    CardView Potion_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class MainMenu extends AppCompatActivity {
         Gameplay_button = (CardView) findViewById(R.id.Gameplay_button);
         Monster_button = (CardView) findViewById(R.id.Monster_button);
         Relic_button = (CardView) findViewById(R.id.Relics_button);
+        Potion_button = (CardView) findViewById(R.id.Potion_button);
 
         Character_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +61,13 @@ public class MainMenu extends AppCompatActivity {
                 openRelic();
             }
         });
+
+        Potion_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPotion();
+            }
+        });
     }
 
     private void openRelic() {
@@ -82,6 +91,11 @@ public class MainMenu extends AppCompatActivity {
     public void openGameplay(){
         Intent intent2 = new Intent(this, Gameplay.class);
         startActivity(intent2);
+    }
+
+    public void openPotion(){
+        Intent intent3 = new Intent(this, Potion_menu.class);
+        startActivity(intent3);
     }
 
 }
