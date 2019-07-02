@@ -62,12 +62,12 @@ public class MainMenu extends AppCompatActivity {
     }
 
     private void openRelic() {
-        Intent intent = new Intent (this, monster_main_menu.class);
+        Intent intent = new Intent (this, RelicMenu.class);
         startActivity(intent);
     }
 
     private void openMonster() {
-        Intent intent = new Intent (this, RelicMenu.class);
+        Intent intent = new Intent (this, monster_main_menu.class);
         startActivity(intent);
     }
 
