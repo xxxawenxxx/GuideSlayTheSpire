@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_curses_name">
+        <item>Ascender's Bane</item>
+        <item>Clumsy</item>
+        <item>Decay</item>
+        <item>Doubt</item>
+        <item>Injury</item>
+        <item>Necronomicurse</item>
+        <item>Normality</item>
+        <item>Pain</item>
+        <item>Parasite</item>
+        <item>Regret</item>
+        <item>Shame</item>
+        <item>Writhe</item>
+    </string-array>
+
+    <string-array name="card_curses_desc">
+        <item>Unplayable. Cannot be removed from your deck. Ethereal.</item>
+        <item>Unplayable. Ethereal.</item>
+        <item>Unplayable. At the end of your turn, take 2 damage.</item>
+        <item>Unplayable. At the end of your turn, gain 1 Weak.</item>
+        <item>Unplayable.</item>
+        <item>Unplayable. There is no escape from this Curse. (Cannot be Exhausted or Removed from your deck)</item>
+        <item>Unplayable. You cannot play more than 3 cards this turn.</item>
+        <item>Unplayable. While in hand, lose 1 HP when other cards are played.</item>
+        <item>Unplayable. If transformed or removed from your deck, lose 3 Max HP.</item>
+        <item>Unplayable. At the end of your turn, lose HP equal to the number of cards in your hand.</item>
+        <item>Unplayable. At the end of your turn, gain 1 Frail.</item>
+        <item>Unplayable. Innate.</item>
+    </string-array>
+</resources>
