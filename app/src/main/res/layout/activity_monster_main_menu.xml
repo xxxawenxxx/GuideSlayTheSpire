@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    tools:context=".monster_main_menu">
+
+    <TextView
+        android:id="@+id/Monster_menu_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Monsters"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/monster_menu_act1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="ACT 1"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/Monster_menu_header"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <Button
+        android:id="@+id/monster_menu_act2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="ACT 2"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/monster_menu_act1"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/monster_menu_act3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:text="ACT 3"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/monster_menu_act2" />
+
+    <Button
+        android:id="@+id/monster_menu_elites"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Elites"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/monster_menu_act3" />
+
+    <Button
+        android:id="@+id/monster_menu_bosses"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="bosses"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/monster_menu_elites" />
+
+</android.support.constraint.ConstraintLayout>

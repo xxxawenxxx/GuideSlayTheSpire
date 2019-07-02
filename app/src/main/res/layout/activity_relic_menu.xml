@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelicMenu">
+
+    <TextView
+        android:id="@+id/Relic_menu_header"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Relics"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/relic_menu_common"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Common"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/Relic_menu_header"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <Button
+        android:id="@+id/relic_menu_uncommon"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Uncommon"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/relic_menu_common"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/relic_menu_rare"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:text="Rare"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/relic_menu_uncommon" />
+
+    <Button
+        android:id="@+id/relic_menu_boss"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Boss"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/relic_menu_rare" />
+
+    <Button
+        android:id="@+id/relic_menu_shop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="shop only"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/relic_menu_boss" />
+
+    <Button
+        android:id="@+id/relic_menu_event"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="event only"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/relic_menu_shop" />
+
+    <Button
+        android:id="@+id/relic_menu_characterspecific"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Character Specific"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintTop_toBottomOf="@+id/relic_menu_event" />
+
+</android.support.constraint.ConstraintLayout>
