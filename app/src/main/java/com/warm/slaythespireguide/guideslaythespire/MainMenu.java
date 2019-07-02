@@ -20,6 +20,7 @@ public class MainMenu extends AppCompatActivity {
         Character_button = (CardView) findViewById(R.id.Character_button);
         Ascension_button = (CardView) findViewById(R.id.Ascension_button);
         Gameplay_button = (CardView) findViewById(R.id.Gameplay_button);
+        
 
         // TEST COMMIT
 
