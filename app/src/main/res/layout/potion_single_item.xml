@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="15dp"
-    android:id="@+id/relic_list_single_layout"
+    android:id="@+id/potion_list_single_layout"
     android:background="#fff"
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
@@ -15,7 +15,7 @@
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:id="@+id/relic_single_img"
+        android:id="@+id/potion_single_img"
         android:src="@mipmap/ic_launcher"
 
         />
@@ -23,7 +23,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@+id/relic_single_img"
+        android:layout_toEndOf="@+id/potion_single_img"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:orientation="vertical"
@@ -34,18 +34,18 @@
             android:layout_height="wrap_content"
             android:textSize="17sp"
             android:paddingBottom="5dp"
-            android:text="Relic Name"
+            android:text="Potion Name"
             android:textColor="#000"
-            android:id="@+id/relic_single_name"
+            android:id="@+id/potion_single_name"
             />
 
         <android.support.v7.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
-            android:text="Relic Description"
+            android:text="Potion Description"
             android:textColor="@color/browser_actions_title_color"
-            android:id="@+id/relic_single_desc"
+            android:id="@+id/potion_single_desc"
             />
 
     </LinearLayout>
