@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/monster_list_single_layout"
+    android:background="#fff"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="0dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/monster_single_img"
+        android:src="@mipmap/ic_launcher"
+    />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/monster_single_img"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:textSize="17sp"
+        android:text="Test"
+        android:textColor="#000"
+        android:id="@+id/monster_single_name"
+        />
+
+</RelativeLayout>

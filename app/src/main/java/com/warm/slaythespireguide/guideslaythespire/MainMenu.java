@@ -11,6 +11,8 @@ public class MainMenu extends AppCompatActivity {
     CardView Character_button;
     CardView Ascension_button;
     CardView Gameplay_button;
+    CardView Monster_button;
+    CardView Relic_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +22,8 @@ public class MainMenu extends AppCompatActivity {
         Character_button = (CardView) findViewById(R.id.Character_button);
         Ascension_button = (CardView) findViewById(R.id.Ascension_button);
         Gameplay_button = (CardView) findViewById(R.id.Gameplay_button);
-
-        // TEST COMMIT
+        Monster_button = (CardView) findViewById(R.id.Monster_button);
+        Relic_button = (CardView) findViewById(R.id.Relics_button);
 
         Character_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +45,30 @@ public class MainMenu extends AppCompatActivity {
                 openGameplay();
             }
         });
+
+        Monster_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMonster();
+            }
+        });
+
+        Relic_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openRelic();
+            }
+        });
+    }
+
+    private void openRelic() {
+        Intent intent = new Intent (this, monster_main_menu.class);
+        startActivity(intent);
+    }
+
+    private void openMonster() {
+        Intent intent = new Intent (this, RelicMenu.class);
+        startActivity(intent);
     }
 
     public void openCharacter(){

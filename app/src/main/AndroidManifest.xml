@@ -29,6 +29,13 @@
         <activity android:name=".Defect"/>
         <activity android:name=".Silent"/>
         <activity android:name=".Characters" />
+        <!-- Monster -->
+        <activity android:name=".monster_list_container"></activity>
+        <activity android:name=".monster_main_menu" />
+        <!-- Relic -->
+        <activity android:name=".RelicMenu"></activity>
+        <activity android:name=".RelicListContainer" />
+
         <activity android:name=".MainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
