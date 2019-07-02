@@ -38,19 +38,19 @@
             <Button
                 android:id="@+id/frost_button"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:text="Frost Build" />
 
             <Button
                 android:id="@+id/barrage_button"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:text="Barrage Build" />
 
             <Button
                 android:id="@+id/zero_energy_button"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:text="Zero Energy Build" />
 
 

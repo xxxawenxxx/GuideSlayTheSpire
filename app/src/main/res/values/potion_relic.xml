@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ancientpotion_desc">Gain 1 Artifact.</string>
+    <string name="attackpotion_desc">Add 1 of 3 random Attack cards to your hand, it costs 0 this turn.</string>
+    <string name="blockpotion_desc">Gain 12 Block.</string>
+    <string name="bloodpotion_desc">Heal for 25% of your Max HP. (Ironclad only)</string>
+    <string name="dexteritypotion_desc">Gain 2 Dexterity.</string>
+    <string name="energypotion_desc">Gain 2 Energy.</string>
+    <string name="entropicbrew_desc">Fill all your empty potion slots with random potions.</string>
+    <string name="essenceofsteel_desc">Gain 4 Plated Armor.</string>
+    <string name="explosivepotion_desc">Deal 10 damage to all enemies</string>
+    <string name="fairyinbottle_desc">When you would die, heal to 10% of your Max HP instead and discard this potion.</string>
+    <string name="fearpotion_desc">Apply 3 Vulnerable</string>
+    <string name="firepotion_desc">Deal 20 Damage to target enemy.</string>
+    <string name="focuspotion_desc">Gain 2 Focus. (Defect only)</string>
+    <string name="fruitjuicepotion_desc">Gain 5 Max HP.</string>
+    <string name="gamblerbrewpotion_desc">Discard any number of cards, then draw that many.</string>
+    <string name="ghostinajarpotion_desc">Gain 1 Intangible. (Silent only)</string>
+    <string name="liquidbronzepotion_desc">Gain 3 Thorns.</string>
+    <string name="poisonpotion_desc">Apply 6 Poison to target enemy. (Defect only)</string>
+    <string name="powerpotion_desc">Add 1 of 3 random Power cards to your hand, it costs 0 this turn.</string>
+    <string name="regenpotion_desc">Gain 5 Regeneration.</string>
+    <string name="skillpotion_desc">Add 1 of 3 random Skill cards to your hand, it costs 0 this turn.</string>
+    <string name="smokebombpotion_desc">Escape from a non-boss combat. Receive no rewards.</string>
+    <string name="sneckooilpotion_desc">Become Confused, Draw 3 Cards.</string>
+    <string name="speedpotion_desc">Gain 5 Dexterity. At the end of your turn, lose 5 Dexterity.</string>
+    <string name="steroidpotion_desc">Gain 5 Strength. At the end of your turn, lose 5 Strength.</string>
+    <string name="strengthpotion_desc">Gain 2 Strength.</string>
+    <string name="swiftpotion_desc">Draw 3 Cards.</string>
+    <string name="weakpotion_desc">Apply 3 Weak to target enemy.</string>
+
+
+
+</resources>
