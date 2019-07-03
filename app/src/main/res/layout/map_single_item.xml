@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="15dp"
-    android:id="@+id/potion_list_single_layout"
+    android:id="@+id/maps_list_single_layout"
     android:background="#fff"
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"

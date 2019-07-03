@@ -29,11 +29,16 @@
         <activity android:name=".Ironclad" />
         <activity android:name=".Defect" />
         <activity android:name=".Silent" />
-        <activity android:name=".Characters" /> <!-- Monster -->
+        <activity android:name=".Characters" />
+        <!-- Monster -->
         <activity android:name=".monster_list_container" />
-        <activity android:name=".monster_main_menu" /> <!-- Relic -->
+        <activity android:name=".monster_main_menu" />
+        <!-- Relic -->
         <activity android:name=".RelicMenu" />
         <activity android:name=".RelicListContainer" />
+        <!-- Map Icon -->
+        <activity android:name=".Map_ListContainer" />
+        <!-- Main Menu -->
         <activity android:name=".MainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
