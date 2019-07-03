@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="maps_unknown_desc">An unknown room. You may encounter monsters, treasures,shops, or something entirely different.</string>
+    <string name="maps_shop_desc">A mysterious merchant sells his wares in these rooms. Spend your well earned Gold here!</string>
+    <string name="maps_treasure_desc">Relics and Gold can be found in these coveted rooms.</string>
+    <string name="maps_rest_desc">Stop by these rooms to Heal some HP or Upgrade a card.</string>
+    <string name="maps_enemy_desc">Hostile enemies reside in these rooms.</string>
+    <string name="maps_elite_desc">Powerful foes are in these rooms. Defeating them will reward you a Relic.</string>
+	<string name="maps_boss_desc">Strong foes are waiting in the end of the act, be careful.</string>
+
+</resources>
