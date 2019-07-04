@@ -9,15 +9,15 @@ import android.view.View;
 public class Ironclad extends AppCompatActivity {
 
     CardView Ironclad_tactics_button;
-    CardView Ironclad_cards_button;
+    CardView Ironclad_UnlockButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ironclad);
 
-        Ironclad_tactics_button = (CardView) findViewById(R.id.Ironclad_tactics_button);
-        Ironclad_cards_button = (CardView) findViewById(R.id.Ironclad_cards_button);
+        Ironclad_tactics_button = findViewById(R.id.Ironclad_tactics_button);
+        Ironclad_UnlockButton = findViewById(R.id.Ironclad_unlock_button);
 
         Ironclad_tactics_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,10 +26,10 @@ public class Ironclad extends AppCompatActivity {
             }
         });
 
-        Ironclad_cards_button.setOnClickListener(new View.OnClickListener() {
+        Ironclad_UnlockButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openIronclad_cards();
+                open_IroncladUnlock();
             }
         });
     }
@@ -38,8 +38,9 @@ public class Ironclad extends AppCompatActivity {
         Intent intent = new Intent(this, Strategy_ironclad.class);
         startActivity(intent);
     }
-    public void openIronclad_cards(){
-        Intent intent1 = new Intent(this, Strategy_ironclad.class);
-        startActivity(intent1);
+    public void open_IroncladUnlock(){
+        Intent intent = new Intent(this, Character_Unlock.class);
+        intent.putExtra("CHARACTER", "IRONCLAD");
+        startActivity(intent);
     }
 }

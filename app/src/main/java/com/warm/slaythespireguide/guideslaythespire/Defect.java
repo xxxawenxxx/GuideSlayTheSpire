@@ -9,15 +9,15 @@ import android.view.View;
 public class Defect extends AppCompatActivity {
 
     CardView Defect_tactics_button;
-    CardView Defect_cards_button;
+    CardView Defect_UnlockButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_defect);
 
-        Defect_tactics_button = (CardView) findViewById(R.id.Defect_tactics_button);
-        Defect_cards_button = (CardView) findViewById(R.id.Defect_cards_button);
+        Defect_tactics_button = findViewById(R.id.Defect_tactics_button);
+        Defect_UnlockButton = findViewById(R.id.Defect_unlock_button);
 
         Defect_tactics_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,10 +26,10 @@ public class Defect extends AppCompatActivity {
             }
         });
 
-        Defect_cards_button.setOnClickListener(new View.OnClickListener() {
+        Defect_UnlockButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openDefect_cards();
+                open_DefectUnlock();
             }
         });
 
@@ -40,9 +40,10 @@ public class Defect extends AppCompatActivity {
         Intent intent = new Intent(this, Strategy_defect.class);
         startActivity(intent);
     }
-    public void openDefect_cards(){
-        Intent intent1 = new Intent(this, Strategy_defect.class);
-        startActivity(intent1);
+    public void open_DefectUnlock(){
+        Intent intent = new Intent(this, Character_Unlock.class);
+        intent.putExtra("CHARACTER", "DEFECT");
+        startActivity(intent);
     }
 
 }

@@ -9,15 +9,15 @@ import android.view.View;
 public class Silent extends AppCompatActivity {
 
     CardView Silent_tactics_button;
-    CardView Silent_cards_button;
+    CardView Silent_UnlockButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_silent);
 
-        Silent_tactics_button = (CardView) findViewById(R.id.Silent_tactics_button);
-        Silent_cards_button = (CardView) findViewById(R.id.Silent_cards_button);
+        Silent_tactics_button = findViewById(R.id.Silent_tactics_button);
+        Silent_UnlockButton = findViewById(R.id.Silent_unlock_button);
 
         Silent_tactics_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,10 +26,10 @@ public class Silent extends AppCompatActivity {
             }
         });
 
-        Silent_cards_button.setOnClickListener(new View.OnClickListener() {
+        Silent_UnlockButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openSilent_cards();
+                open_SilentUnlock();
             }
         });
 
@@ -39,9 +39,10 @@ public class Silent extends AppCompatActivity {
         Intent intent = new Intent(this, Strategy_silent.class);
         startActivity(intent);
     }
-    public void openSilent_cards(){
-        Intent intent1 = new Intent(this, Strategy_silent.class);
-        startActivity(intent1);
+    public void open_SilentUnlock(){
+        Intent intent = new Intent(this, Character_Unlock.class);
+        intent.putExtra("CHARACTER", "SILENT");
+        startActivity(intent);
     }
 
 
