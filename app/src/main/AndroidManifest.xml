@@ -36,6 +36,8 @@
         <!-- Relic -->
         <activity android:name=".RelicMenu" />
         <activity android:name=".RelicListContainer" />
+        <!-- Potion -->
+        <activity android:name=".Potion_ListContainer" />
         <!-- Map Icon -->
         <activity android:name=".Map_ListContainer" />
         <!-- Main Menu -->

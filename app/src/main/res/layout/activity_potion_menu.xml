@@ -13,7 +13,7 @@
 
 
         <TextView
-            android:id="@+id/Big_text"
+            android:id="@+id/potion_menu_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
@@ -35,24 +35,30 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/poison_button"
+                android:id="@+id/potion_menu_common"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark"
+                android:background="@color/design_default_color_primary_dark"
+                android:textColor="#fff"
+                android:textSize="20sp"
                 android:text="Common" />
 
             <Button
-                android:id="@+id/block_button"
+                android:id="@+id/potion_menu_uncommon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark"
+                android:background="@color/design_default_color_primary_dark"
+                android:textColor="#fff"
+                android:textSize="20sp"
                 android:text="Uncommon" />
 
             <Button
-                android:id="@+id/shiv_button"
+                android:id="@+id/potion_menu_rare"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
+                android:background="@color/design_default_color_primary_dark"
+                android:textColor="#fff"
+                android:textSize="20sp"
                 android:text="Rare" />
 
 
