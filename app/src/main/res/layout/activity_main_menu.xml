@@ -267,9 +267,9 @@
 
                     <ImageView
                         android:id="@+id/Maps_pic"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ironclad_button1" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/map_button" />
 
                     <TextView
                         android:id="@+id/Maps_text"
