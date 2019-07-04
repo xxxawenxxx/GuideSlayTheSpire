@@ -30,6 +30,8 @@
         <activity android:name=".Defect" />
         <activity android:name=".Silent" />
         <activity android:name=".Characters" />
+        <!-- Character Unlock -->
+        <activity android:name=".Character_Unlock" />
         <!-- Monster -->
         <activity android:name=".monster_list_container" />
         <activity android:name=".monster_main_menu" />
