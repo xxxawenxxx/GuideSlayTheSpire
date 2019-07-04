@@ -90,7 +90,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/spot_weakness"
                             />
 
                         <TextView
@@ -116,7 +116,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/limit_break"
                             />
 
                         <TextView
@@ -188,13 +188,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_common_omamori"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Omamori"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -215,13 +215,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_rare_prayerwheel"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Prayer Wheel"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -241,13 +241,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_rare_shovel"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Shovel"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -436,9 +436,9 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="70dp"
+                            android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/searing_blow"
                             />
 
                         <TextView
@@ -463,9 +463,9 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="70dp"
+                            android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/searing_blow"
                             />
 
                         <TextView
@@ -489,9 +489,9 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="70dp"
+                            android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/searing_blow"
                             />
 
                         <TextView
@@ -561,15 +561,15 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/relic_uncommon_bluecandle"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Blue Candle"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -588,15 +588,15 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/relic_rare_deadbranch"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Dead Branch"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -614,15 +614,15 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/relic_uncommon_singingbowl"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Singing Bowl"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>

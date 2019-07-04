@@ -187,13 +187,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_rare_duvudoll"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Du-Vu Doll"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -214,13 +214,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_common_smilingmask"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Smiling Mask"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -240,13 +240,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_common_tinychest"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Tiny Chest"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -437,13 +437,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_common_artofwar"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Art of War"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -464,13 +464,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_uncommon_thecourier"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="The Courier"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -490,13 +490,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_boss_pandoraboz"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Pandora's Box"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>

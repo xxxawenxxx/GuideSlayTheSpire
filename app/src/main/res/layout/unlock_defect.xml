@@ -185,9 +185,9 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="70dp"
+                            android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/searing_blow"
                             />
 
                         <TextView
@@ -212,9 +212,9 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="70dp"
+                            android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/searing_blow"
                             />
 
                         <TextView
@@ -238,9 +238,9 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="70dp"
+                            android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/searing_blow"
                             />
 
                         <TextView
@@ -437,13 +437,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_uncommon_goldplatedcables"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Gold-Plated Cables"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -464,13 +464,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_rare_turnip"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Turnip"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -490,13 +490,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/relic_boss_sneckoeyes"
+                            android:src="@drawable/relic_shop_runicapacitor"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Runic Capacitor"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -560,15 +560,15 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/relic_common_datadisk"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Data Disk"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -587,15 +587,15 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/relic_uncommon_symbioticvirus"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Symbiotic Virus"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -613,15 +613,15 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
+                            android:layout_height="70dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/relic_rare_emotionchip"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Emotion Chip"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
