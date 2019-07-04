@@ -306,7 +306,7 @@
                         android:id="@+id/Potion_pic"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/firepotion" />
+                        android:background="@drawable/potion_sneckooil" />
 
                     <TextView
                         android:id="@+id/Potion_text"

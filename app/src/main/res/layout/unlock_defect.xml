@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f0f0f0"
-    >
+    android:background="#f0f0f0">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +36,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:text="Lvl 1 Unlock"
-                    android:background="#C00909"
+                    android:background="#186AAA"
                     android:textSize="20sp"
                     android:textColor="#fff"
                     android:textStyle="bold"
@@ -162,7 +161,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:text="Lvl 2 Unlock"
-                    android:background="#C00909"
+                    android:background="#186AAA"
                     android:textSize="20sp"
                     android:textColor="#fff"
                     android:textStyle="bold"
@@ -287,7 +286,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:text="Lvl 3 Unlock"
-                    android:background="#C00909"
+                    android:background="#186AAA"
                     android:textSize="20sp"
                     android:textColor="#fff"
                     android:textStyle="bold"
@@ -412,7 +411,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:text="Lvl 4 Unlock"
-                    android:background="#C00909"
+                    android:background="#186AAA"
                     android:textSize="20sp"
                     android:textColor="#fff"
                     android:textStyle="bold"
@@ -537,7 +536,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:text="Lvl 5 Unlock"
-                    android:background="#C00909"
+                    android:background="#186AAA"
                     android:textSize="20sp"
                     android:textColor="#fff"
                     android:textStyle="bold"
