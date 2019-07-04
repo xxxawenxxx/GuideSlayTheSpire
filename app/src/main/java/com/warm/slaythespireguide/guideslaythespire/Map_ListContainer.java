@@ -30,7 +30,19 @@ public class Map_ListContainer extends AppCompatActivity {
         initRecyclerView();
     }
 
+    private void initRecyclerView() {
+        Log.d(TAG, "initRecyclerView: init recyclerview");
+        RecyclerView recyclerView = findViewById(R.id.monster_list_container);
+        Map_RecyclerAdapter adapter = new Map_RecyclerAdapter(this, mapImg, mapName, mapDesc);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+    }
+
     private void prepareData() {
+        mapImg.clear();
+        mapName.clear();
+        mapDesc.clear();
+
         mapImg.add(R.drawable.maps_event_button);
         mapName.add("Unknown");
         mapDesc.add(getString(R.string.maps_unknown_desc));
@@ -61,11 +73,4 @@ public class Map_ListContainer extends AppCompatActivity {
 
     }
 
-    private void initRecyclerView() {
-        Log.d(TAG, "initRecyclerView: init recyclerview");
-        RecyclerView recyclerView = findViewById(R.id.monster_list_container);
-        Map_RecyclerAdapter adapter = new Map_RecyclerAdapter(this, mapImg, mapName, mapDesc);
-        recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-    }
 }

@@ -27,7 +27,7 @@ public class MainMenu extends AppCompatActivity {
         Monster_button = (CardView) findViewById(R.id.Monster_button);
         Relic_button = (CardView) findViewById(R.id.Relics_button);
         Potion_button = (CardView) findViewById(R.id.Potion_button);
-//        Map_button = (CardView) findViewById(R.id.Map_button);
+        Map_button = (CardView) findViewById(R.id.Maps_button);
 
         Character_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,7 +80,7 @@ public class MainMenu extends AppCompatActivity {
     }
 
     private void openMap() {
-        Intent intent = new Intent (this, RelicListContainer.class);
+        Intent intent = new Intent (this, Map_ListContainer.class);
         startActivity(intent);
     }
 

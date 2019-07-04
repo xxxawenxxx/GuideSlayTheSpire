@@ -49,7 +49,7 @@ public class Map_RecyclerAdapter extends RecyclerView.Adapter<Map_RecyclerAdapte
 
     @Override
     public int getItemCount() {
-        return mapNameList.size();
+        return mapImageList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
