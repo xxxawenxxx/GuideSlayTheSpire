@@ -62,13 +62,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/rebound"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Rebound"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -89,13 +89,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/equilibrium"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Equilibrium"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -115,13 +115,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/echoform"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Echo Form"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -187,13 +187,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/turbo"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="TURBO"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -214,13 +214,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/sunder"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Sunder"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -240,13 +240,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/meteorstrike"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Meteor Strike"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -312,13 +312,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/hyperbeam"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Hyperbeam"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -339,13 +339,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/recycle"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Recycle"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -365,13 +365,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/coresurge"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Core Surge"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>

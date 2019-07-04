@@ -63,13 +63,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/heavy_blade"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Heavy Blade"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -96,7 +96,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Spot Weakness"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -122,7 +122,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Limit Break"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -313,13 +313,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/wild_strike"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Wild Strike"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -340,13 +340,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/evolve"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Evolve"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -366,13 +366,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/immolate"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Immolate"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -438,13 +438,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/havoc"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Havoc"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -465,13 +465,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/sentinel"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Sentinel"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -491,13 +491,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/exhume"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Exhume"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>

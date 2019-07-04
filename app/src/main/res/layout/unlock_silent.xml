@@ -562,13 +562,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/concentrate"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Concentrate"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -589,13 +589,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/setup"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Setup"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
@@ -615,13 +615,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/searing_blow"
+                            android:src="@drawable/grandfinale"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name Here"
+                            android:text="Grand Finale"
                             android:textSize="18sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>

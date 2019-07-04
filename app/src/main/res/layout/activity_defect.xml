@@ -294,9 +294,9 @@
 
                     <ImageView
                         android:id="@+id/character_pic"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/cards" />
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/unlock_button_fix" />
 
                     <TextView
                         android:id="@+id/character_text"
@@ -329,8 +329,8 @@
 
                     <ImageView
                         android:id="@+id/gameplay_pic"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:background="@drawable/ironclad_button1" />
 
                     <TextView
