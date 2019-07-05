@@ -2,93 +2,393 @@
 <resources>
     <!-- Blank Template -->
     <string-array name="card_defect_name">
-        <item>Anger</item><!-- 1 -->
-        <item>Armament</item>
-        <item>Barricade</item>
-        <item>Bash</item>
-        <item>Battle Trance</item>
-        <item>Berserk</item>
-        <item>Blood for Blood</item>
-        <item>Bloodletting</item>
-        <item>Bludgeon</item>
-        <item>Body Slam</item><!-- 10 -->
-        <item>Brutality</item>
-        <item>Burning Pact</item>
-        <item>Carnage</item>
-        <item>Clash</item>
-        <item>Cleave</item>
+        <item>Defend</item><!-- 1 -->
+        <item>Dualcast</item>
+        <item>Strike</item>
+        <item>Zap</item>
+        <item>Ball Lightning</item>
+        <item>Barrage</item>
+        <item>Beam Cell</item>
+        <item>Charge Battery</item>
+        <item>Claw</item>
+        <item>Cold Snap</item><!-- 10 -->
+        <item>Compile Driver</item>
+        <item>Coolheaded</item>
+        <item>Go for the Eyes</item>
+        <item>Hologram</item>
+        <item>Leap</item>
+        <item>Rebound</item>
+        <item>Recursion</item>
+        <item>Stack</item>
+        <item>Steam Barrier</item>
+        <item>Streamline</item> <!-- 20 -->
+        <item>Sweeping Beam</item>
+        <item>TURBO</item>
+        <item>Aggregate</item>
+        <item>Auto-Shields</item>
+        <item>Blizzard</item>
+        <item>Boot Sequence</item>
+        <item>Bullseye</item>
+        <item>Capacitor</item>
+        <item>Chaos</item>
+        <item>Chill</item> <!-- 30 -->
+        <item>Consume</item>
+        <item>Darkness</item>
+        <item>Defragment</item>
+        <item>Doom and Gloom</item>
+        <item>Double Energy</item>
+        <item>Equilibrium</item>
+        <item>FTL</item>
+        <item>Force Field</item>
+        <item>Fusion</item>
+        <item>Genetic Algorithm</item> <!-- 40 -->
+        <item>Glacier</item>
+        <item>Heatsinks</item>
+        <item>Hello World</item>
+        <item>Loop</item>
+        <item>Melter</item>
+        <item>Overclock</item>
+        <item>Recycle</item>
+        <item>Reinforced Body</item>
+        <item>Repgrogram</item>
+        <item>Rip and Tear</item> <!-- 50 -->
+        <item>Scrape</item>
+        <item>Self Repair</item>
+        <item>Skim</item>
+        <item>Static Discharge</item>
+        <item>Storm</item>
+        <item>Sunder</item>
+        <item>Tempest</item>
+        <item>White noise</item>
+        <item>All for One</item>
+        <item>Amplify</item> <!-- 60 -->
+        <item>Biased Cognition</item>
+        <item>Buffer</item>
+        <item>Core Surge</item>
+        <item>Creative AI</item>
+        <item>Echo Form</item>
+        <item>Electrodynamics</item>
+        <item>Fission</item>
+        <item>Hyperbeam</item>
+        <item>Machine Learning</item>
+        <item>Meteor Strike</item> <!-- 70 -->
+        <item>Multi-Cast</item>
+        <item>Rainbow</item>
+        <item>Reboot</item>
+        <item>Seek</item>
+        <item>Thunder Strike</item> <!-- 75 -->
     </string-array>
 
     <string-array name="card_defect_cost">
+        <item>1</item><!-- 1 -->
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
         <item>0</item>
         <item>1</item>
-        <item>3</item>
-        <item>2</item>
         <item>0</item>
+        <item>1</item><!-- 10 -->
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item> <!-- 20 -->
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item> <!-- 30 -->
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
         <item>0</item>
         <item>4</item>
-        <item>0</item>
-        <item>3</item>
+        <item>2</item>
+        <item>1</item> <!-- 40 -->
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
         <item>1</item>
         <item>0</item>
+        <item>0</item>
+        <item>X</item>
+        <item>0</item>
+        <item>1</item> <!-- 50 -->
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>3</item>
+        <item>X</item>
         <item>1</item>
         <item>2</item>
-        <item>0</item>
+        <item>1</item> <!-- 60 -->
         <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>5</item> <!-- 70 -->
+        <item>X</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>3</item> <!-- 75 -->
     </string-array>
 
     <string-array name="card_defect_desc">
-        <item>Deal 6 damage. Add a copy of this card to your discard pile</item>
-        <item>Gain 5 Block. Upgrade a card in your hand for the rest of combat</item>
-        <item>Block no longer expires at the start of your turn</item>
-        <item>Deal 8 damage. Apply 2 Vulnerable</item>
-        <item>Draw 3 cards. You cannot draw additional cards this turn</item>
-        <item>Gain 3 Vulnerable. Gain 1 Energy at the start of your turn.</item>
-        <item>Cost 1 less energy for each time you lose HP in combat. Deal 18 damage.</item>
-        <item>Lose 3 HP. Gain 1 Energy.</item>
-        <item>Deal 32 damage.</item>
-        <item>Deal damage equal to your current Block</item>
-        <item>At the start of your turn, lose 1 HP and draw 1 card.</item>
-        <item>Exhaust 1 card. Draw 2 cards.</item>
-        <item>Ethereal. Deal 20 damage.</item>
-        <item>Can only be played if every card in your hand is an Attack. Deal 14 damage.</item>
-        <item>Deal 8 damage to All enemies</item>
+        <item>Gain 5 Block</item>
+        <item>Evoke your next Orb 2 times</item>
+        <item>Deal 6 damage.</item>
+        <item>Channel 1 Lightning.</item>
+        <item>Deal 7 damage. Channel 1 Lightning.</item>
+        <item>Deal 4 damage for each Channeled Orb.</item>
+        <item>Deal 3 damage and apply 1 Vulnerable.</item>
+        <item>Gain 7 Block.\nNext turn, gain 1 Energy.</item>
+        <item>Deal 3 damage.\nAll Claw cards deal 2 additional damage this combat.</item>
+        <item>Deal 6 damage. Channel 1 Frost.</item>
+        <item>Deal 7 damage. Draw 1 card for each unique Orb you have.</item>
+        <item>Channel 1 Frost.\nDraw 1 card.</item>
+        <item>Deal 3 damage. If the enemy intends to attack, apply 1 Weak.</item>
+        <item>Gain 3 Block.\nReturn a card from your discard pile to your hand. Exhaust.</item>
+        <item>Gain 9 Block.</item>
+        <item>Deal 9 damage.\nPut the next card you play this turn on top of your draw pile.</item>
+        <item>Evoke your next Orb.\nChannel the Orb that was just Evoked.</item>
+        <item>Gain Block equal to the number of cards in your discard pile.</item>
+        <item>Gain 6 Block. Decrease this card's Block by 1 this combat.</item>
+        <item>Deal 15 damage.\nWhenever you play this card, reduce its cost by 1 for this combat.</item> <!-- 20 -->
+        <item>Deal 6 damage to ALL enemies.\nDraw 1 card.</item>
+        <item>Gain 2 Energy.\nAdd a Void into your discard pile.</item>
+        <item>Gain 1 Energy for every 6 cards in your draw pile.</item>
+        <item>If you have 0 Block, gain 11 Block.</item>
+        <item>Deal damage equal to 2 times the Frost Channeled this combat to ALL enemies.</item>
+        <item>Gain 10 Block.\nInnate. Exhaust.</item>
+        <item>Deal 8 damage.\nApply 1 Lock-On</item>
+        <item>Gain 2 Orb slots.</item>
+        <item>Channel 1 random Orb.</item>
+        <item>Channel 1 Frost for each enemy in combat. Exhaust.</item> <!-- 30 -->
+        <item>Gain 2 Focus.\nLose 1 Orb Slot.</item>
+        <item>Channel 1 Dark.</item>
+        <item>Gain 1 Focus.</item>
+        <item>Deal 10 damage to ALL enemies.\nChannel 1 Dark.</item>
+        <item>Double your Energy.\nExhaust.</item>
+        <item>Gain 13 Block.\nRetain your hand this turn.</item>
+        <item>Deal 5 damage. If you have played less than 3 cards this turn, draw 1 card.</item>
+        <item>Costs 1 less Energy for each Power card played this combat.\nGain 12 Block.</item>
+        <item>Channel 1 Plasma.</item>
+        <item>Gain 1 Block. When played, permanently increase this card's Block by 2.\nExhaust.</item> <!-- 40 -->
+        <item>Gain 7 Block.\nChannel 2 Frost.</item>
+        <item>Whenever you play a Power card, draw 1 card.</item>
+        <item>At the start of your turn, add a random Common card into your hand.</item>
+        <item>At the start of your turn, trigger the passive ability of your next Orb.</item>
+        <item>Remove all Block from an enemy.\nDeal 10 damage.</item>
+        <item>Draw 2 cards.\nAdd a Burn into your discard pile.</item>
+        <item>Exhaust a card.\nGain Energy equal to its cost.</item>
+        <item>Gain 7 Block X times.</item>
+        <item>Look at the top 4 cards of your draw pile. You may discard any of them.</item>
+        <item>Deal 7 damage to a random enemy 2 times.</item> <!-- 50 -->
+        <item>Deal 7 damage.\nDraw 3 cards. Discard all cards drawn this way that do not cost 0.</item>
+        <item>At the end of combat, heal 7 HP.</item>
+        <item>Draw 3 cards.</item>
+        <item>Whenever you take attack damage, Channel 1 Lightning.</item>
+        <item>Whenever you play a Power, Channel 1 Lightning.</item>
+        <item>Deal 24 damage.\nIf this kills the enemy, gain 3 Energy.</item>
+        <item>Channel X Lightning.\nExhaust.</item>
+        <item>Add a random Power to your hand.\nIt costs 0 this turn. Exhaust.</item>
+        <item>Deal 10 damage. Put all Cost 0 cards from your discard pile into your hand.</item>
+        <item>This turn, your next 1 Power is played twice.</item> <!-- 60 -->
+        <item>Gain 4 Focus.\nAt the start of each turn, lose 1 Focus.</item>
+        <item>Prevent the next 1 time you would lose HP.</item>
+        <item>Deal 11 damage.\nGain 1 Artifact. Exhaust.</item>
+        <item>At the start of each turn, add a random Power card to your hand.</item>
+        <item>The first card you play each turn is played twice.\nEthereal.</item>
+        <item>Lightning now hits ALL enemies.\nChannel 2 Lightning.</item>
+        <item>Remove ALL of your Orbs, gain 1 Energy and draw 1 card for each Orb removed. Exhaust.</item>
+        <item>Deal 26 damage to ALL enemies.\nLose 3 Focus.</item>
+        <item>At the start of your turn, draw 1 additional card.</item>
+        <item>Deal 24 damage.\nChannel 3 Plasma.</item> <!-- 70 -->
+        <item>Evoke your next Orb X times.</item>
+        <item>Channel 1 Lightning, 1 Frost, and 1 Dark.\nExhaust.</item>
+        <item>Shuffle all of your cards into your draw pile, then draw 4 cards.\nExhaust.</item>
+        <item>Choose a card from your draw pile and place it into your hand.\nExhaust.</item>
+        <item>Deal 7 damage to a random enemy for each Lightning Channeled this combat.</item> <!-- 75 -->
     </string-array>
 
     <string-array name="card_defect_cost_upgrade">
+        <item>1</item><!-- 1 -->
         <item>0</item>
         <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item><!-- 10 -->
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item> <!-- 20 -->
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item> <!-- 30 -->
         <item>2</item>
+        <item>1</item>
+        <item>1</item>
         <item>2</item>
         <item>0</item>
+        <item>2</item>
         <item>0</item>
+        <item>4</item>
+        <item>1</item>
+        <item>1</item> <!-- 40 -->
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>X</item>
+        <item>0</item>
+        <item>1</item> <!-- 50 -->
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
         <item>3</item>
+        <item>X</item>
         <item>0</item>
-        <item>3</item>
-        <item>0</item>
-        <item>0</item>
+        <item>2</item>
+        <item>1</item> <!-- 60 -->
         <item>1</item>
         <item>2</item>
-        <item>0</item>
         <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>5</item> <!-- 70 -->
+        <item>X</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>3</item> <!-- 75 -->
     </string-array>
 
     <string-array name="card_defect_desc_upgrade">
-        <item>Deal 8 damage. Add a copy of this card to your discard pile</item>
-        <item>Gain 5 Block. Upgrade all cards in your hand for the rest of combat</item>
-        <item>Block no longer expires at the start of your turn</item>
-        <item>Deal 10 damage. Apply 3 Vulnerable</item>
-        <item>Draw 4 cards. You cannot draw additional cards this turn</item>
-        <item>Gain 2 Vulnerable. Gain 1 Energy at the start of your turn.</item>
-        <item>Cost 1 less energy for each time you lose HP in combat. Deal 22 damage.</item>
-        <item>Lose 3 HP. Gain 2 Energy.</item>
-        <item>Deal 42 damage.</item>
-        <item>Deal damage equal to your current Block</item>
-        <item>Innate. At the start of your turn, lose 1 HP and draw 1 card.</item>
-        <item>Exhaust 1 card. Draw 3 cards.</item>
-        <item>Ethereal. Deal 28 damage.</item>
-        <item>Can only be played if every card in your hand is an Attack. Deal 14 damage.</item>
-        <item>Deal 11 damage to All enemies</item>
+        <item>Gain 8 Block</item>
+        <item>Evoke your next Orb 2 times</item>
+        <item>Deal 9 damage.</item>
+        <item>Channel 1 Lightning.</item>
+        <item>Deal 10 damage. Channel 1 Lightning.</item>
+        <item>Deal 6 damage for each Channeled Orb.</item>
+        <item>Deal 4 damage and apply 2 Vulnerable.</item>
+        <item>Gain 10 Block.\nNext turn, gain 1 Energy.</item>
+        <item>Deal 5 damage.\nAll Claw cards deal 2 additional damage this combat.</item>
+        <item>Deal 9 damage. Channel 1 Frost.</item>
+        <item>Deal 10 damage. Draw 1 card for each unique Orb you have.</item>
+        <item>Channel 1 Frost.\nDraw 2 cards.</item>
+        <item>Deal 4 damage. If the enemy intends to attack, apply 2 Weak.</item>
+        <item>Gain 5 Block.\nReturn a card from your discard pile to your hand.</item>
+        <item>Gain 12 Block.</item>
+        <item>Deal 12 damage.\nPut the next card you play this turn on top of your draw pile.</item>
+        <item>Evoke your next Orb.\nChannel the Orb that was just Evoked.</item>
+        <item>Gain Block equal to the number of cards in your discard pile +3.</item>
+        <item>Gain 8 Block. Decrease this card's Block by 1 this combat.</item>
+        <item>Deal 20 damage.\nWhenever you play this card, reduce its cost by 1 for this combat.</item> <!-- 20 -->
+        <item>Deal 9 damage to ALL enemies.\nDraw 1 card.</item>
+        <item>Gain 3 Energy.\nAdd a Void into your discard pile.</item>
+        <item>Gain 1 Energy for every 5 cards in your draw pile.</item>
+        <item>If you have 0 Block, gain 15 Block.</item>
+        <item>Deal damage equal to 3 times the Frost Channeled this combat to ALL enemies.</item>
+        <item>Gain 13 Block.\nInnate. Exhaust.</item>
+        <item>Deal 10 damage.\nApply 2 Lock-On</item>
+        <item>Gain 3 Orb slots.</item>
+        <item>Channel 2 random Orbs.</item>
+        <item>Innate.\nChannel 1 Frost for each enemy in combat. Exhaust.</item> <!-- 30 -->
+        <item>Gain 3 Focus.\nLose 1 Orb Slot.</item>
+        <item>Channel 1 Dark. Trigger the passive ability of all Dark orbs.</item>
+        <item>Gain 2 Focus.</item>
+        <item>Deal 14 damage to ALL enemies.\nChannel 1 Dark.</item>
+        <item>Double your Energy.\nExhaust.</item>
+        <item>Gain 16 Block.\nRetain your hand this turn.</item>
+        <item>Deal 6 damage. If you have played less than 4 cards this turn, draw 1 card.</item>
+        <item>Costs 1 less Energy for each Power card played this combat.\nGain 16 Block.</item>
+        <item>Channel 1 Plasma.</item>
+        <item>Gain 1 Block. When played, permanently increase this card's Block by 3.\nExhaust.</item> <!-- 40 -->
+        <item>Gain 10 Block.\nChannel 2 Frost.</item>
+        <item>Whenever you play a Power card, draw 2 cards.</item>
+        <item>Innate.\nAt the start of your turn, add a random Common card into your hand.</item>
+        <item>At the start of your turn, trigger the passive ability of your next Orb 2 times.</item>
+        <item>Remove all Block from an enemy.\nDeal 14 damage.</item>
+        <item>Draw 3 cards.\nAdd a Burn into your discard pile.</item>
+        <item>Exhaust a card.\nGain Energy equal to its cost.</item>
+        <item>Gain 9 Block X times.</item>
+        <item>Look at the top 6 cards of your draw pile. You may discard any of them.</item>
+        <item>Deal 9 damage to a random enemy 2 times.</item> <!-- 50 -->
+        <item>Deal 9 damage.\nDraw 4 cards. Discard all cards drawn this way that do not cost 0.</item>
+        <item>At the end of combat, heal 10 HP.</item>
+        <item>Draw 4 cards.</item>
+        <item>Whenever you take attack damage, Channel 2 Lightning.</item>
+        <item>Innate.\nWhenever you play a Power, Channel 1 Lightning.</item>
+        <item>Deal 32 damage.\nIf this kills the enemy, gain 3 Energy.</item>
+        <item>Channel X+1 Lightning.\nExhaust.</item>
+        <item>Add a random Power to your hand.\nIt costs 0 this turn. Exhaust.</item>
+        <item>Deal 14 damage. Put all Cost 0 cards from your discard pile into your hand.</item>
+        <item>This turn, your next 2 Powers are played twice.</item> <!-- 60 -->
+        <item>Gain 5 Focus.\nAt the start of each turn, lose 1 Focus.</item>
+        <item>Prevent the next 2 times you would lose HP.</item>
+        <item>Deal 15 damage.\nGain 1 Artifact. Exhaust.</item>
+        <item>At the start of each turn, add a random Power card to your hand.</item>
+        <item>The first card you play each turn is played twice.</item>
+        <item>Lightning now hits ALL enemies.\nChannel 3 Lightning.</item>
+        <item>Evoke ALL of your Orbs, gain 1 Energy and draw 1 card for each Orb evoked. Exhaust.</item>
+        <item>Deal 34 damage to ALL enemies.\nLose 3 Focus.</item>
+        <item>Innate.\nAt the start of your turn, draw 1 additional card.</item>
+        <item>Deal 30 damage.\nChannel 3 Plasma.</item> <!-- 70 -->
+        <item>Evoke your next Orb X+1 times.</item>
+        <item>Channel 1 Lightning, 1 Frost, and 1 Dark.</item>
+        <item>Shuffle all of your cards into your draw pile, then draw 6 cards.\nExhaust.</item>
+        <item>Choose 2 cards from your draw pile and place them into your hand.\nExhaust.</item>
+        <item>Deal 9 damage to a random enemy for each Lightning Channeled this combat.</item> <!-- 75 -->
     </string-array>
 
 </resources>
