@@ -80,7 +80,7 @@ public class MainMenu extends AppCompatActivity {
     }
 
     private void openCard() {
-        Intent intent = new Intent (this, Card_Container_Defect.class);
+        Intent intent = new Intent (this, Cards_menu.class);
         startActivity(intent);
     }
 
