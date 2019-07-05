@@ -32,6 +32,7 @@
         <!-- Card -->
         <activity android:name=".Card_Container" />
         <activity android:name=".Card_Container_Defect" />
+        <activity android:name=".Card_Container_Silent" />
         <!-- Potion -->
         <activity android:name=".Potion_menu" />
         <!-- Monster -->
