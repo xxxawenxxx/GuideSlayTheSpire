@@ -75,7 +75,6 @@ public class Card_Container_Defect extends AppCompatActivity {
         card_defect_image.add(R.drawable.defect_defend);
         card_defect_image.add(R.drawable.defect_dualcast);
         card_defect_image.add(R.drawable.defect_strike);
-        card_defect_image.add(R.drawable.defect_strike);
         card_defect_image.add(R.drawable.defect_zap);
         card_defect_image.add(R.drawable.defect_ballightning);
         card_defect_image.add(R.drawable.defect_barrage);
@@ -92,6 +91,7 @@ public class Card_Container_Defect extends AppCompatActivity {
         card_defect_image.add(R.drawable.defect_rebound);
         card_defect_image.add(R.drawable.defect_recursion);
         card_defect_image.add(R.drawable.defect_stack);
+        card_defect_image.add(R.drawable.defect_steambarrier);
         card_defect_image.add(R.drawable.defect_streamline);
 
         card_defect_image.add(R.drawable.defect_sweepingbeam);
