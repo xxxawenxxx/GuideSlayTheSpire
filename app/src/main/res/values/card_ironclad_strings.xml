@@ -5,6 +5,27 @@
     <string-array name="card_ironclad_name">
         <item>Anger</item><!-- 1 -->
         <item>Armament</item>
+        <item>Body Slam</item>
+        <item>Clash</item>
+        <item>Cleave</item>
+        <item>Clothesline</item>
+        <item>Flex</item>
+        <item>Havoc</item>
+        <item>Headbutt</item>
+        <item>Heavy Blade</item>
+        <item>Iron Wave</item>
+        <item>Perfected Strike</item>
+        <item>Pommel Strike</item>
+        <item>Shrug it Off</item>
+        <item>Sword Boomerang</item>
+        <item>Thunderclap</item>
+        <item>True Grit</item>
+        <item>Twin Strike</item>
+        <item>Warcry</item>
+        <item>Wild Strike</item>
+        <item>Exhume</item>
+
+
         <item>Barricade</item>
         <item>Bash</item>
         <item>Battle Trance</item>
@@ -12,17 +33,35 @@
         <item>Blood for Blood</item>
         <item>Bloodletting</item>
         <item>Bludgeon</item>
-        <item>Body Slam</item><!-- 10 -->
         <item>Brutality</item>
         <item>Burning Pact</item>
         <item>Carnage</item>
-        <item>Clash</item>
-        <item>Cleave</item>
     </string-array>
 
     <string-array name="card_ironclad_cost">
         <item>0</item>
         <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+
+
         <item>3</item>
         <item>2</item>
         <item>0</item>
@@ -30,17 +69,35 @@
         <item>4</item>
         <item>0</item>
         <item>3</item>
-        <item>1</item>
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>0</item>
-        <item>1</item>
     </string-array>
 
     <string-array name="card_ironclad_desc">
         <item>Deal 6 damage. Add a copy of this card to your discard pile</item>
         <item>Gain 5 Block. Upgrade a card in your hand for the rest of combat</item>
+        <item>Deal damage equal to your current Block</item>
+        <item>Can only be played if every card in your hand is an Attack. Deal 14 damage.</item>
+        <item>Deal 8 damage to All enemies</item>
+        <item>Deal 12 damage. Apply 2 Weak</item>
+        <item>Gain 2 Strength. At the end of the turn, lose 2 Strength.</item>
+        <item>Play the top card of your draw pile and Exhaust it.</item>
+        <item>Deal 9 damage. Place a card from your discard pile on top of your draw pile.</item>
+        <item>Deal 14 damage. Strength affects Heavy Blade 3 times.</item>
+        <item>Gain 5 Block. Deal 5 Damage</item>
+        <item>Deal 6 damage. Deals an additional 2 damage for ALL of your cards containing \"Strike\".</item>
+        <item>Deal 9 damage. Draw 1 card.</item>
+        <item>Gain 8 Block. Draw 1 card.</item>
+        <item>Deal 3 damage to random enemy 3 times.</item>
+        <item>Deal 4 damage and apply 1 Vulnerable to ALL enemies.</item>
+        <item>Gain 7 Block. Exhaust a random card from your hand.</item>
+        <item>Deal 5 damage twice.</item>
+        <item>Draw 1 card. Place a card from your hand on top of your draw pile. Exhaust</item>
+        <item>Deal 12 damage. Shuffle a Wound into your draw pile.</item>
+        <item>Place a card from your Exhaust pile into your hand. Exhaust.</item>
+
+
         <item>Block no longer expires at the start of your turn</item>
         <item>Deal 8 damage. Apply 2 Vulnerable</item>
         <item>Draw 3 cards. You cannot draw additional cards this turn</item>
@@ -48,17 +105,36 @@
         <item>Cost 1 less energy for each time you lose HP in combat. Deal 18 damage.</item>
         <item>Lose 3 HP. Gain 1 Energy.</item>
         <item>Deal 32 damage.</item>
-        <item>Deal damage equal to your current Block</item>
         <item>At the start of your turn, lose 1 HP and draw 1 card.</item>
         <item>Exhaust 1 card. Draw 2 cards.</item>
         <item>Ethereal. Deal 20 damage.</item>
-        <item>Can only be played if every card in your hand is an Attack. Deal 14 damage.</item>
-        <item>Deal 8 damage to All enemies</item>
+
     </string-array>
 
     <string-array name="card_ironclad_cost_upgrade">
         <item>0</item>
         <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+
+
         <item>2</item>
         <item>2</item>
         <item>0</item>
@@ -67,16 +143,35 @@
         <item>0</item>
         <item>3</item>
         <item>0</item>
-        <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>0</item>
-        <item>1</item>
+
     </string-array>
 
     <string-array name="card_ironclad_desc_upgrade">
         <item>Deal 8 damage. Add a copy of this card to your discard pile</item>
         <item>Gain 5 Block. Upgrade all cards in your hand for the rest of combat</item>
+        <item>Deal damage equal to your current Block</item>
+        <item>Can only be played if every card in your hand is an Attack. Deal 18 damage.</item>
+        <item>Deal 11 damage to All enemies</item>
+        <item>Deal 14 Damage. Apply 3 Weak</item>
+        <item>Gain 2 Strength. At the end of the turn, lose 2 Strength.</item>
+        <item>Play the top card of your draw pile and Exhaust it.</item>
+        <item>Deal 12 damage. Place a card from your discard pile on top of your draw pile.</item>
+        <item>Deal 14 damage. Strength affects Heavy Blade 5 times.</item>
+        <item>Gain 7 Block. Deal 7 Damage</item>
+        <item>Deal 6 damage. Deals an additional 3 damage for ALL of your cards containing \"Strike\".</item>
+        <item>Deal 10 damage. Draw 2 cards.</item>
+        <item>Gain 11 Block. Draw 1 card.</item>
+        <item>Deal 3 damage to random enemy 4 times.</item>
+        <item>Deal 7 damage and apply 1 Vulnerable to ALL enemies.</item>
+        <item>Gain 9 Block. Exhaust a card from your hand.</item>
+        <item>Deal 7 damage twice.</item>
+        <item>Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust</item>
+        <item>Deal 17 damage. Shuffle a Wound into your draw pile.</item>
+        <item>Place a card from your Exhaust pile into your hand. Exhaust.</item>
+
+
         <item>Block no longer expires at the start of your turn</item>
         <item>Deal 10 damage. Apply 3 Vulnerable</item>
         <item>Draw 4 cards. You cannot draw additional cards this turn</item>
@@ -84,12 +179,10 @@
         <item>Cost 1 less energy for each time you lose HP in combat. Deal 22 damage.</item>
         <item>Lose 3 HP. Gain 2 Energy.</item>
         <item>Deal 42 damage.</item>
-        <item>Deal damage equal to your current Block</item>
         <item>Innate. At the start of your turn, lose 1 HP and draw 1 card.</item>
         <item>Exhaust 1 card. Draw 3 cards.</item>
         <item>Ethereal. Deal 28 damage.</item>
-        <item>Can only be played if every card in your hand is an Attack. Deal 14 damage.</item>
-        <item>Deal 11 damage to All enemies</item>
+
     </string-array>
 
 </resources>
