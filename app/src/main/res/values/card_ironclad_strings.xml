@@ -3,38 +3,93 @@
     <!-- Blank Template -->
     <!-- <string name="card_CARDNAME"> </string> -->
     <string-array name="card_ironclad_name">
-        <item>Anger</item>
-        <item>Barricade</item>
+        <item>Anger</item><!-- 1 -->
         <item>Armament</item>
+        <item>Barricade</item>
         <item>Bash</item>
+        <item>Battle Trance</item>
+        <item>Berserk</item>
+        <item>Blood for Blood</item>
+        <item>Bloodletting</item>
+        <item>Bludgeon</item>
+        <item>Body Slam</item><!-- 10 -->
+        <item>Brutality</item>
+        <item>Burning Pact</item>
+        <item>Carnage</item>
+        <item>Clash</item>
+        <item>Cleave</item>
     </string-array>
 
     <string-array name="card_ironclad_cost">
         <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>4</item>
+        <item>0</item>
         <item>3</item>
         <item>1</item>
+        <item>0</item>
+        <item>1</item>
         <item>2</item>
+        <item>0</item>
+        <item>1</item>
     </string-array>
 
     <string-array name="card_ironclad_desc">
-        <item>Deal 5 damage. Add a copy of this card to your discard pile</item>
-        <item>Block no longer expires at the start of your turn</item>
+        <item>Deal 6 damage. Add a copy of this card to your discard pile</item>
         <item>Gain 5 Block. Upgrade a card in your hand for the rest of combat</item>
+        <item>Block no longer expires at the start of your turn</item>
         <item>Deal 8 damage. Apply 2 Vulnerable</item>
+        <item>Draw 3 cards. You cannot draw additional cards this turn</item>
+        <item>Gain 3 Vulnerable. Gain 1 Energy at the start of your turn.</item>
+        <item>Cost 1 less energy for each time you lose HP in combat. Deal 18 damage.</item>
+        <item>Lose 3 HP. Gain 1 Energy.</item>
+        <item>Deal 32 damage.</item>
+        <item>Deal damage equal to your current Block</item>
+        <item>At the start of your turn, lose 1 HP and draw 1 card.</item>
+        <item>Exhaust 1 card. Draw 2 cards.</item>
+        <item>Ethereal. Deal 20 damage.</item>
+        <item>Can only be played if every card in your hand is an Attack. Deal 14 damage.</item>
+        <item>Deal 8 damage to All enemies</item>
     </string-array>
 
     <string-array name="card_ironclad_cost_upgrade">
         <item>0</item>
-        <item>2</item>
         <item>1</item>
         <item>2</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>3</item>
+        <item>0</item>
+        <item>3</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
     </string-array>
 
     <string-array name="card_ironclad_desc_upgrade">
-        <item>Deal 7 damage. Add a copy of this card to your discard pile</item>
+        <item>Deal 8 damage. Add a copy of this card to your discard pile</item>
+        <item>Gain 5 Block. Upgrade all cards in your hand for the rest of combat</item>
         <item>Block no longer expires at the start of your turn</item>
-        <item>Gain 5 Block. Upgrade a card in your hand for the rest of combat</item>
         <item>Deal 10 damage. Apply 3 Vulnerable</item>
+        <item>Draw 4 cards. You cannot draw additional cards this turn</item>
+        <item>Gain 2 Vulnerable. Gain 1 Energy at the start of your turn.</item>
+        <item>Cost 1 less energy for each time you lose HP in combat. Deal 22 damage.</item>
+        <item>Lose 3 HP. Gain 2 Energy.</item>
+        <item>Deal 42 damage.</item>
+        <item>Deal damage equal to your current Block</item>
+        <item>Innate. At the start of your turn, lose 1 HP and draw 1 card.</item>
+        <item>Exhaust 1 card. Draw 3 cards.</item>
+        <item>Ethereal. Deal 28 damage.</item>
+        <item>Can only be played if every card in your hand is an Attack. Deal 14 damage.</item>
+        <item>Deal 11 damage to All enemies</item>
     </string-array>
 
 </resources>

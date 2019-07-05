@@ -74,8 +74,8 @@ public class Card_Container extends AppCompatActivity {
     private void initCardImage(ArrayList<Integer> card_ironclad_image) {
 
         card_ironclad_image.add(R.drawable.anger);
-        card_ironclad_image.add(R.drawable.barricade);
         card_ironclad_image.add(R.drawable.armament);
+        card_ironclad_image.add(R.drawable.barricade);
         card_ironclad_image.add(R.drawable.bash);
 
     }
