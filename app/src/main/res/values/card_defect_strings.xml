@@ -176,7 +176,7 @@
         <item>Deal 9 damage.\nPut the next card you play this turn on top of your draw pile.</item>
         <item>Evoke your next Orb.\nChannel the Orb that was just Evoked.</item>
         <item>Gain Block equal to the number of cards in your discard pile.</item>
-        <item>Gain 6 Block. Decrease this card's Block by 1 this combat.</item>
+        <item>Gain 6 Block. Decrease this card\'s Block by 1 this combat.</item>
         <item>Deal 15 damage.\nWhenever you play this card, reduce its cost by 1 for this combat.</item> <!-- 20 -->
         <item>Deal 6 damage to ALL enemies.\nDraw 1 card.</item>
         <item>Gain 2 Energy.\nAdd a Void into your discard pile.</item>
@@ -197,7 +197,7 @@
         <item>Deal 5 damage. If you have played less than 3 cards this turn, draw 1 card.</item>
         <item>Costs 1 less Energy for each Power card played this combat.\nGain 12 Block.</item>
         <item>Channel 1 Plasma.</item>
-        <item>Gain 1 Block. When played, permanently increase this card's Block by 2.\nExhaust.</item> <!-- 40 -->
+        <item>Gain 1 Block. When played, permanently increase this card\'s Block by 2.\nExhaust.</item> <!-- 40 -->
         <item>Gain 7 Block.\nChannel 2 Frost.</item>
         <item>Whenever you play a Power card, draw 1 card.</item>
         <item>At the start of your turn, add a random Common card into your hand.</item>
@@ -332,7 +332,7 @@
         <item>Deal 12 damage.\nPut the next card you play this turn on top of your draw pile.</item>
         <item>Evoke your next Orb.\nChannel the Orb that was just Evoked.</item>
         <item>Gain Block equal to the number of cards in your discard pile +3.</item>
-        <item>Gain 8 Block. Decrease this card's Block by 1 this combat.</item>
+        <item>Gain 8 Block. Decrease this card\'s Block by 1 this combat.</item>
         <item>Deal 20 damage.\nWhenever you play this card, reduce its cost by 1 for this combat.</item> <!-- 20 -->
         <item>Deal 9 damage to ALL enemies.\nDraw 1 card.</item>
         <item>Gain 3 Energy.\nAdd a Void into your discard pile.</item>
@@ -353,7 +353,7 @@
         <item>Deal 6 damage. If you have played less than 4 cards this turn, draw 1 card.</item>
         <item>Costs 1 less Energy for each Power card played this combat.\nGain 16 Block.</item>
         <item>Channel 1 Plasma.</item>
-        <item>Gain 1 Block. When played, permanently increase this card's Block by 3.\nExhaust.</item> <!-- 40 -->
+        <item>Gain 1 Block. When played, permanently increase this card\'s Block by 3.\nExhaust.</item> <!-- 40 -->
         <item>Gain 10 Block.\nChannel 2 Frost.</item>
         <item>Whenever you play a Power card, draw 2 cards.</item>
         <item>Innate.\nAt the start of your turn, add a random Common card into your hand.</item>
