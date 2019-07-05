@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="card_curses_name">
-        <item>Ascender's Bane</item>
+        <item>Ascender\'s Bane</item>
         <item>Clumsy</item>
         <item>Decay</item>
         <item>Doubt</item>

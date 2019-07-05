@@ -2,5 +2,39 @@
 <resources>
     <!-- Blank Template -->
     <!-- <string name="card_CARDNAME"> </string> -->
+    <string-array name="card_ironclad_name">
+        <item>Anger</item>
+        <item>Barricade</item>
+        <item>Armament</item>
+        <item>Bash</item>
+    </string-array>
+
+    <string-array name="card_ironclad_cost">
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="card_ironclad_desc">
+        <item>Deal 5 damage. Add a copy of this card to your discard pile</item>
+        <item>Block no longer expires at the start of your turn</item>
+        <item>Gain 5 Block. Upgrade a card in your hand for the rest of combat</item>
+        <item>Deal 8 damage. Apply 2 Vulnerable</item>
+    </string-array>
+
+    <string-array name="card_ironclad_cost_upgrade">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="card_ironclad_desc_upgrade">
+        <item>Deal 7 damage. Add a copy of this card to your discard pile</item>
+        <item>Block no longer expires at the start of your turn</item>
+        <item>Gain 5 Block. Upgrade a card in your hand for the rest of combat</item>
+        <item>Deal 10 damage. Apply 3 Vulnerable</item>
+    </string-array>
 
 </resources>

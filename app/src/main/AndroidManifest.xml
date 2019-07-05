@@ -29,6 +29,8 @@
         <activity android:name=".Defect"/>
         <activity android:name=".Silent"/>
         <activity android:name=".Characters" />
+        <!-- Cards -->
+        <activity android:name=".Card_Container" />
         <!-- Monster -->
         <activity android:name=".monster_list_container"></activity>
         <activity android:name=".monster_main_menu" />
