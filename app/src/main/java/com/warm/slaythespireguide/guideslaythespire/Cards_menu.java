@@ -3,7 +3,6 @@ package com.warm.slaythespireguide.guideslaythespire;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.Button;
 
@@ -21,12 +20,12 @@ public class Cards_menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cards_menu);
 
-        Card_menu_colorless = (Button) findViewById(R.id.Card_menu_colorless);
-        Card_menu_curses = (Button) findViewById(R.id.Card_menu_curses);
-        Card_menu_status = (Button) findViewById(R.id.Card_menu_status);
-        Card_menu_ironclad = (Button) findViewById(R.id.Card_menu_ironclad);
-        Card_menu_silent = (Button) findViewById(R.id.Card_menu_silent);
-        Card_menu_defect = (Button) findViewById(R.id.Card_menu_defect);
+        Card_menu_colorless = findViewById(R.id.Card_menu_colorless);
+        Card_menu_curses = findViewById(R.id.Card_menu_curses);
+        Card_menu_status = findViewById(R.id.Card_menu_status);
+        Card_menu_ironclad = findViewById(R.id.Card_menu_ironclad);
+        Card_menu_silent = findViewById(R.id.Card_menu_silent);
+        Card_menu_defect = findViewById(R.id.Card_menu_defect);
 
         Card_menu_colorless.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,10 +69,7 @@ public class Cards_menu extends AppCompatActivity {
             }
         });
 
-
     }
-
-
 
     private void openColorless() {
         Intent intent = new Intent (this, Card_Container.class);

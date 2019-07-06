@@ -243,7 +243,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/wristblade"
+                        android:src="@drawable/relic_boss_wristblade"
                         android:tag="image_tag" />
 
                     <TextView
@@ -294,7 +294,7 @@
                             android:layout_height="110dp"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/ninjascroll"
+                            android:src="@drawable/relic_uncommon_ninjascroll"
                             android:tag="image_tag" />
 
                         <TextView
@@ -325,12 +325,12 @@
                             android:layout_gravity="center"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/ornamentalfan"
+                            android:src="@drawable/relic_uncommon_ornamentalfan"
                             android:tag="image_tag" />
 
                         <TextView
                             android:id="@+id/orichalcum_text1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"

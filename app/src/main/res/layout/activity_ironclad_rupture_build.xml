@@ -98,7 +98,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/offering"
+                        android:src="@drawable/ironclad_offering"
                         android:tag="image_tag" />
 
                     <TextView
@@ -292,7 +292,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/faceofcleric"
+                        android:src="@drawable/relic_event_faceofcleric"
                         android:tag="image_tag" />
 
                     <TextView

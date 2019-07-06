@@ -1,11 +1,13 @@
 package com.warm.slaythespireguide.guideslaythespire;
 
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,6 +27,9 @@ public class Card_Container_Defect extends AppCompatActivity {
 
         RecyclerView recyclerView = findViewById(R.id.card_recyclerViewContainer);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        View ironcladView = findViewById(R.id.card_recycler_root);
+        ironcladView.setBackgroundColor(Color.parseColor("#5f9ec2"));
 
         ArrayList<Card_Main> cards_Defect = new ArrayList<>();
         ArrayList<Integer> card_Defect_Image = new ArrayList<>();

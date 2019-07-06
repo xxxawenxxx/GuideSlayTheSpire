@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -181,7 +181,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/thespecimen_explain"
+                        android:src="@drawable/relic_rare_thespecimen"
                         android:tag="image_tag" />
 
                     <TextView
@@ -233,7 +233,7 @@
                             android:layout_height="110dp"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/sneckoskull"
+                            android:src="@drawable/relic_common_snakeskull"
                             android:tag="image_tag" />
 
                         <TextView
@@ -264,7 +264,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/twistedfunnel"
+                            android:src="@drawable/relic_shop_twistedfunnel"
                             android:tag="image_tag" />
 
                         <TextView

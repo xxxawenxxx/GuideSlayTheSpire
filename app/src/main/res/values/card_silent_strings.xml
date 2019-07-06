@@ -3,7 +3,7 @@
     <!-- Blank Template -->
     <!-- <string name="card_CARDNAME"> </string> -->
     <string-array name="card_silent_name">
-        <item>defend</item><!-- 1 -->
+        <item>Defend</item><!-- 1 -->
         <item>Neutralize</item>
         <item>Strike</item>
         <item>Survivor</item>
@@ -133,11 +133,11 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item></item>
+        <item>-</item>
         <item>2</item>
         <item>1</item>
         <item>X</item>
-        <item></item>
+        <item>-</item>
         <item>1</item>
         <item>0</item>
         <item>2</item>
@@ -159,9 +159,6 @@
         <item>1</item>
         <item>1</item>
         <item>3</item>
-
-
-
     </string-array>
 
     <string-array name="card_silent_desc">
@@ -193,7 +190,7 @@
         <item>Deal 11 damage. Innate. Exhaust.</item>
         <item>Gain 5 Block. Block is not removed at the start of your next turn.</item>
         <item>Apply 3 poison to a random enemy 3 times.</item>
-        <item>Discard your hand, then draw that many cards.\n Exhaust.</item>
+        <item>Discard your hand, then draw that many cards.\nExhaust.</item>
         <item>Whenever you are attacked, deal 3 damage to the attacker.</item>
         <item>Double an enemy\'s Poison. Exhaust.</item>
         <item>Deal 12 damage. Whenever you play a card this turn, targeted enemy loses 3 HP.</item>
@@ -224,25 +221,22 @@
         <item>Whenever you play a card, deal 1 damage to ALL enemies.</item>
         <item>Gain 1 Energy. Draw 2 cards. Exhaust.</item>
         <item>Whenever you play a card, gain 1 Block.</item>
-        <item>Obtain a random potion.\n Exhaust.</item>
+        <item>Obtain a random potion.\nExhaust.</item>
         <item>You cannot draw additional cards this turn. Reduce the cost of cards in your hand to 0 this turn.</item>
         <item>This turn your next 1 Skill is played twice.</item>
         <item>Apply 6 Poison. When the enemy dies, deal damage equal to its max HP to ALL enemies.</item>
-        <item>Deal 13 damage to ALL enemies.\n Exhaust.</item>
-        <item>Next turn, draw X cards and gain X Energy.</item>
+        <item>Deal 13 damage to ALL enemies.\nExhaust.</item>
+        <item>Next turn, draw X cards and gain X Energy.\nExhaust</item>
         <item>Whenever an attack deals unblocked damage, apply 1 Poison.</item>
         <item>Deal 8 damage twice. Glass Knife\'s damage is lowered by 2 this combat.</item>
         <item>Can only be played if there are no cards in your draw pile. Deal 50 damage to ALL enemies.</item>
         <item>Enemy loses X Strength. Apply X Weak. Exhaust.</item>
-        <item>Choose a card.\n Next turn, add 3 copies of that card into your hand.\n Exhaust.</item>
+        <item>Choose a card.\nNext turn, add 3 copies of that card into your hand.\nExhaust.</item>
         <item>On your next turn, your Attack damage is doubled.</item>
         <item>Discard your hand. Add 1 Shiv to your hand for each card discarded.</item>
         <item>At the start of your turn, draw 1 card and discard 1 card.</item>
         <item>Deal 14 damage. Discard all non-Attack cards.</item>
         <item>Gain 2 Intangible. At the end of your turn, lose 1 Dexterity.</item>
-
-
-
     </string-array>
 
     <string-array name="card_silent_cost_upgrade">
@@ -295,11 +289,11 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item></item>
+        <item>-</item>
         <item>2</item>
         <item>0</item>
         <item>X</item>
-        <item></item>
+        <item>-</item>
         <item>0</item>
         <item>0</item>
         <item>2</item>
@@ -321,9 +315,6 @@
         <item>0</item>
         <item>1</item>
         <item>3</item>
-
-
-
     </string-array>
 
     <string-array name="card_silent_desc_upgrade">
@@ -371,7 +362,7 @@
         <item>Deal 6 damage for each Skill in your hand.</item>
         <item>Gain 3 Dexterity.</item>
         <item>Deal 7 damage. If the enemy is Weak, Gain 1 Energy and draw 1 card.</item>
-        <item>Innate.\n Deal 7 damage. If the enemy is Weak, Gain 1 Energy and draw 1 card.</item>
+        <item>Innate.\nDeal 7 damage. If the enemy is Weak, Gain 1 Energy and draw 1 card.</item>
         <item>Apply 3 Weak. Gain 14 Block.</item>
         <item>Costs 1 additional Energy for each time you lose HP this combat. Deal 16 damage.</item>
         <item>At the start of your turn, apply 3 Poison to ALL enemies.</item>
@@ -385,25 +376,23 @@
         <item>At the end of your turn, Retain up to 2 cards.</item>
         <item>Whenever you play a card, deal 2 damage to ALL enemies.</item>
         <item>Gain 2 Energy. Draw 2 cards. Exhaust.</item>
-        <item>Innate.\n Gain 2 Energy. Draw 2 cards. Exhaust.</item>
-        <item>Obtain a random potion.\n Exhaust.</item>
+        <item>Innate.\nGain 2 Energy. Draw 2 cards. Exhaust.</item>
+        <item>Obtain a random potion.\nExhaust.</item>
         <item>You cannot draw additional cards this turn. Reduce the cost of cards in your hand to 0 this turn.</item>
         <item>This turn your next 2 Skills are played twice.</item>
         <item>Apply 9 Poison. When the enemy dies, deal damage equal to its max HP to ALL enemies.</item>
-        <item>Deal 17 damage to ALL enemies.\n Exhaust.</item>
-        <item>Next turn, draw X(+1) cards and gain X(+1) Energy.</item>
+        <item>Deal 17 damage to ALL enemies.\nExhaust.</item>
+        <item>Next turn, draw X+1 cards and gain X+1 Energy.\nExhaust</item>
         <item>Whenever an attack deals unblocked damage, apply 1 Poison.</item>
         <item>Deal 12 damage twice. Glass Knife\'s damage is lowered by 2 this combat.</item>
         <item>Can only be played if there are no cards in your draw pile. Deal 60 damage to ALL enemies.</item>
-        <item>Enemy loses X(+1) Strength. Apply X(+1) Weak. Exhaust.</item>
-        <item>Choose a card.\n Next turn, add 3 copies of that card into your hand.\n Exhaust.</item>
+        <item>Enemy loses X+1 Strength. Apply X+1 Weak. Exhaust.</item>
+        <item>Choose a card.\nNext turn, add 3 copies of that card into your hand.\nExhaust.</item>
         <item>On your next turn, your Attack damage is doubled.</item>
         <item>Discard your hand. Add 1 Upgraded Shiv to your hand for each card discarded.</item>
         <item>At the start of your turn, draw 1 card and discard 1 card.</item>
         <item>Deal 18 damage. Discard all non-Attack cards.</item>
         <item>Gain 3 Intangible. At the end of your turn, lose 1 Dexterity.</item>
-
-
     </string-array>
 
 </resources>

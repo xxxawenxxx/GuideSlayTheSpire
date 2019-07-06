@@ -128,7 +128,7 @@
                         android:id="@+id/Relics_pic"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/anchor" />
+                        android:background="@drawable/relic_common_anchor" />
 
                     <TextView
                         android:id="@+id/Relics_text"

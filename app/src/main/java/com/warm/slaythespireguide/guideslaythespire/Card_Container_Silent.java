@@ -1,11 +1,13 @@
 package com.warm.slaythespireguide.guideslaythespire;
 
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,6 +24,9 @@ public class Card_Container_Silent extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.card_recyclercontainer);
+
+        View ironcladView = findViewById(R.id.card_recycler_root);
+        ironcladView.setBackgroundColor(Color.parseColor("#289123"));
 
         RecyclerView recyclerView = findViewById(R.id.card_recyclerViewContainer);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -84,13 +89,13 @@ public class Card_Container_Silent extends AppCompatActivity {
         card_defect_image.add(R.drawable.daggerspray);
 
         card_defect_image.add(R.drawable.daggerthrow);
-        card_defect_image.add(R.drawable.deadlypoison);
+        card_defect_image.add(R.drawable.silent_deadlypoison);
         card_defect_image.add(R.drawable.deflect);
         card_defect_image.add(R.drawable.dodgeandroll);
         card_defect_image.add(R.drawable.flyingknee);
         card_defect_image.add(R.drawable.outmaneuver);
         card_defect_image.add(R.drawable.piercingwail);
-        card_defect_image.add(R.drawable.poisonedstab);
+        card_defect_image.add(R.drawable.silent_poisonedstab);
         card_defect_image.add(R.drawable.prepared);
         card_defect_image.add(R.drawable.quickslash);
 
@@ -99,7 +104,7 @@ public class Card_Container_Silent extends AppCompatActivity {
         card_defect_image.add(R.drawable.suckerpunch);
         card_defect_image.add(R.drawable.accuracy);
         card_defect_image.add(R.drawable.alloutattack);
-        card_defect_image.add(R.drawable.backstab);
+        card_defect_image.add(R.drawable.silent_backstab);
         card_defect_image.add(R.drawable.blur);
         card_defect_image.add(R.drawable.bouncingflask);
         card_defect_image.add(R.drawable.calculatedgamble);
@@ -121,8 +126,8 @@ public class Card_Container_Silent extends AppCompatActivity {
         card_defect_image.add(R.drawable.footwork);
         card_defect_image.add(R.drawable.heelhook);
         card_defect_image.add(R.drawable.infiniteblades);
-        card_defect_image.add(R.drawable.legsweep);
-        card_defect_image.add(R.drawable.masterfulstab);
+        card_defect_image.add(R.drawable.silent_legsweep);
+        card_defect_image.add(R.drawable.silent_masterfulstab);
         card_defect_image.add(R.drawable.noxiousfumes);
         card_defect_image.add(R.drawable.predator);
         card_defect_image.add(R.drawable.reflex);
@@ -130,7 +135,7 @@ public class Card_Container_Silent extends AppCompatActivity {
         card_defect_image.add(R.drawable.riddlewitholes);
         card_defect_image.add(R.drawable.setup);
         card_defect_image.add(R.drawable.skewer);
-        card_defect_image.add(R.drawable.tactician);
+        card_defect_image.add(R.drawable.silent_tactician);
         card_defect_image.add(R.drawable.terror);
         card_defect_image.add(R.drawable.wellaidplans);
         card_defect_image.add(R.drawable.athousandcuts);
@@ -140,20 +145,20 @@ public class Card_Container_Silent extends AppCompatActivity {
 
         card_defect_image.add(R.drawable.bullettime);
         card_defect_image.add(R.drawable.burst);
-        card_defect_image.add(R.drawable.corpseexplosion);
+        card_defect_image.add(R.drawable.silent_corpseexplosion);
         card_defect_image.add(R.drawable.diediedie);
         card_defect_image.add(R.drawable.doppelganger);
         card_defect_image.add(R.drawable.envenom);
         card_defect_image.add(R.drawable.glassknife);
-        card_defect_image.add(R.drawable.grandfinale);
-        card_defect_image.add(R.drawable.malaise);
+        card_defect_image.add(R.drawable.silent_grandfinale);
+        card_defect_image.add(R.drawable.silent_malaise);
         card_defect_image.add(R.drawable.nightmare);
 
         card_defect_image.add(R.drawable.phantasmalkiller);
         card_defect_image.add(R.drawable.stormofsteel);
         card_defect_image.add(R.drawable.toolsofthetrade);
-        card_defect_image.add(R.drawable.unload);
-        card_defect_image.add(R.drawable.wraithform);
+        card_defect_image.add(R.drawable.silent_unload);
+        card_defect_image.add(R.drawable.silent_wraithform);
     }
 
 }

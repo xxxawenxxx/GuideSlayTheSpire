@@ -246,7 +246,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/oddlysmooth"
+                        android:src="@drawable/relic_common_oddlysmoothstone"
                         android:tag="image_tag" />
 
                     <TextView
@@ -276,7 +276,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/orichalcum"
+                        android:src="@drawable/relic_common_orichalcum"
                         android:tag="image_tag" />
 
                     <TextView
@@ -307,7 +307,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/threadandneedle"
+                        android:src="@drawable/relic_rare_threadandneedle"
                         android:tag="image_tag" />
 
                     <TextView
@@ -360,7 +360,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/kunai"
+                        android:src="@drawable/relic_uncommon_kunai"
                         android:tag="image_tag" />
 
                     <TextView
@@ -390,7 +390,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/lantern"
+                        android:src="@drawable/relic_common_lantern"
                         android:tag="image_tag" />
 
                     <TextView
@@ -421,7 +421,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/theabacus"
+                        android:src="@drawable/relic_shop_theabacus"
                         android:tag="image_tag" />
 
                     <TextView

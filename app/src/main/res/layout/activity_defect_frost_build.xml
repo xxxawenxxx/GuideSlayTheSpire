@@ -70,7 +70,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/glacier"
+                        android:src="@drawable/defect_glacier"
                         android:tag="image_tag" />
 
                     <TextView
@@ -98,7 +98,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/blizzard"
+                        android:src="@drawable/defect_blizzard"
                         android:tag="image_tag" />
 
                     <TextView
@@ -126,7 +126,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/barrage"
+                        android:src="@drawable/defect_barrage"
                         android:tag="image_tag" />
 
                     <TextView
@@ -179,7 +179,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/frozencore"
+                        android:src="@drawable/relic_boss_frozencore"
                         android:tag="image_tag" />
 
                     <TextView
@@ -208,7 +208,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/defragment"
+                        android:src="@drawable/defect_defragment"
                         android:tag="image_tag" />
 
                     <TextView
@@ -238,7 +238,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/capacitor"
+                        android:src="@drawable/defect_capacitor"
                         android:tag="image_tag" />
 
                     <TextView
@@ -292,7 +292,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/faceofcleric"
+                        android:src="@drawable/relic_event_faceofcleric"
                         android:tag="image_tag" />
 
                     <TextView

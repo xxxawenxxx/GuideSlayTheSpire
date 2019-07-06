@@ -126,7 +126,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/calipers"
+                        android:src="@drawable/relic_rare_calipers"
                         android:tag="image_tag" />
 
                     <TextView
@@ -208,7 +208,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/juggernaut"
+                        android:src="@drawable/ironclad_juggernaut"
                         android:tag="image_tag" />
 
                     <TextView
@@ -260,7 +260,7 @@
                             android:layout_height="110dp"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/anchor"
+                            android:src="@drawable/relic_common_anchor"
                             android:tag="image_tag" />
 
                         <TextView
@@ -291,7 +291,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/bronzescale"
+                            android:src="@drawable/relic_common_bronzescale"
                             android:tag="image_tag" />
 
                         <TextView
@@ -323,7 +323,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/selformingclay"
+                            android:src="@drawable/relic_uncommon_selformingclay"
                             android:tag="image_tag" />
 
                         <TextView

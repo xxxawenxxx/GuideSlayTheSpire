@@ -274,7 +274,7 @@
                         android:layout_height="113dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/clockwork"
+                        android:src="@drawable/relic_shop_clockworksouvenir"
                         android:tag="image_tag" />
 
                     <TextView
@@ -302,7 +302,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/orangepellet"
+                        android:src="@drawable/relic_shop_orangepellets"
                         android:tag="image_tag" />
 
                     <TextView
@@ -363,7 +363,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/vajra"
+                        android:src="@drawable/relic_common_vajra"
                         android:tag="image_tag" />
 
                     <TextView
@@ -394,7 +394,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:src="@drawable/girya"
+                    android:src="@drawable/relic_rare_girya"
                     android:tag="image_tag" />
 
                     <TextView
@@ -426,7 +426,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/shuriken"
+                        android:src="@drawable/relic_uncommon_shuriken"
                         android:tag="image_tag" />
 
                     <TextView

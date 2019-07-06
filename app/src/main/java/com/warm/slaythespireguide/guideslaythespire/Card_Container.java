@@ -1,11 +1,13 @@
 package com.warm.slaythespireguide.guideslaythespire;
 
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,6 +24,9 @@ public class Card_Container extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.card_recyclercontainer);
+
+        View ironcladView = findViewById(R.id.card_recycler_root);
+        ironcladView.setBackgroundColor(Color.parseColor("#e36d6d"));
 
         RecyclerView recyclerView = findViewById(R.id.card_recyclerViewContainer);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -76,11 +81,11 @@ public class Card_Container extends AppCompatActivity {
         card_ironclad_image.add(R.drawable.bash);
         card_ironclad_image.add(R.drawable.defend);
         card_ironclad_image.add(R.drawable.strike);
-        card_ironclad_image.add(R.drawable.anger);
+        card_ironclad_image.add(R.drawable.ironclad_anger);
         card_ironclad_image.add(R.drawable.armament);
         card_ironclad_image.add(R.drawable.bodyslam);
         card_ironclad_image.add(R.drawable.clash);
-        card_ironclad_image.add(R.drawable.cleave);
+        card_ironclad_image.add(R.drawable.ironclad_cleave);
         card_ironclad_image.add(R.drawable.clothesline);
         card_ironclad_image.add(R.drawable.flex);
         card_ironclad_image.add(R.drawable.havoc);
@@ -97,7 +102,7 @@ public class Card_Container extends AppCompatActivity {
         card_ironclad_image.add(R.drawable.warcry);
         card_ironclad_image.add(R.drawable.wild_strike);
         card_ironclad_image.add(R.drawable.battle_trance);
-        card_ironclad_image.add(R.drawable.blood_for_blood);
+        card_ironclad_image.add(R.drawable.ironclad_bloodforblood);
         card_ironclad_image.add(R.drawable.bloodletting);
         card_ironclad_image.add(R.drawable.burning_pact);
         card_ironclad_image.add(R.drawable.carnage);
@@ -120,7 +125,7 @@ public class Card_Container extends AppCompatActivity {
         card_ironclad_image.add(R.drawable.power_through);
         card_ironclad_image.add(R.drawable.pummel);
         card_ironclad_image.add(R.drawable.rage);
-        card_ironclad_image.add(R.drawable.rampage);
+        card_ironclad_image.add(R.drawable.ironclad_rampage);
         card_ironclad_image.add(R.drawable.reckless_charge);
         card_ironclad_image.add(R.drawable.rupture);
         card_ironclad_image.add(R.drawable.searing_blow);
@@ -131,22 +136,22 @@ public class Card_Container extends AppCompatActivity {
         card_ironclad_image.add(R.drawable.shockwave);
         card_ironclad_image.add(R.drawable.spot_weakness);
         card_ironclad_image.add(R.drawable.uppercut);
-        card_ironclad_image.add(R.drawable.whirlwind);
+        card_ironclad_image.add(R.drawable.ironclad_whirlwind);
         card_ironclad_image.add(R.drawable.barricade);
-        card_ironclad_image.add(R.drawable.berserk);
+        card_ironclad_image.add(R.drawable.ironclad_berserk);
         card_ironclad_image.add(R.drawable.bludgeon);
         card_ironclad_image.add(R.drawable.brutality);
         card_ironclad_image.add(R.drawable.dark_embrace);
         card_ironclad_image.add(R.drawable.demon_form);
         card_ironclad_image.add(R.drawable.double_tap);
-        card_ironclad_image.add(R.drawable.exhume);
-        card_ironclad_image.add(R.drawable.feed);
+        card_ironclad_image.add(R.drawable.ironclad_exhume);
+        card_ironclad_image.add(R.drawable.ironclad_feed);
         card_ironclad_image.add(R.drawable.fiend_fire);
         card_ironclad_image.add(R.drawable.immolate);
         card_ironclad_image.add(R.drawable.impervious);
-        card_ironclad_image.add(R.drawable.juggernaut);
+        card_ironclad_image.add(R.drawable.ironclad_juggernaut);
         card_ironclad_image.add(R.drawable.limit_break);
-        card_ironclad_image.add(R.drawable.offering);
+        card_ironclad_image.add(R.drawable.ironclad_offering);
         card_ironclad_image.add(R.drawable.reaper);
 
 
