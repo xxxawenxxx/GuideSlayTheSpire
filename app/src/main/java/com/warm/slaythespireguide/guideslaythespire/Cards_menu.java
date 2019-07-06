@@ -72,17 +72,17 @@ public class Cards_menu extends AppCompatActivity {
     }
 
     private void openColorless() {
-        Intent intent = new Intent (this, Card_Container.class);
+        Intent intent = new Intent (this, Card_Container_Colorless.class);
         startActivity(intent);
     }
 
     private void openCurses() {
-        Intent intent = new Intent (this, Card_Container.class);
+        Intent intent = new Intent (this, Card_Container_Curses.class);
         startActivity(intent);
     }
 
     private void openStatus() {
-        Intent intent = new Intent (this, Card_Container.class);
+        Intent intent = new Intent (this, Card_Container_Status.class);
         startActivity(intent);
     }
     private void openIronclad() {

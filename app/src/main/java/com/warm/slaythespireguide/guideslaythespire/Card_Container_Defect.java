@@ -28,8 +28,8 @@ public class Card_Container_Defect extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.card_recyclerViewContainer);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        View ironcladView = findViewById(R.id.card_recycler_root);
-        ironcladView.setBackgroundColor(Color.parseColor("#5f9ec2"));
+        View defectView = findViewById(R.id.card_recycler_root);
+        defectView.setBackgroundColor(Color.parseColor("#5f9ec2"));
 
         ArrayList<Card_Main> cards_Defect = new ArrayList<>();
         ArrayList<Integer> card_Defect_Image = new ArrayList<>();

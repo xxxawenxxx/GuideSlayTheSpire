@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Cards_menu"></activity>
         <activity android:name=".Gameplay" />
         <activity android:name=".Strategy_defect" />
         <activity android:name=".Defect_barrage_build" />
@@ -29,10 +28,16 @@
         <activity android:name=".Ironclad" />
         <activity android:name=".Defect" />
         <activity android:name=".Silent" />
-        <activity android:name=".Characters" /> <!-- Card -->
+        <activity android:name=".Characters" />
+        <!-- Card -->
+        <activity android:name=".Cards_menu" />
         <activity android:name=".Card_Container" />
         <activity android:name=".Card_Container_Defect" />
-        <activity android:name=".Card_Container_Silent" /> <!-- Potion -->
+        <activity android:name=".Card_Container_Silent" />
+        <activity android:name=".Card_Container_Colorless" />
+        <activity android:name=".Card_Container_Status" />
+        <activity android:name=".Card_Container_Curses" />
+        <!-- Potion -->
         <activity android:name=".Potion_menu" /> <!-- Monster -->
         <activity android:name=".monster_list_container" />
         <activity android:name=".monster_main_menu" /> <!-- Relic -->

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Blank Template -->
-    <!-- <string name="card_CARDNAME"> </string> -->
     <string-array name="card_status_name">
         <item>Burn</item>
         <item>Dazed</item>
@@ -10,11 +8,35 @@
         <item>Void</item>
     </string-array>
 
+    <string-array name="card_status_cost">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1</item>
+        <item>-</item>
+    </string-array>
+
     <string-array name="card_status_desc">
-        <item>Unplayable.\nAt the end of your turn, take 2(4) damage.</item>
+        <item>Unplayable.\nAt the end of your turn, take 2 damage.</item>
         <item>Unplayable. Ethereal.</item>
         <item>Unplayable.</item>
         <item>Exhaust.</item>
         <item>Unplayable. Ethereal.\nWhen this card is drawn, lose 1 Energy.</item>
+    </string-array>
+
+    <string-array name="card_status_cost_upgrade">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="card_status_desc_upgrade">
+        <item>Unplayable.\nAt the end of your turn, take 4 damage.</item>
+        <item>Can\'t be Upgraded</item>
+        <item>Can\'t be Upgraded</item>
+        <item>Can\'t be Upgraded</item>
+        <item>Can\'t be Upgraded</item>
     </string-array>
 </resources>
