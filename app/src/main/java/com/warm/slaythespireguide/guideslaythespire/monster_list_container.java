@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -15,11 +16,14 @@ public class monster_list_container extends AppCompatActivity {
     // data vars
     private ArrayList<String> monsterNames = new ArrayList<>();
     private ArrayList<Integer> monsterImages = new ArrayList<>();
+    private TextView containerHeader;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monster_list_container);
+
+        containerHeader = findViewById(R.id.container_header);
 
         Log.d(TAG, "onCreate: started");
         getIncomingIntent();
@@ -60,6 +64,7 @@ public class monster_list_container extends AppCompatActivity {
 
         // Add monster data
         if (monster_type.equals("act1")) {
+            containerHeader.setText("ACT 1 Monsters");
             Log.d(TAG, "prepareData: prepared: " + monster_type);
             monsterImages.add(R.drawable.monster_act1_cultist);
             monsterNames.add("Cultist");
@@ -101,6 +106,7 @@ public class monster_list_container extends AppCompatActivity {
             monsterNames.add("Looter");
         }
         else if (monster_type.equals("act2")) {
+            containerHeader.setText("ACT 2 Monsters");
             monsterImages.add(R.drawable.monster_act2_sphericguardian);
             monsterNames.add("Spheric Guardian");
             monsterImages.add(R.drawable.monster_act2_chosen);
@@ -121,6 +127,7 @@ public class monster_list_container extends AppCompatActivity {
             monsterNames.add("Mystic");
         }
         else if (monster_type.equals("act3")) {
+            containerHeader.setText("ACT 3 Monsters");
             monsterImages.add(R.drawable.monster_act3_darkling);
             monsterNames.add("Darkling");
             monsterImages.add(R.drawable.monster_act3_orbwalker);
@@ -141,6 +148,7 @@ public class monster_list_container extends AppCompatActivity {
             monsterNames.add("Transient");
         }
         else if (monster_type.equals("elites")) {
+            containerHeader.setText("Elite Monsters");
             monsterImages.add(R.drawable.monster_elite_sentry);
             monsterNames.add("Sentry x3");
             monsterImages.add(R.drawable.monster_elite_gremlinnob);
@@ -163,6 +171,7 @@ public class monster_list_container extends AppCompatActivity {
             monsterNames.add("Spire Shield, Spire Spear");
         }
         else if (monster_type.equals("bosses")) {
+            containerHeader.setText("Boss Monsters");
             monsterImages.add(R.drawable.monster_boss_slime);
             monsterNames.add("Slime Boss");
             monsterImages.add(R.drawable.monster_boss_guardian);

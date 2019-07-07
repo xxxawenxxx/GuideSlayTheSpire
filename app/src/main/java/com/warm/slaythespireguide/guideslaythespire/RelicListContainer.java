@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -16,11 +17,13 @@ public class RelicListContainer extends AppCompatActivity {
     private ArrayList<Integer> relicImg = new ArrayList<>();
     private ArrayList<String> relicName = new ArrayList<>();
     private ArrayList<String> relicDesc = new ArrayList<>();
+    private TextView containerHeader;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monster_list_container);
+        containerHeader = findViewById(R.id.container_header);
 
         getIncomingIntent();
     }
@@ -59,6 +62,7 @@ public class RelicListContainer extends AppCompatActivity {
         // COMMON
         // =============================
         if (relicType.equals("common")) {
+            containerHeader.setText("Common Relics");
             // ------------------------------------------
             relicImg.add(R.drawable.relic_common_anchor);
             relicName.add("Anchor");
@@ -189,6 +193,7 @@ public class RelicListContainer extends AppCompatActivity {
         // UNCOMMON
         // =============================
         else if (relicType.equals("uncommon")) {
+            containerHeader.setText("Uncommon Relics");
             // ------------------------------------------
             relicImg.add(R.drawable.relic_uncommon_bluecandle);
             relicName.add("Blue Candle");
@@ -319,6 +324,7 @@ public class RelicListContainer extends AppCompatActivity {
         // RARE
         // =============================
         else if (relicType.equals("rare")) {
+            containerHeader.setText("Rare Relics");
             // ------------------------------------------
             relicImg.add(R.drawable.relic_rare_birdfacedurn);
             relicName.add("Bird-Faced Urn");
@@ -449,6 +455,7 @@ public class RelicListContainer extends AppCompatActivity {
         // BOSS
         // =============================
         else if (relicType.equals("boss")) {
+            containerHeader.setText("Boss Relics");
             // ------------------------------------------
             relicImg.add(R.drawable.relic_boss_astrolabe);
             relicName.add("Astrolabe");
@@ -579,6 +586,7 @@ public class RelicListContainer extends AppCompatActivity {
         // SHOP
         // =============================
         else if (relicType.equals("shop")) {
+            containerHeader.setText("Shop Relics");
             // ------------------------------------------
             relicImg.add(R.drawable.relic_shop_brimstone);
             relicName.add("Brimstone");
@@ -668,6 +676,7 @@ public class RelicListContainer extends AppCompatActivity {
         // EVENT
         // =============================
         else if (relicType.equals("event")) {
+            containerHeader.setText("Event Relics");
             // ------------------------------------------
             relicImg.add(R.drawable.relic_event_bloodyidol);
             relicName.add("Bloody Idol");
@@ -749,6 +758,7 @@ public class RelicListContainer extends AppCompatActivity {
         // CHARACTER SPECIFIC
         // =============================
         else if (relicType.equals("character")) {
+            containerHeader.setText("Character Specific Relics");
             // ------------------------------------------
             // Ironclad
             // ------------------------------------------ 20

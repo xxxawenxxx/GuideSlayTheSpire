@@ -20,7 +20,7 @@
             android:gravity="center"
             android:text="Block Build"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"

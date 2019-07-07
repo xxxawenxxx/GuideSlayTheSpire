@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,11 +19,15 @@ public class Card_Container_Curses extends AppCompatActivity {
     String[] card_desc_list;
     String[] card_cost_upgrade_list;
     String[] card_desc_upgrade_list;
+    private TextView containerHeader;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.card_recyclercontainer);
+
+        containerHeader = findViewById(R.id.container_header);
+        containerHeader.setText("Curse Cards");
 
 //        View cursesView = findViewById(R.id.card_recycler_root);
 //        cursesView.setBackgroundColor(Color.parseColor("#0f1012"));

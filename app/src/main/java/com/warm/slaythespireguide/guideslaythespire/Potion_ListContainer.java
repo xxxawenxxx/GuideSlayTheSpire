@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -16,11 +17,13 @@ public class Potion_ListContainer extends AppCompatActivity {
     private ArrayList<Integer> potionImg = new ArrayList<>();
     private ArrayList<String> potionName = new ArrayList<>();
     private ArrayList<String> potionDesc = new ArrayList<>();
+    private TextView containerHeader;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monster_list_container);
+        containerHeader = findViewById(R.id.container_header);
 
         getIncomingIntent();
     }
@@ -56,6 +59,7 @@ public class Potion_ListContainer extends AppCompatActivity {
         potionDesc.clear();
 
         if (relicType.equals("common")) {
+            containerHeader.setText("Common Potions");
             potionImg.add(R.drawable.potion_common_attackpotion);
             potionName.add("Attack Potion");
             potionDesc.add(getString(R.string.attackpotion_desc));
@@ -118,6 +122,7 @@ public class Potion_ListContainer extends AppCompatActivity {
         }
 
         else if (relicType.equals("uncommon")) {
+            containerHeader.setText("Uncommon Potions");
             potionImg.add(R.drawable.potion_uncommon_liquidbronze);
             potionName.add("Liquid Bronze");
             potionDesc.add(getString(R.string.liquidbronzepotion_desc));
@@ -149,6 +154,7 @@ public class Potion_ListContainer extends AppCompatActivity {
         }
 
         else if (relicType.equals("rare")) {
+            containerHeader.setText("Rare Potions");
             potionImg.add(R.drawable.potion_rare_fruitjuice);
             potionName.add("Fruit Juice");
             potionDesc.add(getString(R.string.fruitjuicepotion_desc));

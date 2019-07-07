@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -16,11 +17,13 @@ public class Map_ListContainer extends AppCompatActivity {
     private ArrayList<Integer> mapImg = new ArrayList<>();
     private ArrayList<String> mapName = new ArrayList<>();
     private ArrayList<String> mapDesc = new ArrayList<>();
+    private TextView containerHeader;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monster_list_container);
+        containerHeader = findViewById(R.id.container_header);
 
         initBitmap();
     }
@@ -42,6 +45,8 @@ public class Map_ListContainer extends AppCompatActivity {
         mapImg.clear();
         mapName.clear();
         mapDesc.clear();
+
+        containerHeader.setText("Map Icons");
 
         mapImg.add(R.drawable.maps_event_button);
         mapName.add("Unknown");

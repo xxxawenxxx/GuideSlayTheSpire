@@ -1,641 +1,664 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f0f0f0"
+    android:orientation="vertical"
     >
-    <LinearLayout
+    <TextView
+        android:id="@+id/Relic_menu_header"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="55dp"
+        android:background="#00574B"
+        android:gravity="center"
+        android:text="Ironclad Unlockable"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/browser_actions_bg_grey"
+        />
 
-        <!-- Start Unlock Level 1 -->
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0f0f0"
+        >
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            card_view:cardCornerRadius="7dp"
-            android:layout_marginBottom="10dp">
+            android:orientation="vertical">
 
-            <LinearLayout
+            <!-- Start Unlock Level 1 -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:text="Lvl 1 Unlock"
-                    android:background="@drawable/buttonbg"
-                    android:textSize="20sp"
-                    android:textColor="#fff"
-                    android:textStyle="bold"
-                    android:gravity="center"
-                    />
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                card_view:cardCornerRadius="7dp"
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="15dp">
+                    android:orientation="vertical">
 
-                    <!-- Start 1st Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
+                    <TextView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Lvl 1 Unlock"
+                        android:background="@drawable/buttonbg"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/heavy_blade"
-                            />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="15dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
+                        <!-- Start 1st Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Heavy Blade"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/heavy_blade"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Heavy Blade"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 1st Item-->
+
+                        <!-- Start 2nd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/spot_weakness"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Spot Weakness"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 2nd Item-->
+
+                        <!-- Start 3rd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/limit_break"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Limit Break"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 3rd Item-->
 
                     </LinearLayout>
-                    <!-- End 1st Item-->
-
-                    <!-- Start 2nd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/spot_weakness"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Spot Weakness"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 2nd Item-->
-
-                    <!-- Start 3rd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/limit_break"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Limit Break"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 3rd Item-->
-
                 </LinearLayout>
-            </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-        <!-- End Unlock Level 1 -->
+            </android.support.v7.widget.CardView>
+            <!-- End Unlock Level 1 -->
 
-        <!-- Start Unlock Level 2 -->
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            card_view:cardCornerRadius="7dp"
-            android:layout_marginBottom="10dp">
-
-            <LinearLayout
+            <!-- Start Unlock Level 2 -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:text="Lvl 2 Unlock"
-                    android:background="@drawable/buttonbg"
-                    android:textSize="20sp"
-                    android:textColor="#fff"
-                    android:textStyle="bold"
-                    android:gravity="center"
-                    />
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                card_view:cardCornerRadius="7dp"
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="15dp">
+                    android:orientation="vertical">
 
-                    <!-- Start 1st Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
+                    <TextView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Lvl 2 Unlock"
+                        android:background="@drawable/buttonbg"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/relic_common_omamori"
-                            />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="15dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
+                        <!-- Start 1st Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Omamori"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/relic_common_omamori"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Omamori"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 1st Item-->
+
+                        <!-- Start 2nd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/relic_rare_prayerwheel"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Prayer Wheel"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 2nd Item-->
+
+                        <!-- Start 3rd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/relic_rare_shovel"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Shovel"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 3rd Item-->
 
                     </LinearLayout>
-                    <!-- End 1st Item-->
-
-                    <!-- Start 2nd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/relic_rare_prayerwheel"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Prayer Wheel"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 2nd Item-->
-
-                    <!-- Start 3rd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/relic_rare_shovel"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Shovel"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 3rd Item-->
-
                 </LinearLayout>
-            </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-        <!-- End Unlock Level 2 -->
+            </android.support.v7.widget.CardView>
+            <!-- End Unlock Level 2 -->
 
-        <!-- Start Unlock Level 3 -->
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            card_view:cardCornerRadius="7dp"
-            android:layout_marginBottom="10dp">
-
-            <LinearLayout
+            <!-- Start Unlock Level 3 -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:text="Lvl 3 Unlock"
-                    android:background="@drawable/buttonbg"
-                    android:textSize="20sp"
-                    android:textColor="#fff"
-                    android:textStyle="bold"
-                    android:gravity="center"
-                    />
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                card_view:cardCornerRadius="7dp"
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="15dp">
+                    android:orientation="vertical">
 
-                    <!-- Start 1st Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
+                    <TextView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Lvl 3 Unlock"
+                        android:background="@drawable/buttonbg"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/wild_strike"
-                            />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="15dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
+                        <!-- Start 1st Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Wild Strike"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/wild_strike"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Wild Strike"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 1st Item-->
+
+                        <!-- Start 2nd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/evolve"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Evolve"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 2nd Item-->
+
+                        <!-- Start 3rd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/immolate"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Immolate"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 3rd Item-->
 
                     </LinearLayout>
-                    <!-- End 1st Item-->
-
-                    <!-- Start 2nd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/evolve"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Evolve"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 2nd Item-->
-
-                    <!-- Start 3rd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/immolate"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Immolate"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 3rd Item-->
-
                 </LinearLayout>
-            </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-        <!-- End Unlock Level 3 -->
+            </android.support.v7.widget.CardView>
+            <!-- End Unlock Level 3 -->
 
-        <!-- Start Unlock Level 4 -->
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            card_view:cardCornerRadius="7dp"
-            android:layout_marginBottom="10dp">
-
-            <LinearLayout
+            <!-- Start Unlock Level 4 -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:text="Lvl 4 Unlock"
-                    android:background="@drawable/buttonbg"
-                    android:textSize="20sp"
-                    android:textColor="#fff"
-                    android:textStyle="bold"
-                    android:gravity="center"
-                    />
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                card_view:cardCornerRadius="7dp"
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="15dp">
+                    android:orientation="vertical">
 
-                    <!-- Start 1st Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
+                    <TextView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Lvl 4 Unlock"
+                        android:background="@drawable/buttonbg"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/havoc"
-                            />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="15dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
+                        <!-- Start 1st Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Havoc"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/havoc"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Havoc"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 1st Item-->
+
+                        <!-- Start 2nd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/sentinel"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Sentinel"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 2nd Item-->
+
+                        <!-- Start 3rd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ironclad_exhume"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Exhume"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 3rd Item-->
 
                     </LinearLayout>
-                    <!-- End 1st Item-->
-
-                    <!-- Start 2nd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/sentinel"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Sentinel"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 2nd Item-->
-
-                    <!-- Start 3rd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/ironclad_exhume"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Exhume"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 3rd Item-->
-
                 </LinearLayout>
-            </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-        <!-- End Unlock Level 4 -->
+            </android.support.v7.widget.CardView>
+            <!-- End Unlock Level 4 -->
 
-        <!-- Start Unlock Level 5 -->
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            card_view:cardCornerRadius="7dp"
-            android:layout_marginBottom="10dp">
-
-            <LinearLayout
+            <!-- Start Unlock Level 5 -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:text="Lvl 5 Unlock"
-                    android:background="@drawable/buttonbg"
-                    android:textSize="20sp"
-                    android:textColor="#fff"
-                    android:textStyle="bold"
-                    android:gravity="center"
-                    />
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                card_view:cardCornerRadius="7dp"
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="15dp">
+                    android:orientation="vertical">
 
-                    <!-- Start 1st Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
+                    <TextView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Lvl 5 Unlock"
+                        android:background="@drawable/buttonbg"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/relic_uncommon_bluecandle"
-                            />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="15dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
+                        <!-- Start 1st Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Blue Candle"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/relic_uncommon_bluecandle"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Blue Candle"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 1st Item-->
+
+                        <!-- Start 2nd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginRight="20dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/relic_rare_deadbranch"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dead Branch"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 2nd Item-->
+
+                        <!-- Start 3rd Item-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/relic_uncommon_singingbowl"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Singing Bowl"
+                                android:textSize="16sp"
+                                android:textAllCaps="false"
+                                android:textAlignment="center"/>
+
+                        </LinearLayout>
+                        <!-- End 3rd Item-->
 
                     </LinearLayout>
-                    <!-- End 1st Item-->
-
-                    <!-- Start 2nd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:layout_marginRight="20dp"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/relic_rare_deadbranch"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Dead Branch"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 2nd Item-->
-
-                    <!-- Start 3rd Item-->
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        >
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/relic_uncommon_singingbowl"
-                            />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Singing Bowl"
-                            android:textSize="16sp"
-                            android:textAllCaps="false"
-                            android:textAlignment="center"/>
-
-                    </LinearLayout>
-                    <!-- End 3rd Item-->
-
                 </LinearLayout>
-            </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-        <!-- End Unlock Level 5 -->
+            </android.support.v7.widget.CardView>
+            <!-- End Unlock Level 5 -->
 
-    </LinearLayout>
+        </LinearLayout>
 
-</ScrollView>
+    </ScrollView>
+
+</LinearLayout>
+
+

@@ -1,328 +1,334 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f0f0f0"
+    android:orientation="vertical"
     tools:context=".MainMenu">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/Big_text"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="60dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Slay The Spire Guide"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/Big_text"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:text="Slay The Spire Guide"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <GridLayout
-            android:id="@+id/GridLayout"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:alignmentMode="alignMargins"
-            android:layout_gravity="center"
-            android:columnCount="2"
-            android:columnOrderPreserved="false"
-            android:foregroundGravity="center"
-            android:rowCount="4">
+            android:orientation="vertical">
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/Character_button"
-                android:layout_rowWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="6dp">
+            <GridLayout
+                android:id="@+id/GridLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:layout_gravity="center"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:foregroundGravity="center"
+                android:rowCount="4">
 
-                <LinearLayout
-                    android:id="@+id/Layout_Menu1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Character_button"
+                    android:layout_rowWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp">
 
-
-                    <ImageView
-                        android:id="@+id/character_pic"
+                    <LinearLayout
+                        android:id="@+id/Layout_Menu1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/ironclad_button1" />
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
 
-                    <TextView
-                        android:id="@+id/character_text"
+
+                        <ImageView
+                            android:id="@+id/character_pic"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/ironclad_button1" />
+
+                        <TextView
+                            android:id="@+id/character_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Characters"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Gameplay_button"
+                    android:layout_rowWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/Layout_Menu2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Characters"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/Gameplay_button"
-                android:layout_rowWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="6dp">
-
-                <LinearLayout
-                    android:id="@+id/Layout_Menu2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
 
 
-                    <ImageView
-                        android:id="@+id/gameplay_pic"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/gameplay_button" />
+                        <ImageView
+                            android:id="@+id/gameplay_pic"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/gameplay_button" />
 
-                    <TextView
-                        android:id="@+id/gameplay_text"
+                        <TextView
+                            android:id="@+id/gameplay_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gameplay"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Relics_button"
+                    android:layout_rowWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:id="@+id/Layout_Menu3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Gameplay"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/Relics_button"
-                android:layout_rowWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="6dp">
-
-                <LinearLayout
-                    android:id="@+id/Layout_Menu3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
 
 
-                    <ImageView
-                        android:id="@+id/Relics_pic"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/relic_common_anchor" />
+                        <ImageView
+                            android:id="@+id/Relics_pic"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/relic_common_anchor" />
 
-                    <TextView
-                        android:id="@+id/Relics_text"
+                        <TextView
+                            android:id="@+id/Relics_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Relics"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Ascension_button"
+                    android:layout_rowWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:id="@+id/Layout_Menu4"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Relics"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/Ascension_button"
-                android:layout_rowWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="6dp">
-
-                <LinearLayout
-                    android:id="@+id/Layout_Menu4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
 
 
-                    <ImageView
-                        android:id="@+id/Ascension_pic"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/ascension_button" />
+                        <ImageView
+                            android:id="@+id/Ascension_pic"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/ascension_button" />
 
-                    <TextView
-                        android:id="@+id/Ascension_text"
+                        <TextView
+                            android:id="@+id/Ascension_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ascensions"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Monster_button"
+                    android:layout_rowWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:id="@+id/Layout_Menu5"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ascensions"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/Monster_button"
-                android:layout_rowWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="6dp">
-
-                <LinearLayout
-                    android:id="@+id/Layout_Menu5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
 
 
-                    <ImageView
-                        android:id="@+id/Monster_pic"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/monster_elite_reptomancer" />
+                        <ImageView
+                            android:id="@+id/Monster_pic"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/monster_elite_reptomancer" />
 
-                    <TextView
-                        android:id="@+id/Monster_text"
+                        <TextView
+                            android:id="@+id/Monster_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Monsters"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Card_button"
+                    android:layout_rowWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:id="@+id/Layout_Menu6"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Monsters"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/Card_button"
-                android:layout_rowWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="6dp">
-
-                <LinearLayout
-                    android:id="@+id/Layout_Menu6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
 
 
-                    <ImageView
-                        android:id="@+id/Card_pic"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/cards" />
+                        <ImageView
+                            android:id="@+id/Card_pic"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/cards" />
 
-                    <TextView
-                        android:id="@+id/Card_text"
+                        <TextView
+                            android:id="@+id/Card_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cards"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Maps_button"
+                    android:layout_rowWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:id="@+id/Layout_Menu7"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Cards"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
 
-                </LinearLayout>
+                        <ImageView
+                            android:id="@+id/Maps_pic"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/maps_button_nobg" />
 
-            </android.support.v7.widget.CardView>
-
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/Maps_button"
-                android:layout_rowWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="6dp">
-
-                <LinearLayout
-                    android:id="@+id/Layout_Menu7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                        <TextView
+                            android:id="@+id/Maps_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Maps Icons"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
 
 
-                    <ImageView
-                        android:id="@+id/Maps_pic"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/maps_button_nobg" />
 
-                    <TextView
-                        android:id="@+id/Maps_text"
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Potion_button"
+                    android:layout_rowWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:id="@+id/Layout_Menu8"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Maps Icons"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
 
 
+                        <ImageView
+                            android:id="@+id/Potion_pic"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/potion_rare_sneckooil" />
 
-            </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/Potion_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Potions"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/Potion_button"
-                android:layout_rowWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="6dp">
+                    </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/Layout_Menu8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                </android.support.v7.widget.CardView>
 
+            </GridLayout>
 
-                    <ImageView
-                        android:id="@+id/Potion_pic"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/potion_rare_sneckooil" />
+        </LinearLayout>
+    </ScrollView>
 
-                    <TextView
-                        android:id="@+id/Potion_text"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Potions"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-        </GridLayout>
-
-    </LinearLayout>
-
-</ScrollView>
+</LinearLayout>
