@@ -17,7 +17,7 @@
             android:id="@+id/Big_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:background="#C00909"
             android:gravity="center"
             android:text="Strategies"
             android:textAlignment="center"
