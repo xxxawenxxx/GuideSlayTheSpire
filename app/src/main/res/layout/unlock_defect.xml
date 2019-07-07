@@ -62,14 +62,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/rebound"
+                            android:src="@drawable/defect_rebound"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Rebound"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -89,14 +89,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/equilibrium"
+                            android:src="@drawable/defect_equilibrium"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Equilibrium"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -115,14 +115,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/echoform"
+                            android:src="@drawable/defect_echoform"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Echo Form"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -187,14 +187,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/turbo"
+                            android:src="@drawable/defect_turbo"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="TURBO"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -214,14 +214,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/sunder"
+                            android:src="@drawable/defect_sunder"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Sunder"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -240,14 +240,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/meteorstrike"
+                            android:src="@drawable/defect_meteorstrike"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Meteor Strike"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -312,14 +312,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/hyperbeam"
+                            android:src="@drawable/defect_hyperbeam"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Hyperbeam"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -339,14 +339,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/recycle"
+                            android:src="@drawable/defect_recycle"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Recycle"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -365,14 +365,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/coresurge"
+                            android:src="@drawable/defect_coresurge"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Core Surge"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -444,7 +444,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Gold-Plated Cables"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -471,7 +471,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Turnip"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -497,7 +497,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Runic Capacitor"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -569,7 +569,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Data Disk"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -596,7 +596,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Symbiotic Virus"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -622,7 +622,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Emotion Chip"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 

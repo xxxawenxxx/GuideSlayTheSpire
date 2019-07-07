@@ -8,30 +8,43 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Potion_menu" />
-        <activity android:name=".Gameplay" />
-        <activity android:name=".Strategy_defect" />
+        android:theme="@style/AppTheme">      
+		<!-- Character -->
+		<activity android:name=".Ironclad" />
+        <activity android:name=".Defect" />
+        <activity android:name=".Silent" />
+        <activity android:name=".Characters" />
+			<!-- Character Strategy -->
+		<activity android:name=".Strategy_defect" />
+		<activity android:name=".Strategy_silent" />
+		<activity android:name=".Strategy_ironclad" />
+		
         <activity android:name=".Defect_barrage_build" />
         <activity android:name=".Defect_zeroenergy_build" />
         <activity android:name=".Defect_frost_build" />
         <activity android:name=".Silent_shiv_build" />
         <activity android:name=".Silent_block_build" />
         <activity android:name=".Silent_poison_build" />
-        <activity android:name=".Strategy_silent" />
         <activity android:name=".Ironclad_zeromana_build" />
         <activity android:name=".Ironclad_searing_build" />
         <activity android:name=".Ironclad_rupture_build" />
         <activity android:name=".Ironclad_defend_build" />
-        <activity android:name=".Strategy_ironclad" />
         <activity android:name=".Ironclad_strat" />
-        <activity android:name=".Ascensions" />
-        <activity android:name=".Ironclad" />
-        <activity android:name=".Defect" />
-        <activity android:name=".Silent" />
-        <activity android:name=".Characters" />
-        <!-- Character Unlock -->
+        
+			<!-- Character Unlock -->
         <activity android:name=".Character_Unlock" />
+		<!-- Card -->
+        <activity android:name=".Cards_menu" />
+        <activity android:name=".Card_Container" />
+        <activity android:name=".Card_Container_Defect" />
+        <activity android:name=".Card_Container_Silent" />
+        <activity android:name=".Card_Container_Colorless" />
+        <activity android:name=".Card_Container_Status" />
+        <activity android:name=".Card_Container_Curses" />
+		<!-- Ancension -->
+		<activity android:name=".Ascensions" />
+		<!-- Gameplay -->
+		<activity android:name=".Gameplay" />
         <!-- Monster -->
         <activity android:name=".monster_list_container" />
         <activity android:name=".monster_main_menu" />
@@ -39,6 +52,7 @@
         <activity android:name=".RelicMenu" />
         <activity android:name=".RelicListContainer" />
         <!-- Potion -->
+		<activity android:name=".Potion_menu" />
         <activity android:name=".Potion_ListContainer" />
         <!-- Map Icon -->
         <activity android:name=".Map_ListContainer" />

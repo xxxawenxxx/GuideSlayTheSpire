@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blank Template -->
+    <!-- <string name="card_CARDNAME"> </string> -->
+    <string-array name="card_ironclad_name">
+        <item>Bash</item><!-- 1 -->
+        <item>Defend</item>
+        <item>Strike</item>
+        <item>Anger</item>
+        <item>Armament</item>
+        <item>Body Slam</item>
+        <item>Clash</item>
+        <item>Cleave</item>
+        <item>Clothesline</item>
+        <item>Flex</item><!-- 10 -->
+        <item>Havoc</item>
+        <item>Headbutt</item>
+        <item>Heavy Blade</item>
+        <item>Iron Wave</item>
+        <item>Perfected Strike</item>
+        <item>Pommel Strike</item>
+        <item>Shrug it Off</item>
+        <item>Sword Boomerang</item>
+        <item>Thunderclap</item>
+        <item>True Grit</item><!-- 20 -->
+        <item>Twin Strike</item>
+        <item>Warcry</item>
+        <item>Wild Strike</item>
+        <item>Battle Trance</item>
+        <item>Blood for Blood</item>
+        <item>Bloodletting</item>
+        <item>Burning Pact</item>
+        <item>Carnage</item>
+        <item>Combust</item>
+        <item>Corruption</item><!-- 30 -->
+        <item>Disarm</item>
+        <item>Drop Kick</item>
+        <item>Dual Wield</item>
+        <item>Entrench</item>
+        <item>Evolve</item>
+        <item>Feel No Pain</item>
+        <item>Fire Breathing</item>
+        <item>Flame Barrier</item>
+        <item>Ghostly Armor</item>
+        <item>Hemokinesis</item><!-- 40 -->
+        <item>Infernal Blade</item>
+        <item>Inflame</item>
+        <item>Intimidate</item>
+        <item>Metallicize</item>
+        <item>Power Through</item>
+        <item>Pummel</item>
+        <item>Rage</item>
+        <item>Rampage</item>
+        <item>Reckless Charge</item>
+        <item>Rupture</item><!-- 50 -->
+        <item>Searing Blow</item>
+        <item>Second Wind</item>
+        <item>Seeing Red</item>
+        <item>Sentinel</item>
+        <item>Sever Soul</item>
+        <item>Shockwave</item>
+        <item>Spot Weakness</item>
+        <item>Uppercut</item>
+        <item>Whirlwind</item>
+        <item>Barricade</item><!-- 60 -->
+        <item>Berserk</item>
+        <item>Bludgeon</item>
+        <item>Brutality</item>
+        <item>Dark Embrace</item>
+        <item>Demon Form</item>
+        <item>Double Tap</item>
+        <item>Exhume</item>
+        <item>Feed</item>
+        <item>Fiend Fire</item>
+        <item>Immolate</item>
+        <item>Impervious</item>
+        <item>Juggernaut</item>
+        <item>Limit Break</item>
+        <item>Offering</item>
+        <item>Reaper</item>
+    </string-array>
+
+    <string-array name="card_ironclad_cost">
+        <item>2</item><!-- 1 -->
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item><!-- 10 -->
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item><!-- 20 -->
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>4</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item><!-- 30 -->
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item><!-- 40 -->
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item><!-- 50 -->
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>X</item>
+        <item>3</item><!-- 60 -->
+        <item>0</item>
+        <item>3</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="card_ironclad_desc">
+        <item>Deal 8 damage. Apply 2 Vulnerable.</item><!-- 1 -->
+        <item>Gain 5 Block.</item>
+        <item>Deal 6 damage.</item>
+        <item>Deal 6 damage. Add a copy of this card to your discard pile.</item>
+        <item>Gain 5 Block. Upgrade a card in your hand for the rest of combat.</item>
+        <item>Deal damage equal to your current Block.</item>
+        <item>Can only be played if every card in your hand is an Attack. Deal 14 damage.</item>
+        <item>Deal 8 damage to All enemies.</item>
+        <item>Deal 12 damage. Apply 2 Weak.</item>
+        <item>Gain 2 Strength. At the end of the turn, lose 2 Strength.</item><!-- 10 -->
+        <item>Play the top card of your draw pile and Exhaust it.</item>
+        <item>Deal 9 damage. Place a card from your discard pile on top of your draw pile.</item>
+        <item>Deal 14 damage. Strength affects Heavy Blade 3 times.</item>
+        <item>Gain 5 Block. Deal 5 Damage.</item>
+        <item>Deal 6 damage. Deals an additional 2 damage for ALL of your cards containing \"Strike\".</item>
+        <item>Deal 9 damage. Draw 1 card.</item>
+        <item>Gain 8 Block. Draw 1 card.</item>
+        <item>Deal 3 damage to random enemy 3 times.</item>
+        <item>Deal 4 damage and apply 1 Vulnerable to ALL enemies.</item>
+        <item>Gain 7 Block. Exhaust a random card from your hand.</item><!-- 20 -->
+        <item>Deal 5 damage twice.</item>
+        <item>Draw 1 card. Place a card from your hand on top of your draw pile.\nExhaust.</item>
+        <item>Deal 12 damage. Shuffle a Wound into your draw pile.</item>
+        <item>Draw 3 cards. You cannot draw additional cards this turn.</item>
+        <item>Cost 1 less energy for each time you lose HP in combat. Deal 18 damage.</item>
+        <item>Lose 3 HP. Gain 1 Energy.</item>
+        <item>Exhaust 1 card. Draw 2 cards.</item>
+        <item>Ethereal. Deal 20 damage.</item>
+        <item>At the end of your turn, lose 1 HP and deal 5 damage to ALL enemies.</item>
+        <item>Skills cost 0. Whenever you play a Skill, Exhaust it.</item><!-- 30 -->
+        <item>Enemy loses 2 Strength.\nExhaust.</item>
+        <item>Deal 5 damage. If the enemy is Vulnerable, gain 1 energy and draw 1 card.</item>
+        <item>Create a copy of an Attack or Power card in your hand.</item>
+        <item>Double your current Block.</item>
+        <item>Whenever you draw a Status, draw 1 card.</item>
+        <item>Whenever a card is Exhausted, gain 3 Block.</item>
+        <item>At the end of your turn, for each Attack played this turn deal 1 damage to ALL enemies.</item>
+        <item>Gain 12 Block. Whenever you are attacked this turn, deal 4 damage to the attacker.</item>
+        <item>Ethereal.\nGain 10 Block.</item>
+        <item>Lose 3 HP. Deal 14 damage.</item><!-- 40 -->
+        <item>Add a random Attack to your hand. It costs 0 this turn.\nExhaust.</item>
+        <item>Gain 2 Strength.</item>
+        <item>Apply 1 Weak to ALL enemies. Exhaust.</item>
+        <item>At the end of your turn, gain 3 Block.</item>
+        <item>Add 2 Wounds to your hand. Gain 15 Block.</item>
+        <item>Deal 2 damage 4 times. Exhaust.</item>
+        <item>Whenever you play an Attack this turn, gain 3 Block.</item>
+        <item>Deal 8 damage. Every time this card is played, increase its damage by 5 for this combat.</item>
+        <item>Deal 7 damage. Shuffle a Dazed into your draw pile.</item>
+        <item>Whenever you lose HP from a card, gain 1 Strength.</item><!-- 50 -->
+        <item>Deal 12 damage. Can be upgraded any number of times.</item>
+        <item>Exhaust all non-Attack cards in your hand and gain 5 Block for each.</item>
+        <item>Gain 2 energy.\nExhaust.</item>
+        <item>Gain 5 Block. If this card is Exhausted, gain 2 energy.</item>
+        <item>Exhaust all non-Attack cards in your hand. Deal 16 damage.</item>
+        <item>Apply 3 Weak and Vulnerable to ALL enemies.\nExhaust.</item>
+        <item>If an enemy intends to attack, gain 3 Strength.</item>
+        <item>Deal 13 damage. Apply 1 Weak. Apply 1 Vulnerable.</item>
+        <item>Deal 5 damage to ALL enemies X times.</item>
+        <item>Block no longer expires at the start of your turn.</item><!-- 60 -->
+        <item>Gain 3 Vulnerable. Gain 1 Energy at the start of your turn.</item>
+        <item>Deal 32 damage.</item>
+        <item>At the start of your turn, lose 1 HP and draw 1 card.</item>
+        <item>Whenever a card is Exhausted, draw 1 card.</item>
+        <item>At the start of each turn, gain 2 Strength.</item>
+        <item>This turn, your next Attack is played twice.</item>
+        <item>Place a card from your Exhaust pile into your hand. Exhaust.</item>
+        <item>Deal 10 damage. If this kills a non-minion enemy, gain 3 permanent Max HP.\nExhaust.</item>
+        <item>Exhaust your hand. Deal 7 damage for each Exhausted card.\nExhaust.</item>
+        <item>Deal 21 damage to ALL enemies. Add a Burn to your discard pile.</item>
+        <item>Gain 30 Block.\nExhaust.</item>
+        <item>Whenever you gain Block, deal 5 damage to a random enemy.</item>
+        <item>Double your Strength.\nExhaust.</item>
+        <item>Lose 6 HP. Gain 2 energy. Draw 3 cards.\nExhaust.</item>
+        <item>Deal 4 damage to ALL enemies. Heal for unblocked damage dealt.\nExhaust.</item>
+    </string-array>
+
+    <string-array name="card_ironclad_cost_upgrade">
+        <item>2</item><!-- 1 -->
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item><!-- 10 -->
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item><!-- 20 -->
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item><!-- 30 -->
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item><!-- 40 -->
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item><!-- 50 -->
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>X</item>
+        <item>2</item><!-- 60 -->
+        <item>0</item>
+        <item>3</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="card_ironclad_desc_upgrade">
+        <item>Deal 10 damage. Apply 3 Vulnerable.</item><!-- 1 -->
+        <item>Gain 8 Block.</item>
+        <item>Deal 9 damage.</item>
+        <item>Deal 8 damage. Add a copy of this card to your discard pile.</item>
+        <item>Gain 5 Block. Upgrade all cards in your hand for the rest of combat.</item>
+        <item>Deal damage equal to your current Block.</item>
+        <item>Can only be played if every card in your hand is an Attack. Deal 18 damage.</item>
+        <item>Deal 11 damage to All enemies.</item>
+        <item>Deal 14 Damage. Apply 3 Weak.</item>
+        <item>Gain 2 Strength. At the end of the turn, lose 2 Strength.</item><!-- 10 -->
+        <item>Play the top card of your draw pile and Exhaust it.</item>
+        <item>Deal 12 damage. Place a card from your discard pile on top of your draw pile.</item>
+        <item>Deal 14 damage. Strength affects Heavy Blade 5 times.</item>
+        <item>Gain 7 Block. Deal 7 Damage.</item>
+        <item>Deal 6 damage. Deals an additional 3 damage for ALL of your cards containing \"Strike\".</item>
+        <item>Deal 10 damage. Draw 2 cards.</item>
+        <item>Gain 11 Block. Draw 1 card.</item>
+        <item>Deal 3 damage to random enemy 4 times.</item>
+        <item>Deal 7 damage and apply 1 Vulnerable to ALL enemies.</item>
+        <item>Gain 9 Block. Exhaust a card from your hand.</item><!-- 20 -->
+        <item>Deal 7 damage twice.</item>
+        <item>Draw 2 cards. Place a card from your hand on top of your draw pile.\nExhaust.</item>
+        <item>Deal 17 damage. Shuffle a Wound into your draw pile.</item>
+        <item>Draw 4 cards. You cannot draw additional cards this turn.</item>
+        <item>Cost 1 less energy for each time you lose HP in combat. Deal 22 damage.</item>
+        <item>Lose 3 HP. Gain 2 Energy.</item>
+        <item>Exhaust 1 card. Draw 3 cards.</item>
+        <item>Ethereal. Deal 28 damage.</item>
+        <item>At the end of your turn, lose 1 HP and deal 7 damage to ALL enemies.</item>
+        <item>Skills cost 0. Whenever you play a Skill, Exhaust it.</item><!-- 30 -->
+        <item>Enemy loses 3 Strength.\nExhaust.</item>
+        <item>Deal 8 damage. If the enemy is Vulnerable, gain 1 energy and draw 1 card.</item>
+        <item>Create 2 copies of an Attack or Power card in your hand.</item>
+        <item>Double your current Block.</item>
+        <item>Whenever you draw a Status, draw 2 cards.</item>
+        <item>Whenever a card is Exhausted, gain 4 Block.</item>
+        <item>At the end of your turn, for each Attack played this turn deal 1 damage to ALL enemies.</item>
+        <item>Gain 16 Block. Whenever you are attacked this turn, deal 6 damage to the attacker.</item>
+        <item>Ethereal.\nGain 13 Block.</item>
+        <item>Lose 2 HP. Deal 18 damage.</item><!-- 40 -->
+        <item>Add a random Attack to your hand. It costs 0 this turn.\nExhaust.</item>
+        <item>Gain 3 Strength.</item>
+        <item>Apply 2 Weak to ALL enemies.\nExhaust.</item>
+        <item>At the end of your turn, gain 4 Block.</item>
+        <item>Add 2 Wounds to your hand. Gain 20 Block.</item>
+        <item>Deal 2 damage 5 times.\nExhaust.</item>
+        <item>Whenever you play an Attack this turn, gain 5 Block.</item>
+        <item>Deal 8 damage. Every time this card is played, increase its damage by 8 for this combat.</item>
+        <item>Deal 10 damage. Shuffle a Dazed into your draw pile.</item>
+        <item>Whenever you lose HP from a card, gain 1 Strength.</item><!-- 50 -->
+        <item>Deal 16 damage. Can be upgraded any number of times.</item>
+        <item>Exhaust all non-Attack cards in your hand and gain 7 Block for each.</item>
+        <item>Gain 2 energy.\nExhaust.</item>
+        <item>Gain 8 Block. If this card is Exhausted, gain 3 energy.</item>
+        <item>Exhaust all non-Attack cards in your hand. Deal 20 damage.</item>
+        <item>Apply 5 Weak and Vulnerable to ALL enemies.\nExhaust.</item>
+        <item>If an enemy intends to attack, gain 4 Strength.</item>
+        <item>Deal 13 damage. Apply 2 Weak. Apply 2 Vulnerable.</item>
+        <item>Deal 8 damage to ALL enemies X times.</item>
+        <item>Block no longer expires at the start of your turn</item><!-- 60 -->
+        <item>Gain 2 Vulnerable. Gain 1 Energy at the start of your turn.</item>
+        <item>Deal 42 damage.</item>
+        <item>Innate. At the start of your turn, lose 1 HP and draw 1 card.</item>
+        <item>Whenever a card is Exhausted, draw 1 card.</item>
+        <item>At the start of each turn, gain 3 Strength.</item>
+        <item>This turn, your next two Attacks are played twice.</item>
+        <item>Place a card from your Exhaust pile into your hand.\nExhaust.</item>
+        <item>Deal 10 damage. If this kills a non-minion enemy, gain 3 permanent Max HP.\nExhaust.</item>
+        <item>Exhaust your hand. Deal 10 damage for each Exhausted card.\nExhaust.</item>
+        <item>Deal 28 damage to ALL enemies. Add a Burn to your discard pile.</item>
+        <item>Gain 40 Block.\nExhaust.</item>
+        <item>Whenever you gain Block, deal 7 damage to a random enemy.</item>
+        <item>Double your Strength.</item>
+        <item>Lose 6 HP. Gain 2 energy. Draw 5 cards.\nExhaust.</item>
+        <item>Deal 5 damage to ALL enemies. Heal for unblocked damage dealt.\nExhaust.</item>
+    </string-array>
+
+</resources>

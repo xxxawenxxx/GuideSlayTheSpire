@@ -15,19 +15,21 @@ public class MainMenu extends AppCompatActivity {
     CardView Relic_button;
     CardView Potion_button;
     CardView Map_button;
+    CardView Card_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        Character_button = (CardView) findViewById(R.id.Character_button);
-        Ascension_button = (CardView) findViewById(R.id.Ascension_button);
-        Gameplay_button = (CardView) findViewById(R.id.Gameplay_button);
-        Monster_button = (CardView) findViewById(R.id.Monster_button);
-        Relic_button = (CardView) findViewById(R.id.Relics_button);
-        Potion_button = (CardView) findViewById(R.id.Potion_button);
-        Map_button = (CardView) findViewById(R.id.Maps_button);
+        Character_button = findViewById(R.id.Character_button);
+        Ascension_button = findViewById(R.id.Ascension_button);
+        Gameplay_button = findViewById(R.id.Gameplay_button);
+        Monster_button = findViewById(R.id.Monster_button);
+        Relic_button = findViewById(R.id.Relics_button);
+        Potion_button = findViewById(R.id.Potion_button);
+        Map_button = findViewById(R.id.Maps_button);
+        Card_button = findViewById(R.id.Card_button);
 
         Character_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,6 +79,18 @@ public class MainMenu extends AppCompatActivity {
                 openMap();
             }
         });
+
+        Card_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCard();
+            }
+        });
+    }
+
+    private void openCard() {
+        Intent intent = new Intent (this, Cards_menu.class);
+        startActivity(intent);
     }
 
     private void openMap() {

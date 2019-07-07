@@ -317,7 +317,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/whetstone"
+                        android:src="@drawable/relic_common_whetstone"
                         android:tag="image_tag" />
 
                     <TextView

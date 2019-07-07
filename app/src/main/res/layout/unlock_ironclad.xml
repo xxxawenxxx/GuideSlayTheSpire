@@ -70,7 +70,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Heavy Blade"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -97,7 +97,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Spot Weakness"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -123,7 +123,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Limit Break"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -195,7 +195,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Omamori"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -222,7 +222,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Prayer Wheel"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -248,7 +248,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Shovel"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -320,7 +320,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Wild Strike"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -347,7 +347,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Evolve"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -373,7 +373,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Immolate"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -445,7 +445,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Havoc"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -472,7 +472,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Sentinel"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -491,14 +491,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/exhume"
+                            android:src="@drawable/ironclad_exhume"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Exhume"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -570,7 +570,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Blue Candle"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -597,7 +597,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Dead Branch"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -623,7 +623,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Singing Bowl"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 

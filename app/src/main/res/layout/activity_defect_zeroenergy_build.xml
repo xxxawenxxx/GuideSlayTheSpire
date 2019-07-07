@@ -80,7 +80,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/beamcell"
+                        android:src="@drawable/defect_beamcell"
                         android:tag="image_tag" />
 
                     <TextView
@@ -108,7 +108,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/ftl"
+                        android:src="@drawable/defect_ftl"
                         android:tag="image_tag" />
 
                     <TextView
@@ -136,7 +136,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/streamline"
+                        android:src="@drawable/defect_streamline"
                         android:tag="image_tag" />
 
                     <TextView
@@ -189,7 +189,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/rebound"
+                        android:src="@drawable/defect_rebound"
                         android:tag="image_tag" />
 
                     <TextView
@@ -218,7 +218,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/glacier"
+                        android:src="@drawable/defect_glacier"
                         android:tag="image_tag" />
 
                     <TextView
@@ -273,7 +273,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/faceofcleric"
+                        android:src="@drawable/relic_event_faceofcleric"
                         android:tag="image_tag" />
 
                     <TextView

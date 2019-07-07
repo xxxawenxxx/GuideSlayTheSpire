@@ -154,7 +154,7 @@
                             android:layout_height="120dp"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/strike_defect"
+                            android:src="@drawable/defect_strike"
                             android:tag="image_tag" />
 
                         <TextView
@@ -183,7 +183,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/defend_defect"
+                            android:src="@drawable/defect_defend"
                             android:tag="image_tag" />
 
                         <TextView
@@ -211,7 +211,7 @@
                             android:layout_height="103dp"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/zap"
+                            android:src="@drawable/defect_zap"
                             android:tag="image_tag" />
 
                         <TextView
@@ -240,7 +240,7 @@
                             android:layout_height="103dp"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
-                            android:src="@drawable/dualcast"
+                            android:src="@drawable/defect_dualcast"
                             android:tag="image_tag" />
 
                         <TextView

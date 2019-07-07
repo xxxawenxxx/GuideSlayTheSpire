@@ -69,7 +69,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Bane"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -96,7 +96,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Catalyst"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -115,14 +115,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/corpseexplosion"
+                            android:src="@drawable/silent_corpseexplosion"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Corpse Explosion"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -194,7 +194,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Du-Vu Doll"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -221,7 +221,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Smiling Mask"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -247,7 +247,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Tiny Chest"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -319,7 +319,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Cloak And Dagger"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -346,7 +346,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Accuracy"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -372,7 +372,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Storm of Steel"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -444,7 +444,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Art of War"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -471,7 +471,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="The Courier"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -497,7 +497,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Pandora's Box"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -569,7 +569,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Concentrate"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -596,7 +596,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Setup"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
@@ -615,14 +615,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/grandfinale"
+                            android:src="@drawable/silent_grandfinale"
                             />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Grand Finale"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textAllCaps="false"
                             android:textAlignment="center"/>
 
