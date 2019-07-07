@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/Relic_menu_header"
+            android:id="@+id/Ironclad_menu_header"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@color/mainGreen"

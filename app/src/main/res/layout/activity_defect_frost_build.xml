@@ -13,20 +13,16 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/Big_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#186AAA"
+            android:layout_height="55dp"
+            android:background="@color/mainGreen"
             android:gravity="center"
             android:text="Frost Build"
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="40sp"
+            android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textColor="@color/browser_actions_bg_grey"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,21 +30,16 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Frost Build"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/frost_build_explain"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:lineSpacingExtra="2dp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
 
             <LinearLayout
@@ -81,7 +72,7 @@
                         android:text="Glacier"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -109,7 +100,7 @@
                         android:text="Blizzard"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -137,7 +128,7 @@
                         android:text="Barrage"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -157,13 +148,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/frost_build_explain2"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:lineSpacingExtra="2dp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
-                android:layout_marginTop="-10dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -179,7 +173,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/relic_boss_frozencore"
+                        android:src="@drawable/defect_defragment"
                         android:tag="image_tag" />
 
                     <TextView
@@ -187,10 +181,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Frozen Core"
+                        android:text="Defragment"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -208,7 +202,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:src="@drawable/defect_defragment"
+                        android:src="@drawable/defect_capacitor"
                         android:tag="image_tag" />
 
                     <TextView
@@ -217,10 +211,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Defragment"
+                        android:text="Capacitor"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -228,87 +222,86 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/hemo_pic"
+                        android:id="@+id/anchor_image"
                         android:layout_width="100dp"
                         android:layout_height="110dp"
-                        android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/defect_capacitor"
+                        android:background="@drawable/bgclor"
+                        android:src="@drawable/relic_boss_frozencore"
                         android:tag="image_tag" />
 
                     <TextView
-                        android:id="@+id/hemo_text"
+                        android:id="@+id/anchor_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="Capacitor"
+                        android:text="Frozen Core"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
 
             </LinearLayout>
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/block_build_relic"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
-
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:layout_marginTop="-20dp"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/block_build_relic"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:lineSpacingExtra="2dp"
+                    android:padding="10dp"
+                    android:background="#fff"
+                    android:layout_margin="10dp" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="-15dp"
-                    android:orientation="vertical">
+                    android:layout_marginBottom="20dp"
+                    android:paddingBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
 
-                    <ImageView
-                        android:id="@+id/Limit_image1"
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/relic_event_faceofcleric"
-                        android:tag="image_tag" />
 
-                    <TextView
-                        android:id="@+id/Limit_text1"
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Face of Cleric"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/orichalcum_pic1"
+                            android:layout_width="100dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/bgclor"
+                            android:src="@drawable/relic_event_faceofcleric"
+                            android:tag="image_tag" />
+
+                        <TextView
+                            android:id="@+id/orichalcum_text1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Face of Cleric"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
-
-
 
             </LinearLayout>
 
