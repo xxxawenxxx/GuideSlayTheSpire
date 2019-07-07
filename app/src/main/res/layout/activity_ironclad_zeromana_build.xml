@@ -86,33 +86,7 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/imageView92"
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/anger_plus"
-                        android:tag="image_tag" />
-
-                    <TextView
-                        android:id="@+id/textView26"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Anger+"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
 
 
             </LinearLayout>

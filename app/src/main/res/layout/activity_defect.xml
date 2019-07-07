@@ -331,7 +331,7 @@
                         android:id="@+id/gameplay_pic"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/ironclad_button1" />
+                        android:background="@drawable/defect_tactics_button" />
 
                     <TextView
                         android:id="@+id/gameplay_text"
