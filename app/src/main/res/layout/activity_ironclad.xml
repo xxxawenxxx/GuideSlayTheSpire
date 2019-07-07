@@ -13,21 +13,18 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/Big_text"
+            android:id="@+id/Relic_menu_header"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#C00909"
+            android:layout_height="55dp"
+            android:background="@color/mainGreen"
             android:gravity="center"
             android:text="Ironclad"
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="40sp"
+            android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
+            android:textColor="@color/browser_actions_bg_grey"
+            />
+        <!--android:background="#C00909"-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -77,7 +74,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="10dp"
-                            android:text="Hp : 70"
+                            android:text="Hp : 75"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:textSize="22sp"
                             android:textStyle="bold" />
@@ -88,14 +85,13 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="10dp"
-                            android:text="First Relic : Burning Blood"
+                            android:text="Starting Relic : Burning Blood"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:textColor="#000000"
                             android:textSize="17sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
-
 
                 </LinearLayout>
 
@@ -104,41 +100,41 @@
 
         </LinearLayout>
 
-        <LinearLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-10dp"
-            android:orientation="vertical">
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            app:contentPaddingBottom="20dp"
+            app:contentPaddingTop="5dp">
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/card_view1"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="195dp"
-                app:cardBackgroundColor="#ffffff"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="5dp"
-                app:cardUseCompatPadding="true">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="5dp"
+                    android:text="Starter Cards"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/buttonbg"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Starter Cards"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -150,7 +146,7 @@
                         <ImageView
                             android:id="@+id/imageView9"
                             android:layout_width="100dp"
-                            android:layout_height="110dp"
+                            android:layout_height="103dp"
                             android:layout_margin="5dp"
                             android:layout_weight="1"
                             android:src="@drawable/strike"
@@ -171,8 +167,7 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="155dp"
-                        android:layout_marginTop="15dp"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <ImageView
@@ -200,8 +195,7 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="154dp"
-                        android:layout_marginTop="15dp"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <ImageView
@@ -229,10 +223,10 @@
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+            </LinearLayout>
 
+        </android.support.v7.widget.CardView>
 
-        </LinearLayout>
 
         <GridLayout
             android:id="@+id/GridLayout"
@@ -264,6 +258,7 @@
 
                     <ImageView
                         android:id="@+id/character_pic"
+                        android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:background="@drawable/unlock_button_fix" />
@@ -272,9 +267,12 @@
                         android:id="@+id/character_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
                         android:text="Unlockable"
                         android:textColor="#000000"
                         android:textSize="20sp"
+                        android:layout_marginTop="10dp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -299,6 +297,7 @@
 
                     <ImageView
                         android:id="@+id/gameplay_pic"
+                        android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:background="@drawable/ironclad_tactics_button" />
@@ -307,6 +306,8 @@
                         android:id="@+id/gameplay_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
                         android:text="Tactics"
                         android:textColor="#000000"
                         android:textSize="20sp"

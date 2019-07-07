@@ -13,20 +13,16 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/Big_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#C00909"
+            android:layout_height="55dp"
+            android:background="@color/mainGreen"
             android:gravity="center"
             android:text="Zero Mana Build"
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="40sp"
+            android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textColor="@color/browser_actions_bg_grey"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,27 +30,22 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Zero Mana Build"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/zero_mana_build_explain"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:lineSpacingExtra="2dp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -81,7 +72,7 @@
                         android:text="Anger"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -104,13 +95,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/zero_mana_build_explain2"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:lineSpacingExtra="2dp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:layout_marginTop="-20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -137,7 +132,7 @@
                         android:text="Berserk"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -152,7 +147,6 @@
                         android:id="@+id/Spot_pic"
                         android:layout_width="100dp"
                         android:layout_height="110dp"
-                        android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
                         android:src="@drawable/rage"
@@ -167,7 +161,7 @@
                         android:text="Rage"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -186,13 +180,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/zero_mana_build_explain3"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:lineSpacingExtra="2dp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:layout_marginTop="-20dp"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -219,7 +216,7 @@
                         android:text="Clash"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -234,7 +231,6 @@
                         android:id="@+id/Spot1_pic"
                         android:layout_width="100dp"
                         android:layout_height="110dp"
-                        android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
                         android:src="@drawable/double_tap"
@@ -245,11 +241,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:gravity="center"
                         android:text="Double Tap"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -268,13 +263,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/block_build_relic"
-                android:textAlignment="textStart"
-                android:textColor="#000000" />
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:lineSpacingExtra="2dp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:layout_marginTop="-20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -282,7 +281,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="-15dp"
                     android:orientation="vertical">
 
                     <ImageView
@@ -291,6 +289,7 @@
                         android:layout_height="110dp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
+                        android:background="@drawable/bgclor"
                         android:src="@drawable/relic_uncommon_moltenegg"
                         android:tag="image_tag" />
 
@@ -302,7 +301,7 @@
                         android:text="Molten Egg"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -319,9 +318,9 @@
                         android:id="@+id/orichalcum_pic1"
                         android:layout_width="100dp"
                         android:layout_height="110dp"
-                        android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
+                        android:background="@drawable/bgclor"
                         android:src="@drawable/relic_uncommon_shuriken"
                         android:tag="image_tag" />
 
@@ -334,7 +333,7 @@
                         android:text="Shuriken"
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
