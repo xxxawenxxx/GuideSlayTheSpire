@@ -24,8 +24,8 @@ public class Card_Container_Curses extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.card_recyclercontainer);
 
-        View cursesView = findViewById(R.id.card_recycler_root);
-        cursesView.setBackgroundColor(Color.parseColor("#0f1012"));
+//        View cursesView = findViewById(R.id.card_recycler_root);
+//        cursesView.setBackgroundColor(Color.parseColor("#0f1012"));
 
         RecyclerView recyclerView = findViewById(R.id.card_recyclerViewContainer);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

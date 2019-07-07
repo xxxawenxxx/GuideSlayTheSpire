@@ -25,8 +25,8 @@ public class Card_Container_Silent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.card_recyclercontainer);
 
-        View ironcladView = findViewById(R.id.card_recycler_root);
-        ironcladView.setBackgroundColor(Color.parseColor("#289123"));
+//        View ironcladView = findViewById(R.id.card_recycler_root);
+//        ironcladView.setBackgroundColor(Color.parseColor("#289123"));
 
         RecyclerView recyclerView = findViewById(R.id.card_recyclerViewContainer);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

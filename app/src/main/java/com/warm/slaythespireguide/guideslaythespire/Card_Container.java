@@ -25,8 +25,8 @@ public class Card_Container extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.card_recyclercontainer);
 
-        View ironcladView = findViewById(R.id.card_recycler_root);
-        ironcladView.setBackgroundColor(Color.parseColor("#e36d6d"));
+//        View ironcladView = findViewById(R.id.card_recycler_root);
+//        ironcladView.setBackgroundColor(Color.parseColor("#e36d6d"));
 
         RecyclerView recyclerView = findViewById(R.id.card_recyclerViewContainer);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

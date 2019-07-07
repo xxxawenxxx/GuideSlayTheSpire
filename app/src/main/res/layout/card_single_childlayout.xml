@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F7F7F7"
+        android:background="#009688"
         android:paddingLeft="10dp"
         android:paddingBottom="10dp"
         android:paddingRight="10dp">
@@ -22,20 +22,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Upgrade:"
+            android:textStyle="bold"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
-            android:textColor="#000"
-            android:textSize="14sp"/>
+            android:paddingLeft="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
             android:layout_marginBottom="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Energy Cost: "
+                android:textColor="#ffffff"
                 android:textStyle="bold"
                 />
 
@@ -44,6 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Energy Cost Here"
+                android:textColor="#ffffff"
                 />
 
         </LinearLayout>
@@ -53,7 +58,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Upgraded Desc Here"
-            android:paddingLeft="5dp"
+            android:textColor="#ffffff"
+            android:paddingLeft="15dp"
             />
 
     </LinearLayout>

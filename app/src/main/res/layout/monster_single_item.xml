@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="15dp"
@@ -11,11 +12,14 @@
     android:layout_marginBottom="0dp">
 
     <ImageView
+        android:id="@+id/monster_single_img"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:id="@+id/monster_single_img"
-        android:src="@mipmap/ic_launcher"
-    />
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/ic_launcher" />
+
     <android.support.v7.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

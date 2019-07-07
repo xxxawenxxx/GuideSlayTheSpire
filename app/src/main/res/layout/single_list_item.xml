@@ -5,22 +5,23 @@
 
     <ImageView
         android:id="@+id/appIconIV"
-        android:src="@drawable/ironclad_button1"
+        android:src="@mipmap/ic_launcher"
         android:layout_width="60dp"
-        android:layout_height="60dp" />
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"/>
 
     <TextView
         android:id="@+id/aNametxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
         android:layout_marginTop="8dp"
         android:layout_toEndOf="@+id/appIconIV"
         android:layout_toRightOf="@+id/appIconIV"
         android:maxLines="1"
-        android:text="Android Name"
+        android:text="Ancension Title"
         android:textSize="19sp" />
 
     <TextView
@@ -31,7 +32,7 @@
         android:layout_alignStart="@+id/aNametxt"
         android:layout_alignLeft="@+id/aNametxt"
         android:maxLines="1"
-        android:text="Android Version"
+        android:text="Ancension Desc"
         android:textSize="12sp" />
 
 </RelativeLayout>

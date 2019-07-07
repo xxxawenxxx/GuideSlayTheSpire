@@ -16,7 +16,7 @@
         android:layout_height="50dp"
         android:id="@+id/maps_single_img"
         android:src="@mipmap/ic_launcher"
-
+        android:layout_centerVertical="true"
         />
 
     <LinearLayout
