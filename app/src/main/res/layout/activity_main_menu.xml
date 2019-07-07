@@ -269,7 +269,7 @@
                         android:id="@+id/Maps_pic"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/map_button" />
+                        android:background="@drawable/maps_button_nobg" />
 
                     <TextView
                         android:id="@+id/Maps_text"
