@@ -24,11 +24,13 @@ public class Monster_RecyclerViewAdapter extends RecyclerView.Adapter<Monster_Re
 
     private ArrayList<Integer> monsterImageList = new ArrayList<>();
     private ArrayList<String> monsterNameList = new ArrayList<>();
+    private ArrayList<String> monsterHPList = new ArrayList<>();
     private Context mContext;
 
-    public Monster_RecyclerViewAdapter(Context mContext, ArrayList<Integer> monsterImageList, ArrayList<String> monsterNameList) {
+    public Monster_RecyclerViewAdapter(Context mContext, ArrayList<Integer> monsterImageList, ArrayList<String> monsterNameList, ArrayList<String> monsterHP) {
         this.monsterImageList = monsterImageList;
         this.monsterNameList = monsterNameList;
+        this.monsterHPList = monsterHP;
         this.mContext = mContext;
     }
 
@@ -51,21 +53,22 @@ public class Monster_RecyclerViewAdapter extends RecyclerView.Adapter<Monster_Re
                 .into(viewHolder.single_monsterImage);
 
         viewHolder.single_monsterName.setText(monsterNameList.get(i));
+        viewHolder.single_monsterHP.setText(monsterHPList.get(i));
 
-        viewHolder.monster_list_single_layout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d(TAG, "onClick: clicked on: " + monsterImageList.get(i));
-                Intent intent = new Intent(mContext, MonsterDetail.class);
-                Bundle bundle = new Bundle();
-                bundle.putInt("monster_image", monsterImageList.get(i));
-                bundle.putString("monster_name", monsterNameList.get(i));
-                intent.putExtras(bundle);
-                mContext.startActivity(intent);
-
-                Toast.makeText(mContext, monsterImageList.get(i), Toast.LENGTH_SHORT).show();
-            }
-        });
+//        viewHolder.monster_list_single_layout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Log.d(TAG, "onClick: clicked on: " + monsterImageList.get(i));
+//                Intent intent = new Intent(mContext, MonsterDetail.class);
+//                Bundle bundle = new Bundle();
+//                bundle.putInt("monster_image", monsterImageList.get(i));
+//                bundle.putString("monster_name", monsterNameList.get(i));
+//                intent.putExtras(bundle);
+//                mContext.startActivity(intent);
+//
+//                Toast.makeText(mContext, monsterImageList.get(i), Toast.LENGTH_SHORT).show();
+//            }
+//        });
     }
 
     @Override
@@ -77,12 +80,14 @@ public class Monster_RecyclerViewAdapter extends RecyclerView.Adapter<Monster_Re
 
         ImageView single_monsterImage;
         TextView single_monsterName;
+        TextView single_monsterHP;
         RelativeLayout monster_list_single_layout;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             single_monsterImage = itemView.findViewById(R.id.monster_single_img);
             single_monsterName = itemView.findViewById(R.id.monster_single_name);
+            single_monsterHP = itemView.findViewById(R.id.monster_single_hp);
             monster_list_single_layout = itemView.findViewById(R.id.monster_list_single_layout);
         }
     }
