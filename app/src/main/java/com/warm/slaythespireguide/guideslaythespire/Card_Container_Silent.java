@@ -10,11 +10,14 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class Card_Container_Silent extends AppCompatActivity {
-
+    private AdView adView;
     String[] card_name_list;
     String[] card_cost_list;
     String[] card_desc_list;
@@ -26,6 +29,10 @@ public class Card_Container_Silent extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.card_recyclercontainer);
+
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         containerHeader = findViewById(R.id.container_header);
         containerHeader.setText("Silent Cards");
