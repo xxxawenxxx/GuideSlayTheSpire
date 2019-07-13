@@ -12,21 +12,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/Big_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:text="Gameplay"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/mainGreen"
+            android:gravity="center"
+            android:text="Gameplay"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/browser_actions_bg_grey"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,33 +30,46 @@
             android:orientation="vertical">
 
             <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/gameplay_explain"
-            android:textColor="#000000"
-            android:textSize="14sp" />
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gameplay_explain"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:lineSpacingExtra="2dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:srcCompat="@drawable/gameplay_explain_pic"
                 />
-
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/gameplay_explain2"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:lineSpacingExtra="2dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:srcCompat="@drawable/pick_heroes_pic"
                 />
 
@@ -70,13 +79,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/gameplay_explain3"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:lineSpacingExtra="2dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_height="200dp"
                 app:srcCompat="@drawable/rest_pic"
                 />
@@ -86,6 +101,8 @@
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:srcCompat="@drawable/rest1_pic"
                 />
 
@@ -95,14 +112,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/gameplay_explain4"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:lineSpacingExtra="2dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <ImageView
                 android:id="@+id/imageView11"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="10dp"
                 android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:srcCompat="@drawable/shop_pic"
                 />
 
@@ -110,6 +133,8 @@
                 android:id="@+id/imageView12"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:srcCompat="@drawable/shop1_pic"
                 />
 
@@ -119,13 +144,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/gameplay_explain5"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:lineSpacingExtra="2dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <ImageView
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:srcCompat="@drawable/event_pic"
                 />
 
@@ -135,13 +167,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/gameplay_explain6"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:lineSpacingExtra="2dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:srcCompat="@drawable/enemies_drop_pic"
                 />
 
@@ -150,8 +189,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/gameplay_explain7"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:lineSpacingExtra="2dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:background="#fff"
+                android:layout_margin="10dp" />
 
         </LinearLayout>
 

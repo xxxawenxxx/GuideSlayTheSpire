@@ -13,23 +13,51 @@
 
     <ImageView
         android:id="@+id/monster_single_img"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="15dp"
+        android:background="@drawable/bgclor"
         android:src="@mipmap/ic_launcher" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/monster_single_img"
+        android:layout_toEndOf="@+id/monster_single_img"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="30dp"
-        android:textSize="17sp"
-        android:text="Test"
-        android:textColor="#000"
-        android:id="@+id/monster_single_name"
-        />
+        android:layout_marginStart="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Name Here"
+            android:textColor="#000"
+            android:id="@+id/monster_single_name"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/monster_single_name"
+            android:textSize="16sp"
+            android:text="Hp: "
+            android:textColor="@color/browser_actions_title_color"
+            android:id="@+id/monster_single_hp_text"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/monster_single_hp_text"
+            android:layout_below="@id/monster_single_name"
+            android:textSize="16sp"
+            android:text="Hp here"
+            android:textColor="@color/browser_actions_title_color"
+            android:id="@+id/monster_single_hp"
+            />
+
+    </RelativeLayout>
 
 </RelativeLayout>
