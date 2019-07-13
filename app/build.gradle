@@ -42,4 +42,7 @@ dependencies {
     // Circled ImageView
     implementation 'de.hdodenhof:circleimageview:3.0.0'
 
+    // GoogleAds
+    implementation 'com.google.android.gms:play-services-ads:17.2.1'
+
 }
