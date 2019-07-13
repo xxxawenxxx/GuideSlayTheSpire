@@ -7,6 +7,8 @@
     android:background="#f0f0f0"
     android:orientation="vertical"
     >
+
+
     <TextView
         android:id="@+id/Relic_menu_header"
         android:layout_width="match_parent"
@@ -656,6 +658,8 @@
             <!-- End Unlock Level 5 -->
 
         </LinearLayout>
+
+
 
     </ScrollView>
 

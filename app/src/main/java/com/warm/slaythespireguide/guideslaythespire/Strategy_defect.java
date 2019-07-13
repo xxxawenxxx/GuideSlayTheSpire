@@ -6,7 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Strategy_defect extends AppCompatActivity {
+
+    private AdView adView;
 
     Button frost_button;
     Button barrage_button;
@@ -16,6 +21,10 @@ public class Strategy_defect extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_strategy_defect);
+
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         frost_button = (Button) findViewById(R.id.frost_button);
         barrage_button = (Button) findViewById(R.id.barrage_button);

@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class monster_main_menu extends AppCompatActivity {
 
     Button act1;
@@ -14,10 +17,16 @@ public class monster_main_menu extends AppCompatActivity {
     Button elites;
     Button bosses;
 
+    private AdView adView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monster_main_menu);
+
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         act1 = (Button) findViewById(R.id.monster_menu_act1);
         act2 = (Button) findViewById(R.id.monster_menu_act2);

@@ -7,6 +7,17 @@
     android:background="@drawable/defect_bg"
     tools:context=".Strategy_defect">
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+    </com.google.android.gms.ads.AdView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

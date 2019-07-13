@@ -6,8 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Strategy_ironclad extends AppCompatActivity {
 
+
+    private AdView adView;
     Button defend_button;
     Button strength_button;
     Button rupture_button;
@@ -18,6 +23,10 @@ public class Strategy_ironclad extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_strategy_ironclad);
+
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         defend_button = (Button) findViewById(R.id.defend_button);
         strength_button = (Button) findViewById(R.id.strength_button);

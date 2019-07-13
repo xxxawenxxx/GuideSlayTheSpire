@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">GuideSlayTheSpire</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
     <string name="strength_build_explain">    In the Strength build the main things you need to do is gather cards which will increase the strength of the Ironclad, in meantime increasing your strength will increase the damage output of each attack cards you have. The cards you needed such as : </string>
     <string name="strength_build_explain2">While using the Flex cards, you can negate the debuff effect which lose your 2 strength after using it. To negate that you can easily use the Panacea card, it can be negated by some relics to such as Clockwork Souvenir or Orange Pellets Relic. </string>
     <string name="strength_build_explain3">You can use any Attack cards to deal a big damage since you already buff your strength, Try using some good cards, such as Reaper, since it can give you amount of heals base on the unblockable damage you dealt to the enemies. </string>

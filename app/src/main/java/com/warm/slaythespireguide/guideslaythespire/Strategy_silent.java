@@ -6,8 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Strategy_silent extends AppCompatActivity {
 
+    private AdView adView;
     Button poison_button;
     Button block_button;
     Button shiv_button;
@@ -16,6 +20,10 @@ public class Strategy_silent extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_strategy_silent);
+
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
 
         poison_button = (Button) findViewById(R.id.poison_button);

@@ -6,7 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Cards_menu extends AppCompatActivity {
+
+    private AdView adView;
 
     Button Card_menu_colorless;
     Button Card_menu_curses;
@@ -19,6 +24,10 @@ public class Cards_menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cards_menu);
+
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         Card_menu_colorless = findViewById(R.id.Card_menu_colorless);
         Card_menu_curses = findViewById(R.id.Card_menu_curses);
