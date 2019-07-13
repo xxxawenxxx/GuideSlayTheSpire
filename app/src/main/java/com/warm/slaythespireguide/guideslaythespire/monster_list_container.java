@@ -7,10 +7,13 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 
 public class monster_list_container extends AppCompatActivity {
-
+    private AdView adView;
     private static final String TAG = "monster_list_container";
 
     // data vars
@@ -26,31 +29,29 @@ public class monster_list_container extends AppCompatActivity {
 
         containerHeader = findViewById(R.id.container_header);
 
-        Log.d(TAG, "onCreate: started");
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
+
         getIncomingIntent();
     }
 
     // Get extra intent data
     private void getIncomingIntent() {
-        Log.d(TAG, "getIncomingIntent: started");
         if(getIntent().hasExtra("monster_type")) {
 
             String monster_type = getIntent().getStringExtra("monster_type");
-            Log.d(TAG, "getIncomingIntent: got extra: " + monster_type);
             initImageBitmaps(monster_type);
         }
     }
 
     // Prepare data & init recyclerview
     private void initImageBitmaps(String monster_type) {
-        Log.d(TAG, "initImageBitmaps: preparing bitmaps");
-
         prepareData(monster_type);
         initRecyclerView();
     }
 
     private void initRecyclerView() {
-        Log.d(TAG, "initRecyclerView: init recyclerview");
         RecyclerView recyclerView = findViewById(R.id.monster_list_container);
         Monster_RecyclerViewAdapter adapter = new Monster_RecyclerViewAdapter(this, monsterImages, monsterNames, monsterHP);
         recyclerView.setAdapter(adapter);
@@ -58,7 +59,6 @@ public class monster_list_container extends AppCompatActivity {
     }
 
     private void prepareData(String monster_type) {
-        Log.d(TAG, "prepareData: started");
         // Clearing ArrayList monster data
         monsterImages.clear();
         monsterNames.clear();

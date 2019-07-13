@@ -8,10 +8,14 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 
 public class RelicListContainer extends AppCompatActivity {
     private static final String TAG = "RelicListContainer";
+    private AdView adView;
 
     // data variable
     private ArrayList<Integer> relicImg = new ArrayList<>();
@@ -24,6 +28,10 @@ public class RelicListContainer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monster_list_container);
         containerHeader = findViewById(R.id.container_header);
+
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         getIncomingIntent();
     }

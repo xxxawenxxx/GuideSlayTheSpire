@@ -8,9 +8,14 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 
 public class Map_ListContainer extends AppCompatActivity {
+    private AdView adView;
+
     private static final String TAG = "Map_ListContainer";
 
     // data variable
@@ -24,6 +29,10 @@ public class Map_ListContainer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monster_list_container);
         containerHeader = findViewById(R.id.container_header);
+
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         initBitmap();
     }
